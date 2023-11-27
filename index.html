@@ -5,55 +5,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Welcome to the CS Museum" />
     <link rel="icon" href="Images/Favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <title>CS Museum Home</title>
   </head>
 
   <body>
     <header>
       <div class="Logo-Search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-          <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-          <path
-            d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
-          />
-        </svg>
         <img
           src="Images/Logo-Semester-Project-1-1-removebg-preview.png"
           alt="CS Museum Logo"
         />
 
         <div class="search-box">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+            <path
+              d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"
+            />
+          </svg>
           <input type="search" id="search-bar" name="search-b" />
         </div>
       </div>
+
+      <input type="checkbox" id="mobile-checkbox" />
+      <label id="hamburger" for="mobile-checkbox">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="1em"
+          viewBox="0 0 448 512"
+        >
+          <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+          <style>
+            svg {
+              fill: #41a2a6;
+            }
+          </style>
+          <path
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </label>
 
       <nav>
         <a href="">Home</a>
         <a href="">About</a>
         <a href="">Contact</a>
-        <a href="">Explore</a>
+        <a href="Explore.html">Explore</a>
         <a href="">More</a>
+
+        <div class="Dropdown-links">
+          <a href="">Exhibitions</a>
+          <a href="">Contributions</a>
+          <a href="">Volunteer</a>
+          <a href="">Internships</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Terms & Conditions</a>
+        </div>
       </nav>
-      <div class="Dropdown-links">
-        <a href="">Exhibitions</a>
-        <a href="">Contributions</a>
-        <a href="">Volunteer</a>
-        <a href="">Internships</a>
-        <a href="">Privacy Policy</a>
-        <a href="">Terms & Conditions</a>
-      </div>
+    </header>
+    <main>
       <section class="Explore">
         <img src="Images/Explore-image.jpg" alt="" />
-        <h1>Explore Together</h1>
+        <h1>EXPLORE TOGETHER</h1>
         <p>
           Come join us at the Community Science Museum, where we're committed to
           making science accessible to all.
         </p>
       </section>
-    </header>
-    <main></main>
+
+      <section class="Our-Museum">
+        <div class="Our-Museum-img-box">
+          <h2>LEARN MORE</h2>
+        </div>
+      </section>
+
+      <section class="Special-E&E">
+        <div class="img-box-1">
+          <img
+            src="Images/News-image-1.jpg"
+            alt="Space rocket flying in the sky"
+          />
+          <h3>Visiting Professor of Aeronautics</h3>
+          <div class="p-box-1">
+            <p>
+              It is our pleasure to announce that Prof Sheila Widnall from the
+              Massachusetts Institute of Technology will be delivering 3
+              lectures on the development of aeronautics and where the future
+              lies in this exciting 'space'.
+            </p>
+          </div>
+        </div>
+        <div class="img-box-2">
+          <img src="Images/News-img-2.jpg" alt="Dinosaur bones model display" />
+          <h3>Night in the Museum</h3>
+          <div class="p-box-2">
+            <p>
+              Get your family together for an exciting night in the Museum as
+              you sleep over beside dinosaurs and science displays. Bring your
+              own sleeping bag and get ready to rough it as we go exploring the
+              wonders of science /p>
+            </p>
+          </div>
+        </div>
+
+        <div class="img-box-3">
+          <img src="Images/News-img-3.jpg" alt="Flower sculpture" />
+          <h3>Energetica Exhibition on Loan</h3>
+          <div p-box-3>
+            <p>
+              On loan from the NEMO Science Museum in Amsterdam, the Energetica
+              exhibition is coming to the Community Science Museum. It's a
+              series of installations that allow visitors to experience the
+              power of the elements as we harness them. From solar energy
+              powering lighting, to 'Wind Island' that shows how turbines are
+              able to use and control wind to create power.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="Get-involved">
+        <div class="support-box">
+          <h4>SUPPORT</h4>
+        </div>
+        <div class="volunteer-box">
+          <h5>VOLUNTEER</h5>
+        </div>
+
+        <div class="internships-box">
+          <h6>INTERNSHIPS</h6>
+        </div>
+      </section>
+    </main>
     <footer>
-      <p>Copyright ©2021 My Webpage</p>
+      <div class="follow-box">
+        <h6>Follow us</h6>
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Twitter</a>
+      </div>
+      <div class="Account-box">
+        <h6>Account</h6>
+        <a href="">Login</a>
+        <a href="">Sign up</a>
+      </div>
+      <div class="stay-informed-box">
+        <h6>Stay informed</h6>
+        <a href="">Newsletter</a>
+      </div>
+      <div class="Key-links-box">
+        <h6>Key Links</h6>
+        <a href="">Contact</a>
+        <a href="">About</a>
+        <a href="">Volunteer</a>
+      </div>
     </footer>
   </body>
 </html>

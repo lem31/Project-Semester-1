@@ -172,16 +172,18 @@ input[type="search"]:focus {
 }
 
 .explore-img {
-  width: 35vw;
+  min-width: 35vw;
   height: 130rem;
 }
 
 .Transition-box {
   display: flex;
   width: 100%;
+  min-width: 800px;
   height: 100%;
   overflow: hidden;
   position: relative;
+  object-fit: cover;
 }
 
 .Transition-box > div {

@@ -9,53 +9,84 @@
       rel="stylesheet"
       href="path/to/font-awesome/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="Project-Semester-1.css" />
     <title>CS Museum Home</title>
   </head>
 
   <body>
     <header>
       <div class="Logo-Search">
-        <img
-          src="Images/Logo-Semester-Project-1-1-removebg-preview.png"
-          alt="CS Museum Logo"
-        />
-
-        <div class="search-box">
+        <div class="logo-wrapper">
           <img
-            src="Images/Turquoise-search-icon.png"
-            alt="Turquoise search icon"
+            class="logo"
+            src="Images/Logo-Semester-Project-1-1-removebg-preview.png"
+            alt="CS Museum Logo"
           />
-
-          <img src="Images/Black-search-Icon.png" alt="Black search icon" />
-          <input type="search" id="search-bar" name="search-b" />
+        </div>
+        <div class="search-box-wrapper">
+          <div class="search-box">
+            <img
+              class="search-icon-mob"
+              src="Images/Turquoise-search-icon.png"
+              alt="Turquoise search icon"
+            />
+            <img
+              class="search-icon-desktop"
+              src="Images/Black-search-Icon.png"
+              alt=""
+            />
+            <form>
+              <input
+                type="search"
+                id="search-bar"
+                name="search-b"
+                placeholder="Search"
+              />
+            </form>
+          </div>
         </div>
       </div>
+    </header>
 
+    <div class="nav-wrapper">
       <input type="checkbox" id="mobile-checkbox" />
       <label id="hamburger" for="mobile-checkbox">
         <img src="Images/Hamburger-icon.png" alt="Hamburger icon" />
       </label>
 
       <nav>
-        <a href="">Home</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a>
-        <a href="Explore.html">Explore</a>
-        <a href="">More</a>
-
-        <div class="Dropdown-links">
-          <a href="Exhibitions.html">Exhibitions</a>
-          <a href="Contributions.html">Contributions</a>
-          <a href="Volunteer.html">Volunteer</a>
-          <a href="Internships.html">Internships</a>
-          <a href="Privacy-policy.html">Privacy Policy</a>
-          <a href="Terms&Conditions.html">Terms & Conditions</a>
-        </div>
+        <a id="home-link" class="desktop-link" href="">Home</a>
+        <a class="desktop-link" href="About.html">About</a>
+        <a class="desktop-link" href="Contact.html">Contact</a>
+        <a class="desktop-link" href="Explore.html">Explore</a>
+        <a class="mobile-link" href="Exhibitions.html">Exhibitions</a>
+        <a class="mobile-link"  href="Contributions.html">Contributions</a>
+        <a class="mobile-link"  href="Volunteer.html">Volunteer</a>
+        <a class="mobile-link"  href="Internships.html">Internships</a>
+        <a class="mobile-link"  href="Privacy-policy.html">Privacy Policy</a>
+        <a class="mobile-link"  href="Terms&Conditions.html">Terms & Conditions</a>
       </nav>
-    </header>
+
+       <div class="drop-down-menu">
+          <button class="more">More</button>
+
+          
+          <a class="drop-down-link" href="Exhibitions.html">Exhibitions</a>
+          <a class="drop-down-link"  href="Contributions.html">Contributions</a>
+          <a class="drop-down-link"  href="Volunteer.html">Volunteer</a>
+          <a class="drop-down-link"  href="Internships.html">Internships</a>
+          <a class="drop-down-link"  href="Privacy-policy.html">Privacy Policy</a>
+          <a class="drop-down-link"  href="Terms&Conditions.html">Terms & Conditions</a>
+
+        </div>
+       
+        </div>
+     
+    </div>
+
     <main>
       <section class="Explore">
-        <img src="Images/Explore-image.jpg" alt="" />
+        <img class= "explore-img-1" src="Images/Explore-image.jpg" alt="" />
         <h1>EXPLORE TOGETHER</h1>
         <p>
           Come join us at the Community Science Museum, where we're committed to

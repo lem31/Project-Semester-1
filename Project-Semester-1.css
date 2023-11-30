@@ -3,7 +3,7 @@
   --Secondary-base-color: black;
   --Grey-base-color: #20252b;
   --Text-base-color: white;
-  --Secondary-font-family: "Source Sans Pro", sans-serif;
+  --Secondary-font-family: "Source Sans 3", sans-serif;
   --Primary-font-family-Bold: "Playfair Display", serif;
   --Header-1-Desktop-font-size: 100px;
   --Body-1-and-2-font-size: 40px;
@@ -160,8 +160,8 @@ input[type="search"]:focus {
   flex-direction: column;
   height: 500px;
   z-index: 12;
-  margin-left: 55rem;
-  margin-top: 28.2rem;
+  margin-left: 50rem;
+  margin-top: 27.4rem;
   position: absolute;
 }
 
@@ -182,7 +182,8 @@ input[type="search"]:focus {
   font-family: var(--Secondary-font-family);
   font-size: 46px;
   font-weight: bold;
-  margin-top: -0.2rem;
+  margin-top: -3px;
+
   padding-bottom: 1.5rem;
 }
 .more:focus ~ .drop-down-link {

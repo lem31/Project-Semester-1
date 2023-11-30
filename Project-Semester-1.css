@@ -356,6 +356,10 @@ h3 {
 
 /* NEWS SECTION */
 
+.slideshow-img-box {
+  position: relative;
+}
+
 .slideshow-img {
   width: 100%;
   height: 100%;
@@ -385,16 +389,34 @@ h3 {
   overflow: hidden;
 }
 
+#caret-checkbox:checked ~ #slideshow-img-1,
 #text-box-1 {
+  visibility: hidden;
+}
+
+#caret-checkbox-2:checked ~ #slideshow-img-1,
+#slideshow-img-2 {
+  visibility: hidden;
+}
+
+.slideshow-caret-1,
+.slideshow-caret-2 {
+  z-index: 8;
+  position: absolute;
+}
+
+.slideshow-caret-2 {
+  margin-left: 20rem;
+}
+
+#text-box-1,
+#text-box-2,
+#text-box-3 {
   z-index: 8;
 }
 
 #caret-1 {
-  z-index: 7;
-}
-
-#caret-1:focus ~ .slideshow-img {
-  opacity: 0;
+  z-index: 8;
 }
 
 #slide-1 {

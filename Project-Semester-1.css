@@ -32,6 +32,8 @@ body,
 .desktop-link,
 .more,
 h1,
+h3 a,
+h2,
 p {
   color: var(--Text-base-color);
 }
@@ -249,8 +251,7 @@ input[type="search"]:focus {
   align-self: center;
 }
 
-.Transition-box > div,
-.Transition-box-Our-Museum > div {
+.Transition-box > div {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -259,13 +260,25 @@ input[type="search"]:focus {
   overflow: hidden;
 }
 
+.Transition-box-Our-Museum > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: animate 8s infinite;
+  opacity: 0;
+  overflow: hidden;
+}
+
 .Transition-box > div:nth-child(2),
 .Transition-box-Our-Museum > div:nth-child(2) {
   animation-delay: 4s;
 }
-.Transition-box > div:nth-child(3),
-.Transition-box-Our-Museum > div:nth-child(3) {
+.Transition-box > div:nth-child(3) {
   animation-delay: 8s;
+}
+
+.Transition-box-Our-Museum > div:nth-child(3) {
+  animation-delay: 3s;
 }
 
 .Transition-box > div:nth-child(4) {
@@ -291,11 +304,44 @@ input[type="search"]:focus {
   }
 }
 
-H1 {
+h1,
+h3 a {
   font-family: var(--Header-1-Desktop-font-family);
   font-size: var(--Header-1-Desktop-font-size);
   overflow: hidden;
   height: 100vh;
+}
+
+.h2-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  overflow: hidden;
+}
+
+h2 {
+  font-family: var(--Header-1-Desktop-font-family);
+  font-size: var(--Header-1-Desktop-font-size);
+  height: 15rem;
+  width: 100%;
+  justify-content: start;
+  overflow: hidden;
+}
+
+h3 {
+  padding-bottom: 65rem;
+}
+
+.Our-Museum-text-box {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  overflow: hidden;
 }
 
 .h1-text {

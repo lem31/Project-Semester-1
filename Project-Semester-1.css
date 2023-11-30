@@ -17,7 +17,8 @@
 main,
 header,
 .Explore,
-.Transition-box {
+.Transition-box,
+.Our-Museum {
   background-color: var(--Secondary-base-color);
 }
 
@@ -152,13 +153,13 @@ input[type="search"]:focus {
 
 .drop-down-menu {
   display: flex;
-  width: 200px;
-  max-width: 200px;
+  width: 350px;
+  max-width: 800px;
   flex-direction: column;
-  height: 200px;
+  height: 500px;
   z-index: 12;
   margin-left: 55rem;
-  margin-top: 9.2rem;
+  margin-top: 28.2rem;
   position: absolute;
 }
 
@@ -166,6 +167,10 @@ input[type="search"]:focus {
   z-index: 12;
   position: relative;
   display: none;
+  font-family: var(--Secondary-font-family);
+  font-size: 46px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .more {
@@ -175,6 +180,8 @@ input[type="search"]:focus {
   font-family: var(--Secondary-font-family);
   font-size: 46px;
   font-weight: bold;
+  margin-top: -0.2rem;
+  padding-bottom: 1.5rem;
 }
 .more:focus ~ .drop-down-link {
   display: block;
@@ -190,7 +197,10 @@ input[type="search"]:focus {
 
 /* MAIN CONTENT HOME */
 
-.Explore {
+/* EXPLORE SECTION & OUR MUSEUM SECTION */
+
+.Explore,
+.Our-Museum {
   display: flex;
   flex-direction: column;
   max-width: 100vw;
@@ -218,7 +228,8 @@ input[type="search"]:focus {
   overflow: hidden;
 }
 
-.explore-img {
+.explore-img,
+.Our-Museum-img {
   width: 100%;
   height: auto;
   object-fit: contain;
@@ -226,7 +237,8 @@ input[type="search"]:focus {
   outline-offset: -0.5rem;
 }
 
-.Transition-box {
+.Transition-box,
+.Transition-box-Our-Museum {
   width: 100%;
   height: 100%;
 
@@ -237,7 +249,8 @@ input[type="search"]:focus {
   align-self: center;
 }
 
-.Transition-box > div {
+.Transition-box > div,
+.Transition-box-Our-Museum > div {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -246,10 +259,12 @@ input[type="search"]:focus {
   overflow: hidden;
 }
 
-.Transition-box > div:nth-child(2) {
+.Transition-box > div:nth-child(2),
+.Transition-box-Our-Museum > div:nth-child(2) {
   animation-delay: 4s;
 }
-.Transition-box > div:nth-child(3) {
+.Transition-box > div:nth-child(3),
+.Transition-box-Our-Museum > div:nth-child(3) {
   animation-delay: 8s;
 }
 

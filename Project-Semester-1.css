@@ -355,9 +355,6 @@ h3 {
 
 /* NEWS SECTION */
 
-.Special-Events {
-}
-
 .slideshow-img-box {
   position: relative;
   overflow-y: hidden;
@@ -377,7 +374,6 @@ h3 {
   grid-auto-flow: column;
   grid-auto-columns: 100%;
   scroll-behavior: smooth;
-  overflow-x: scroll;
   width: 100%;
 }
 

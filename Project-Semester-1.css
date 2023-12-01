@@ -202,6 +202,19 @@ input[type="search"]:focus {
 
 /* EXPLORE SECTION & OUR MUSEUM SECTION */
 
+.Explore,
+.Our-Museum {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  z-index: 8;
+  position: relative;
+  overflow: hidden;
+  padding: 5rem;
+  align-items: center;
+}
+
 .Explore-text-box {
   display: flex;
   flex-direction: column;
@@ -218,7 +231,7 @@ input[type="search"]:focus {
 
 .img-box,
 .Our-Museum-img-box {
-  width: 70vw;
+  width: 0vw;
   height: 100%;
 }
 

@@ -5,7 +5,7 @@
   --Text-base-color: white;
   --Secondary-font-family: "Source Sans 3", sans-serif;
   --Primary-font-family-Bold: "Playfair Display", serif;
-  --Header-1-Desktop-font-size: 100px;
+  --Header-1-Desktop-font-size: 50px;
   --Body-1-and-2-font-size: 40px;
 }
 
@@ -34,6 +34,7 @@ body,
 h1,
 h3 a,
 h2,
+h3,
 p {
   color: var(--Text-base-color);
 }
@@ -203,8 +204,7 @@ input[type="search"]:focus {
 /* EXPLORE SECTION & OUR MUSEUM SECTION */
 
 .Explore,
-.Our-Museum,
-.Special-Events {
+.Our-Museum {
   display: flex;
   flex-direction: column;
   max-width: 100vw;
@@ -355,26 +355,50 @@ h3 {
 
 /* NEWS SECTION */
 
-.slideshow-img-box {
+.Special-Events {
+  display: flex;
+  width: 100vw;
+  flex-direction: column;
+  border: 10px solid white;
+  margin-top: -20rem;
+  padding-bottom: 80rem;
+  padding-top: 0;
+}
+
+#slide-1,
+#slide-2,
+#slide-3 {
   position: relative;
-  overflow-y: hidden;
+  width: 98%;
+  height: 100%;
   padding-top: 15rem;
+  padding-bottom: 100rem;
+  overflow-y: hidden;
+
+  justify-content: center;
 }
 
 .slideshow-img {
-  width: 100%;
+  width: 95%;
   height: 100%;
-  outline: 10px solid var(--Primary-base-color);
-  outline-offset: -0.5rem;
+  border: 10px solid var(--Primary-base-color);
+
   z-index: 7;
+  object-fit: contain;
 }
 
 .image-slideshow-wrapper {
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 100%;
+
+  display: flex;
   scroll-behavior: smooth;
-  width: 100%;
+  width: 300%;
+  height: 100%;
+  border: 10px solid white;
+  margin-top: -40rem;
+  padding-top: 0;
 }
 
 .img-box-wrapper {
@@ -382,17 +406,16 @@ h3 {
   grid-auto-flow: column;
   width: 100%;
   height: 100%;
+  grid-auto-columns: 1fr;
 }
 
 .image-slideshow-wrapper > div {
   display: flex;
   flex-direction: column-reverse;
-  width: 100%;
-  height: 100%;
+  overflow-y: hidden;
 }
 
 .slideshow-text-box {
-  width: 100%;
   height: 10rem;
   position: absolute;
   background-color: var(--Primary-base-color);
@@ -409,6 +432,7 @@ h3 {
 #text-box-2,
 #text-box-3 {
   z-index: 8;
+  width: 95.3%;
 }
 
 #caret-1 {

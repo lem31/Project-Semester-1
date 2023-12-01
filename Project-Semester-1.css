@@ -123,16 +123,20 @@ nav a {
   display: flex;
   width: 100%;
   height: 100%;
-  min-height: 45px;
-  max-height: 45px;
+  min-height: 10px;
+  max-height: 10px;
   min-width: 80px;
   max-width: 200px;
   background-color: white;
   align-self: center;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
 
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-right: 0.5rem;
+.search-icon-desktop {
+  position: absolute;
+  margin-top: -0.4rem;
+  margin-left: -3rem;
 }
 
 .search-icon-mob {
@@ -159,13 +163,13 @@ input[type="search"]:focus {
 
 .drop-down-menu {
   display: flex;
-  width: 350px;
-  max-width: 800px;
+  width: 200px;
+  max-width: 600px;
   flex-direction: column;
   height: 500px;
   z-index: 12;
-  margin-left: 50rem;
-  margin-top: 27.4rem;
+  margin-left: 38rem;
+  margin-top: 27rem;
   position: absolute;
 }
 
@@ -174,7 +178,7 @@ input[type="search"]:focus {
   position: relative;
   display: none;
   font-family: var(--Secondary-font-family);
-  font-size: 36px;
+  font-size: 30px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -186,9 +190,9 @@ input[type="search"]:focus {
   font-family: var(--Secondary-font-family);
   font-size: 25px;
   font-weight: bold;
-  padding-bottom: 1.5rem;
-  padding-top: 0.8rem;
-  margin-left: -21rem;
+  padding-bottom: 1rem;
+  padding-top: 1.1rem;
+  margin-left: -9rem;
 }
 .more:focus ~ .drop-down-link {
   display: block;
@@ -218,15 +222,14 @@ input[type="search"]:focus {
 .Explore-text-box {
   display: flex;
   flex-direction: column;
-  max-height: 700px;
+  max-height: 500px;
   height: 100%;
   width: 100%;
   position: absolute;
   align-items: center;
   justify-content: start;
   justify-self: center;
-  row-gap: 15rem;
-  padding-top: 8rem;
+  padding-top: 2rem;
   overflow: hidden;
 }
 
@@ -253,7 +256,7 @@ input[type="search"]:focus {
 .Transition-box-Our-Museum {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   overflow: hidden;
   position: relative;
@@ -325,7 +328,7 @@ h3 a {
 .h2-wrapper {
   display: flex;
   flex-flow: row nowrap;
-  width: 100%;
+  width: 20rem;
   overflow: hidden;
 }
 
@@ -334,8 +337,8 @@ h2 {
   font-size: var(--Header-1-Desktop-font-size);
   height: 15rem;
   width: 100%;
-  justify-content: start;
   overflow: hidden;
+  justify-content: center;
 }
 
 h3 {
@@ -360,6 +363,7 @@ h3 {
   font-weight: bold;
   overflow: hidden;
   height: 100vh;
+  margin-top: -3rem;
 }
 
 /* NEWS SECTION */

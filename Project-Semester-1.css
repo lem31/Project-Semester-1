@@ -229,28 +229,6 @@ input[type="search"]:focus {
   overflow: hidden;
 }
 
-.img-box,
-.Our-Museum-img-box {
-  width: 0vw;
-  height: 100%;
-}
-
-.Our-Museum-img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  border: 10px solid var(--Primary-base-color);
-}
-
-.explore-img-1 {
-  z-index: 8;
-}
-
-.explore-img {
-  max-width: 96%;
-  border: 10px solid var(--Primary-base-color);
-}
-
 .Transition-box,
 .Transition-box-Our-Museum {
   display: flex;
@@ -385,11 +363,15 @@ h3 a {
   height: 100%;
 }
 
-.slideshow-img-box {
+.slideshow-img-box,
+.img-box,
+.Our-Museum-img-box {
   width: 50vw;
 }
 
-.slideshow-img {
+.slideshow-img,
+.explore-img,
+.Our-Museum-img {
   border: 10px solid var(--Primary-base-color);
   width: 100%;
   object-fit: contain;

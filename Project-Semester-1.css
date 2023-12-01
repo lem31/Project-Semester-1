@@ -9,11 +9,6 @@
   --Body-1-and-2-font-size: 40px;
 }
 
-* {
-  overflow-x: hidden;
-
-  position: static;
-}
 .Special-Events,
 main,
 header,
@@ -42,15 +37,16 @@ p,
 }
 
 body {
-  width: 100%;
-
-  padding: 5rem;
+  max-width: 100vw;
+  padding: 10rem;
 }
 
 main {
   overflow-y: scroll;
-  overflow-x: hidden;
-  max-width: 100vw;
+
+ max- width: 100vw;
+
+  padding: 15rem;
 }
 
 header {
@@ -355,7 +351,7 @@ h3 {
 
 /* NEWS SECTION */
 
-.Special-Events {
+/* .Special-Events {
   width: 100vw;
   padding-left: 5rem;
   padding-right: 5rem;
@@ -428,4 +424,4 @@ h3 {
   height: 15rem;
   background-color: var(--Primary-base-color);
   position: absolute;
-}
+} */

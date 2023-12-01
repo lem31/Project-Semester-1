@@ -229,14 +229,21 @@ input[type="search"]:focus {
   overflow: hidden;
 }
 
-.Transition-box,
+.Transition-box {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
 .Transition-box-Our-Museum {
   display: flex;
   flex-direction: column;
-  width: 68vw;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
+
+  width: 69vw;
+  height: 100vh;
 }
 
 .explore-img,
@@ -248,7 +255,7 @@ input[type="search"]:focus {
 
 .img-box,
 .Our-Museum-img-box {
-  width: 68vw;
+  width: 100vw;
   height: 100%;
   position: absolute;
   opacity: 0;

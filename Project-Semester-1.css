@@ -5,8 +5,8 @@
   --Text-base-color: white;
   --Secondary-font-family: "Source Sans 3", sans-serif;
   --Primary-font-family-Bold: "Playfair Display", serif;
-  --Header-1-Desktop-font-size: 50px;
-  --Body-1-and-2-font-size: 40px;
+  --Header-1-Desktop-font-size: 40px;
+  --Body-1-and-2-font-size: 20px;
 }
 
 .Special-Events,
@@ -42,11 +42,13 @@ body {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
   overflow-y: scroll;
-
- max- width: 100vw;
-
+  max-width: 100vw;
   padding: 15rem;
+
+  align-items: center;
 }
 
 header {
@@ -203,7 +205,7 @@ input[type="search"]:focus {
 .Our-Museum {
   display: flex;
   flex-direction: column;
-  max-width: 100vw;
+  width: 50vw;
   height: 100vh;
   z-index: 8;
   position: relative;
@@ -211,6 +213,11 @@ input[type="search"]:focus {
   justify-content: center;
   align-items: center;
   padding: 5rem;
+  justify-self: center;
+}
+
+.Our-Museum {
+  height: 40rem;
 }
 
 .Explore-text-box {
@@ -228,6 +235,11 @@ input[type="search"]:focus {
   overflow: hidden;
 }
 
+.img-box,
+.Our-Museum-img-box {
+  width: 100vw;
+}
+
 .explore-img,
 .Our-Museum-img {
   width: 100%;
@@ -235,6 +247,7 @@ input[type="search"]:focus {
   object-fit: contain;
   outline: 10px solid var(--Primary-base-color);
   outline-offset: -0.5rem;
+  position: static;
 }
 
 .Transition-box,
@@ -351,8 +364,8 @@ h3 {
 
 /* NEWS SECTION */
 
-/* .Special-Events {
-  width: 100vw;
+.Special-Events {
+  max-width: 100vw;
   padding-left: 5rem;
   padding-right: 5rem;
   padding-bottom: 200rem;
@@ -391,7 +404,8 @@ h3 {
   height: 100%;
   object-fit: contain;
   z-index: 8;
-  border: 10px solid var(--Primary-base-color);
+  outline: 10px solid var(--Primary-base-color);
+  outline-offset: -1px;
 }
 
 .slideshow-content-box {
@@ -402,8 +416,8 @@ h3 {
   overflow-y: hidden;
   z-index: 9;
   position: relative;
-
   justify-self: center;
+  overflow-x: hidden;
 }
 
 .slideshow-caret,
@@ -424,4 +438,4 @@ h3 {
   height: 15rem;
   background-color: var(--Primary-base-color);
   position: absolute;
-} */
+}

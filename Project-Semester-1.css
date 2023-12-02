@@ -456,6 +456,13 @@ h3 a {
   position: absolute;
 }
 
+.prev-caret {
+  position: absolute;
+  /* margin-top: 40rem; */
+  margin-left: 25rem;
+  z-index: 7;
+}
+
 #caret-1 {
   position: absolute;
   /* margin-top: 40rem; */
@@ -504,7 +511,7 @@ h3 a {
   outline-offset: -0.5rem;
 }
 
-input[type="checkbox"]:checked + label {
+input[type="radio"]:checked + label {
   display: none;
 }
 

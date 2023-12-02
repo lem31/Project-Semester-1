@@ -397,8 +397,8 @@ h3 a {
 .image-slideshow {
   display: grid;
   grid-auto-flow: column;
-  width: 60%;
-  height: 50%;
+  width: 55%;
+  height: 30%;
   position: relative;
 }
 
@@ -406,7 +406,6 @@ h3 a {
   display: flex;
   flex-direction: column;
   position: absolute;
-
   display: flex;
   flex-direction: column;
   max-height: 500px;
@@ -421,7 +420,7 @@ h3 a {
   z-index: 10;
 }
 
-.caret-box {
+/* .caret-box {
   display: flex;
   flex-direction: column;
   max-height: 500px;
@@ -434,7 +433,7 @@ h3 a {
   padding-top: 2rem;
   overflow: hidden;
   z-index: 10;
-}
+} */
 
 .slideshow-text {
   width: 100%;
@@ -451,27 +450,28 @@ h3 a {
   width: 100vw;
   justify-content: center;
   position: absolute;
-  margin-top: 20rem;
+  margin-top: 30rem;
 }
 
-form {
-  width: 100vw;
-  height: 100%;
-  position: relative;
-}
+/* #caret-1,
+#caret-2,
+#caret-3,
+.radio-1,
+.radio-2,
+.radio-3 {
+  position: absolute;
+} */
 
-#slide-1,
-#caret-1 {
-  z-index: 4;
+#slide-1 {
+  z-index: 6;
 }
 
 #slide-2 {
-  z-index: 3;
+  z-index: 4;
 }
 
-#slide-3,
-#caret-3 {
-  z-index: 2;
+#slide-3 {
+  z-index: 3;
 }
 
 .slideshow-content-box {
@@ -487,19 +487,21 @@ form {
   outline-offset: -0.5rem;
 }
 
-.radio-btn:checked ~ #slide-2 {
-  z-index: 7;
+#r-btn-1:checked ~ #slide-1 {
+  z-index: 3;
 }
 
-.radio-btn-2:checked ~ #slide-3 {
-  z-index: 6;
+#r-btn-2:checked ~ #slide-2 {
+  display: none;
 }
 
-.radio-btn-3:checked ~ #slide-3,
-#slide-2 {
+#r-btn-3:checked ~ #slide-3 {
   display: none;
 }
 
 .radio-btn {
   display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: 9;
 }

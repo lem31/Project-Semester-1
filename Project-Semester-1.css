@@ -456,31 +456,23 @@ h3 a {
   position: absolute;
 }
 
-.prev-caret {
-  position: absolute;
-  /* margin-top: 40rem; */
-  margin-left: 25rem;
-  z-index: 7;
-}
-
 #caret-1 {
   position: absolute;
-  /* margin-top: 40rem; */
-  margin-left: 45rem;
-  z-index: 7;
+
+  margin-left: 5rem;
+  z-index: 12;
 }
 
 #caret-2 {
   position: absolute;
-  /* margin-top: 30rem; */
-  margin-left: 45rem;
-  z-index: 5;
+  margin-left: 20rem;
+  z-index: 12;
 }
 
 #caret-3 {
   position: absolute;
-  margin-left: 45rem;
-  z-index: 4;
+  margin-left: 35rem;
+  z-index: 12;
 }
 
 #slide-1,
@@ -516,15 +508,16 @@ input[type="radio"]:checked + label {
 }
 
 #r-btn-1:checked ~ #slide-1 {
-  z-index: 3;
-}
-
-#r-btn-2:checked ~ #slide-2 {
   z-index: 2;
 }
 
-#r-btn-3:checked ~ #slide-3 {
-  z-index: 1;
+#r-btn-2:checked ~ #slide-2,
+#slide-1 {
+  z-index: 2;
+}
+
+#r-btn-3:checked ~ #slide-1 {
+  z-index: 10;
 }
 
 .radio-1 {
@@ -532,7 +525,7 @@ input[type="radio"]:checked + label {
   z-index: 12;
   display: flex;
   width: 20rem;
-  margin-left: 10rem;
+  margin-left: 5rem;
   margin-top: 20rem;
 }
 
@@ -541,7 +534,7 @@ input[type="radio"]:checked + label {
   z-index: 12;
   display: flex;
   width: 20rem;
-  margin-left: 20rem;
+  margin-left: 10rem;
   margin-top: 20rem;
 }
 

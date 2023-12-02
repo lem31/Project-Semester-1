@@ -392,6 +392,7 @@ h3 a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20rem;
 }
 
 .image-slideshow {
@@ -420,26 +421,29 @@ h3 a {
   z-index: 10;
 }
 
-/* .caret-box {
-  display: flex;
-  flex-direction: column;
-  max-height: 500px;
-  height: 120%;
-  width: 15%;
-  position: absolute;
-  align-items: center;
-  justify-content: start;
-  justify-self: center;
-  padding-top: 2rem;
-  overflow: hidden;
-  z-index: 10;
-} */
-
 .slideshow-text {
   width: 100%;
-  height: auto;
+  height: fit-content;
   font-size: var(--Body-1-and-2-font-size);
   font-family: var(--Secondary-font-family);
+  background-color: var(--Primary-base-color);
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+  height: auto;
+  width: 59.2vw;
+  align-items: end;
+  justify-content: end;
+  justify-self: end;
+  padding-top: 2rem;
+  margin-left: 0.5rem;
+  margin-top: 28rem;
+  background-color: var(--Primary-base-color);
+  z-index: 10;
 }
 
 .slide {
@@ -450,32 +454,40 @@ h3 a {
   width: 100vw;
   justify-content: center;
   position: absolute;
-  margin-top: 30rem;
 }
 
 #caret-1 {
   position: absolute;
-  margin-top: 40rem;
+  /* margin-top: 40rem; */
   margin-left: 45rem;
   z-index: 7;
 }
 
 #caret-2 {
   position: absolute;
-  margin-top: 30rem;
+  /* margin-top: 30rem; */
   margin-left: 45rem;
   z-index: 5;
 }
 
-#slide-1 {
-  z-index: 6;
-}
-
-#slide-2 {
+#caret-3 {
+  position: absolute;
+  margin-left: 45rem;
   z-index: 4;
 }
 
-#slide-3 {
+#slide-1,
+.text-box-1 {
+  z-index: 6;
+}
+
+#slide-2,
+.text-box-2 {
+  z-index: 4;
+}
+
+#slide-3,
+.text-box-3 {
   z-index: 3;
 }
 
@@ -508,9 +520,29 @@ input[type="checkbox"]:checked + label {
   z-index: 1;
 }
 
-.radio-btn {
-  display: flex;
-  flex-direction: row;
+.radio-1 {
   position: absolute;
-  z-index: 9;
+  z-index: 12;
+  display: flex;
+  width: 20rem;
+  margin-left: 10rem;
+  margin-top: 20rem;
+}
+
+.radio-2 {
+  position: absolute;
+  z-index: 12;
+  display: flex;
+  width: 20rem;
+  margin-left: 20rem;
+  margin-top: 20rem;
+}
+
+.radio-3 {
+  position: absolute;
+  z-index: 12;
+  display: flex;
+  width: 20rem;
+  margin-left: 30rem;
+  margin-top: 20rem;
 }

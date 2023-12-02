@@ -453,14 +453,19 @@ h3 a {
   margin-top: 30rem;
 }
 
-/* #caret-1,
-#caret-2,
-#caret-3,
-.radio-1,
-.radio-2,
-.radio-3 {
+#caret-1 {
   position: absolute;
-} */
+  margin-top: 40rem;
+  margin-left: 45rem;
+  z-index: 7;
+}
+
+#caret-2 {
+  position: absolute;
+  margin-top: 30rem;
+  margin-left: 45rem;
+  z-index: 5;
+}
 
 #slide-1 {
   z-index: 6;
@@ -487,16 +492,20 @@ h3 a {
   outline-offset: -0.5rem;
 }
 
+input[type="checkbox"]:checked + label {
+  display: none;
+}
+
 #r-btn-1:checked ~ #slide-1 {
   z-index: 3;
 }
 
 #r-btn-2:checked ~ #slide-2 {
-  display: none;
+  z-index: 2;
 }
 
 #r-btn-3:checked ~ #slide-3 {
-  display: none;
+  z-index: 1;
 }
 
 .radio-btn {

@@ -455,6 +455,7 @@ h3 a {
   height: 200%;
   width: 60%;
   position: relative;
+  margin-top: -1.2rem;
 }
 
 .slide {

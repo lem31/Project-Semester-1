@@ -396,11 +396,25 @@ h3 a {
 }
 
 .image-slideshow {
-  display: grid;
-  grid-auto-flow: column;
-  width: 55%;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
   height: 30%;
   position: relative;
+}
+
+.slide-img-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slideshow-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .slideshow-header-box {
@@ -422,7 +436,8 @@ h3 a {
 }
 
 .slideshow-text {
-  width: 100%;
+  width: 102%;
+  height: 100%;
   height: fit-content;
   font-size: var(--Body-1-and-2-font-size);
   font-family: var(--Secondary-font-family);
@@ -432,18 +447,11 @@ h3 a {
 .text-box {
   display: flex;
   flex-direction: column;
-  position: absolute;
 
-  height: auto;
-  width: 59.2vw;
-  align-items: end;
+  position: absolute;
+  height: inherit;
+  width: inherit;
   justify-content: end;
-  justify-self: end;
-  padding-top: 2rem;
-  margin-left: 0.5rem;
-  margin-top: 28rem;
-  background-color: var(--Primary-base-color);
-  z-index: 10;
 }
 
 .slide {

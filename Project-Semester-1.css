@@ -7,6 +7,7 @@
   --Primary-font-family-Bold: "Playfair Display", serif;
   --Header-1-Desktop-font-size: 40px;
   --Body-1-and-2-font-size: 20px;
+  --Main-Nav-link-font-size: 30px;
 }
 
 .Special-Events,
@@ -160,6 +161,8 @@ nav a {
 .desktop-link {
   text-decoration: none;
   margin-left: 1rem;
+  font-size: var(--Main-Nav-link-font-size);
+  font-family: var(--Secondary-font-family);
 }
 
 input[type="search"] {
@@ -179,6 +182,9 @@ input[type="search"]:focus {
 
 .mobile-link {
   display: none;
+  font-size: var(--Main-Nav-link-font-size);
+  font-family: var(--Secondary-font-family);
+  text-decoration: none;
 }
 
 .drop-down-links {
@@ -197,7 +203,7 @@ input[type="search"]:focus {
   position: static;
 } */
 
-.more {
+#more {
   border: none;
   outline: none;
   background: none;
@@ -211,7 +217,7 @@ input[type="search"]:focus {
   position: relative;
 }
 
-.more:focus ~ .drop-down-links {
+#drop-down-checkbox:checked ~ .mobile-link {
   display: block;
 }
 
@@ -392,7 +398,7 @@ h3 a {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100%;
+  height: 180vh;
   z-index: 8;
   position: relative;
   align-items: center;
@@ -752,6 +758,11 @@ footer {
     position: static;
   }
 
+  .mobile-and-drop-box {
+    margin-top: -11rem;
+    padding-left: 1rem;
+  }
+
   .nav-wrapper {
     background-color: var(--Secondary-base-color);
     display: flex;
@@ -795,7 +806,9 @@ footer {
   }
 
   .more,
-  #search-bar {
+  #search-bar,
+  #drop-down-checkbox,
+  #more {
     visibility: hidden;
   }
 

@@ -738,6 +738,11 @@ footer {
     grid-area: search;
   }
 
+  .search-icon-desktop,
+  form {
+    display: none;
+  }
+
   nav {
     grid-area: Hamburger;
     display: block;
@@ -786,7 +791,6 @@ footer {
     max-height: 100px;
     background-color: transparent;
     padding-left: 18rem;
-    padding-top: 22rem;
     justify-content: start;
   }
 
@@ -795,8 +799,7 @@ footer {
     flex-direction: column;
     grid-area: Hamburger;
     position: relative;
-
-    margin-top: -10rem;
+    margin-top: -11rem;
     margin-left: -20rem;
     padding-left: 5rem;
   }

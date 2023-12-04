@@ -694,6 +694,10 @@ footer {
     grid-template-areas: "Hamburger Logo Search";
   }
 
+  #hamburger {
+    margin-top: -10rem;
+  }
+
   .Hamburger-nav-mob {
     grid-area: Hamburger;
     display: flex;
@@ -714,13 +718,12 @@ footer {
   }
 
   .search-icon-desktop,
-  input {
+  nav {
     display: none;
   }
 
   nav {
     grid-area: Hamburger;
-    display: block;
     height: 25rem;
     position: static;
     margin-left: -13.5rem;
@@ -767,15 +770,14 @@ footer {
     padding-left: 5rem;
   }
 
-  #mobile-checkbox:checked ~ nav,
-  .desktop-link,
-  .mob-link {
+  #mobile-checkbox:checked ~ #Nav-menu {
+    visibility: visible;
     display: block;
   }
 
-  /* #mobile-checkbox:not(checked) ~ nav {
+  #mobile-checkbox:not(checked) ~ #Nav-menu {
     visibility: hidden;
-  } */
+  }
 
   .more,
   #search-bar {

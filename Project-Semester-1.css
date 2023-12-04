@@ -47,8 +47,7 @@ p,
 }
 
 .mob-nav-box {
-  display: none;
-  background-color: var(--Secondary-base-color);
+  background-color: transparent;
 }
 
 body {
@@ -125,9 +124,9 @@ main {
   margin-left: -3rem;
 }
 
-.search-icon-mob {
+/* .search-icon-mob {
   display: none;
-}
+} */
 
 #mobile-checkbox {
   display: none;
@@ -184,28 +183,6 @@ input[type="search"]:focus {
   display: none;
 }
 
-.drop-down-menu {
-  display: flex;
-  width: 200px;
-  max-width: 600px;
-  flex-direction: column;
-  height: 500px;
-  z-index: 12;
-  margin-left: 38rem;
-  margin-top: 27rem;
-  position: absolute;
-}
-
-.drop-down-link {
-  z-index: 12;
-  position: relative;
-  display: none;
-  font-family: var(--Secondary-font-family);
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
 .more {
   border: none;
   outline: none;
@@ -213,12 +190,12 @@ input[type="search"]:focus {
   font-family: var(--Secondary-font-family);
   font-size: 25px;
   font-weight: bold;
-  padding-bottom: 1rem;
+  padding-left: 25rem;
   padding-top: 1rem;
-  margin-left: -9rem;
+  margin-left: 0;
 }
 
-.more:focus ~ .drop-down-link {
+.more:focus ~ .mobile-link {
   display: block;
 }
 
@@ -751,14 +728,6 @@ footer {
     background-color: var(--Primary-base-color);
   }
 
-  .drop-down-link {
-    display: none;
-  }
-
-  .drop-down-menu {
-    display: none;
-  }
-
   .mobile-link,
   .desktop-link {
     display: block;
@@ -798,19 +767,23 @@ footer {
     padding-left: 5rem;
   }
 
-  #mobile-checkbox:checked ~ nav {
+  #mobile-checkbox:checked ~ nav,
+  .desktop-link,
+  .mob-link {
     display: block;
   }
 
-  #mobile-checkbox:not(checked) ~ nav,
-  #mobile-checkbox,
+  /* #mobile-checkbox:not(checked) ~ nav {
+    visibility: hidden;
+  } */
+
   .more,
-  #search-bar,
-  .search-box-wrapper {
-    display: none;
+  #search-bar {
+    visibility: hidden;
   }
 
   .logo-wrapper {
+    grid-area: Logo;
     max-width: 20vw;
     max-height: 10%;
     display: flex;
@@ -872,18 +845,22 @@ footer {
   }
 
   .search-box-wrapper {
+    grid-area: Search;
     display: flex;
-    justify-content: center;
-    width: 10vw;
+    justify-content: start;
+    width: 50vw;
     padding-left: 0;
     padding-top: 0;
   }
   .search-box {
-    background-color: transparent;
+    grid-area: Search;
     align-self: center;
     justify-self: end;
     padding-bottom: 0;
     padding-left: 0;
+    height: 300px;
+    width: 100px;
+    background-color: transparent;
   }
 
   .search-icon-mob {
@@ -891,13 +868,14 @@ footer {
     display: flex;
     position: relative;
     z-index: 12;
-    width: 100px;
+    width: 200px;
     height: 100px;
-    justify-content: end;
   }
 
   .Logo-Search {
+    grid-area: Logo;
     width: 100px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     justify-content: start;

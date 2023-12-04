@@ -32,6 +32,8 @@ h3 a,
 h2,
 h3,
 .h4-support,
+.h5-volunteer,
+.h6-internships,
 p,
 .slideshow-text {
   color: var(--Text-base-color);
@@ -599,29 +601,46 @@ label {
   align-items: center;
 }
 
-.support-box {
+.support-box,
+.volunteer-box,
+.internships-box {
   width: 55vw;
   position: relative;
   object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--Secondary-base-color);
 }
 
-.support-box img {
+.support-box img,
+.volunteer-box img,
+.internships-box img {
   width: 100%;
   height: 100%;
   position: relative;
+  opacity: 50%;
 }
 
-.h4-support {
+.h4-support,
+.h5-volunteer,
+.h6-internships {
+  display: flex;
   width: 100%;
   height: 100%;
-}
-
-.support-header-box {
-  display: flex;
-  flex-direction: column;
-  height: 800px;
-  width: 100%;
   justify-content: center;
   align-items: center;
+  font-size: var(--Header-1-Desktop-font-size);
+  font-family: var(--Header-1-Desktop-font-family);
+}
+
+.support-header-box,
+.volunteer-header-box,
+.internships-header-box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  align-self: center;
   position: absolute;
 }

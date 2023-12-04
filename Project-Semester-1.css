@@ -83,7 +83,7 @@ header {
   align-self: center;
   justify-self: center;
   width: 50vw;
-  padding-left: 24.5rem;
+  padding-left: 29rem;
 }
 
 .Logo-Search {
@@ -700,4 +700,23 @@ footer {
 .footer-header {
   font-size: 20px;
   font-family: var(--Secondary-font-family);
+}
+
+@media (max-width: 1000px) {
+  nav,
+  .more {
+    display: none;
+  }
+
+  .nav-wrapper {
+    background-color: black;
+  }
+
+  #hamburger {
+    display: block;
+  }
+
+  #mobile-checkbox:checked ~ nav {
+    display: block;
+  }
 }

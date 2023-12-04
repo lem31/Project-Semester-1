@@ -209,9 +209,10 @@ input[type="search"]:focus {
   font-size: 25px;
   font-weight: bold;
   padding-bottom: 1rem;
-  padding-top: 01rem;
+  padding-top: 1rem;
   margin-left: -9rem;
 }
+
 .more:focus ~ .drop-down-link {
   display: block;
 }
@@ -704,19 +705,42 @@ footer {
 
 @media (max-width: 1000px) {
   nav,
+  .drop-down-link {
+    display: block;
+    height: 10rem;
+  }
+
+  .drop-down-menu {
+    display: none;
+  }
+
+  .mobile-link,
+  .desktop-link {
+    display: block;
+  }
+
   .more {
     display: none;
   }
 
   .nav-wrapper {
     background-color: black;
+    display: flex;
+    flex-direction: column;
   }
 
   #hamburger {
-    display: block;
+    display: flex;
+
+    position: absolute;
+    z-index: 12;
   }
 
   #mobile-checkbox:checked ~ nav {
     display: block;
+  }
+
+  #mobile-checkbox:not(checked) ~ nav {
+    display: none;
   }
 }

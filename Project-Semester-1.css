@@ -679,9 +679,16 @@ footer {
 .stay-informed-box a,
 .Key-links-box a {
   text-align: left;
+  font-family: var(--Secondary-font-family);
+  font-size: 16px;
 }
 
 .links-box {
   display: flex;
   flex-direction: column;
+}
+
+.footer-header {
+  font-size: 20px;
+  font-family: var(--Secondary-font-family);
 }

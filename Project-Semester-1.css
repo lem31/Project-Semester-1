@@ -594,7 +594,7 @@ label {
 /* GET INVOLVED SECTION HOME*/
 
 .Get-involved {
-  height: 100vh;
+  height: 320%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -643,4 +643,14 @@ label {
   justify-self: center;
   align-self: center;
   position: absolute;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
 }

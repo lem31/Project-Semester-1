@@ -630,6 +630,7 @@ label {
   height: 100%;
   position: relative;
   opacity: 50%;
+  padding-top: 5rem;
 }
 
 .h4-support,

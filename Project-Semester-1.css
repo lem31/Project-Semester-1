@@ -6,6 +6,7 @@
   --Secondary-font-family: "Source Sans 3", sans-serif;
   --Primary-font-family-Bold: "Playfair Display", serif;
   --Header-1-Desktop-font-size: 40px;
+  --Header-2-Desktop-font-size: 32px;
   --Body-1-and-2-font-size: 20px;
   --Main-Nav-link-font-size: 30px;
 }
@@ -27,7 +28,6 @@ body,
 
 .drop-down-link,
 .desktop-link,
-.more,
 h1,
 h3 a,
 h2,
@@ -44,8 +44,22 @@ p,
 .Account-box a,
 .stay-informed-box a,
 .Key-links-box a,
-.mobile-link {
+.mobile-link,
+#more,
+.h4-Get-Involved {
   color: var(--Text-base-color);
+}
+
+h1,
+h3 a {
+  font-family: var(--Primary-font-family-Bold);
+  font-size: var(--Header-1-Desktop-font-size);
+}
+
+.h4-Get-Involved,
+.h2-our-museum {
+  font-family: var(--Secondary-font-family);
+  font-size: var(--Header-2-Desktop-font-size);
 }
 
 .mob-nav-box {
@@ -107,7 +121,7 @@ main {
 .search-box-wrapper {
   display: flex;
   justify-content: center;
-  width: 45vw;
+  width: 15vw;
   padding-left: 15rem;
   padding-top: 1rem;
 }
@@ -123,15 +137,19 @@ main {
   align-self: center;
   justify-self: center;
   justify-content: start;
-
   padding-bottom: 2rem;
   padding-left: 2rem;
+  padding-right: 5rem;
 }
 
 .search-icon-desktop {
   position: absolute;
   margin-top: -0.4rem;
   margin-left: -3rem;
+}
+
+.search-icon-mob {
+  display: none;
 }
 
 #mobile-checkbox {
@@ -150,7 +168,7 @@ main {
   max-height: 350px;
   justify-content: center;
   align-items: center;
-  padding-right: 4rem;
+  padding-left: 12rem;
 }
 
 .nav {
@@ -187,11 +205,23 @@ input[type="search"]:focus {
   text-align: center;
 }
 
+.mobile-and-drop-box {
+  width: 300px;
+  padding-left: 28rem;
+  position: static;
+  margin-top: -2.9rem;
+}
+
 .mobile-link {
   display: none;
   font-size: var(--Main-Nav-link-font-size);
   font-family: var(--Secondary-font-family);
   text-decoration: none;
+  position: static;
+}
+
+#mob-link-1 {
+  margin-top: -6.5rem;
 }
 
 .drop-down-links {
@@ -203,13 +233,13 @@ input[type="search"]:focus {
   outline: none;
   background: none;
   font-family: var(--Secondary-font-family);
-  font-size: 25px;
-  font-weight: bold;
-  padding-left: 1rem;
-  padding-top: 1rem;
-  margin-left: 0;
+  font-size: var(--Main-Nav-link-font-size);
   text-decoration: none;
   position: relative;
+}
+
+#drop-down-checkbox {
+  display: none;
 }
 
 #drop-down-checkbox:checked ~ .mobile-link {
@@ -335,23 +365,18 @@ input[type="search"]:focus {
 
 h1,
 h3 a {
-  font-family: var(--Header-1-Desktop-font-family);
-  font-size: var(--Header-1-Desktop-font-size);
   overflow: hidden;
   height: 100vh;
 }
 
 .h2-wrapper {
-  display: flex;
-  flex-flow: row nowrap;
-  width: 20rem;
+  display: grid;
+  width: 80vw;
   overflow: hidden;
-  align-items: center;
+  justify-content: center;
 }
 
 .h2-our-museum {
-  font-family: var(--Header-1-Desktop-font-family);
-  font-size: var(--Header-1-Desktop-font-size);
   height: 15rem;
   width: 100%;
   overflow: hidden;

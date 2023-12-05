@@ -261,12 +261,13 @@ input[type="search"]:focus {
 
 .Explore,
 .Our-Museum {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100%;
   z-index: 8;
   position: relative;
-  justify-content: center;
+  align-items: center;
   margin: 0;
 }
 

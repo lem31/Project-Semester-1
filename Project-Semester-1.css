@@ -69,6 +69,7 @@ h3 a {
 body {
   width: 100vw;
   padding: 5rem;
+  overflow-x: hidden;
 }
 
 header {
@@ -78,11 +79,12 @@ header {
 
 main {
   display: grid;
-  overflow-y: scroll;
+  overflow: hidden;
   width: 100vw;
   height: 100%;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .header-box {
@@ -168,7 +170,6 @@ main {
   max-height: 350px;
   justify-content: center;
   align-items: center;
-  padding-left: 12rem;
 }
 
 .nav {
@@ -190,6 +191,10 @@ nav a {
   font-family: var(--Secondary-font-family);
 }
 
+#explore-link {
+  padding-right: 8rem;
+}
+
 input[type="search"] {
   background: white;
   border: none;
@@ -206,10 +211,11 @@ input[type="search"]:focus {
 }
 
 .mobile-and-drop-box {
-  width: 300px;
-  padding-left: 28rem;
-  position: static;
+  width: 200px;
+  padding-left: 27.5rem;
+  position: absolute;
   margin-top: -2.9rem;
+  z-index: 12;
 }
 
 .mobile-link {
@@ -218,6 +224,8 @@ input[type="search"]:focus {
   font-family: var(--Secondary-font-family);
   text-decoration: none;
   position: static;
+  z-index: 12;
+  background-color: var(--Primary-base-color);
 }
 
 #mob-link-1 {
@@ -236,6 +244,7 @@ input[type="search"]:focus {
   font-size: var(--Main-Nav-link-font-size);
   text-decoration: none;
   position: relative;
+  margin-top: -0.1rem;
 }
 
 #drop-down-checkbox {
@@ -253,7 +262,7 @@ input[type="search"]:focus {
 .Explore,
 .Our-Museum {
   display: grid;
-  width: 100%;
+  width: 100vw;
   z-index: 8;
   position: relative;
   overflow: hidden;
@@ -303,7 +312,7 @@ input[type="search"]:focus {
 
 .explore-img,
 .Our-Museum-img {
-  width: 100%;
+  width: 80vw;
   height: auto;
   object-fit: contain;
   outline: 10px solid var(--Primary-base-color);
@@ -312,7 +321,7 @@ input[type="search"]:focus {
 
 .img-box,
 .Our-Museum-img-box {
-  width: 100%;
+  width: 80vw;
   height: auto;
   position: absolute;
   opacity: 0;
@@ -490,7 +499,7 @@ h3 a {
 }
 
 .slideshow-text {
-  max-width: 180%;
+  max-width: 100%;
   height: auto;
   height: fit-content;
   font-size: var(--Body-1-and-2-font-size);
@@ -630,7 +639,7 @@ label {
 
 .Get-involved {
   height: 100%;
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -687,7 +696,7 @@ label {
 footer {
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   justify-content: center;
 }
@@ -837,7 +846,7 @@ footer {
 
   .logo-wrapper {
     grid-area: Logo;
-    max-width: 20vw;
+    max-width: 30vw;
     height: 80%;
     display: flex;
     flex-direction: row;
@@ -894,8 +903,14 @@ footer {
     height: 100%;
   }
 
+  .Transition-box-Our-Museum {
+    padding-bottom: 0;
+    margin-top: -5rem;
+
+    overflow-x: hidden;
+  }
+
   footer {
-    width: 100vw;
     background-color: var(--Primary-base-color);
   }
 
@@ -905,13 +920,22 @@ footer {
   }
 
   body {
-    padding: 0;
-    margin: 0;
     background-color: var(--Secondary-base-color);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    border: 8px solid orange;
   }
 
   header {
     justify-self: center;
     justify-content: center;
+  }
+
+  html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100vw;
   }
 }

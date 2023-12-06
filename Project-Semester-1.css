@@ -960,7 +960,17 @@ footer {
     overflow-y: scroll;
   }
 
-  .explore-img {
-    object-fit: contain;
+  .explore-img,
+  .Our-Museum-img {
+    width: 70vw;
+    height: 70vh;
+    outline: 8px solid var(--Primary-base-color);
+    outline-offset: -0.5rem;
+  }
+
+  .img-box,
+  .Our-Museum-img-box {
+    width: 70vw;
+    height: 70vh;
   }
 }

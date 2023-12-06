@@ -10,6 +10,7 @@
   --Header-1-Tablet-Mobile-font-size: 22px;
   --Header-2-Tablet-Mobile-font-size: 18px;
   --Body-1-and-2-font-size: 20px;
+  --Body-1-and-2-T-M-font-size: 16px;
   --Main-Nav-link-font-size: 30px;
 }
 
@@ -967,5 +968,23 @@ footer {
   .h2-our-museum {
     font-family: var(--Secondary-font-family);
     font-size: var(--Header-2-Tablet-Mobile-font-size);
+  }
+
+  .Explore-text-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2rem;
+    padding-left: 0.7rem;
+    width: 280px;
+    z-index: 10;
+  }
+  .h1-text {
+    font-size: var(--Body-1-and-2-T-M-font-size);
+    margin-top: -10rem;
+    padding-left: 2rem;
   }
 }

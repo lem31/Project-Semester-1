@@ -973,4 +973,19 @@ footer {
     width: 70vw;
     height: 70vh;
   }
+
+  .slide-img-box {
+    width: 70vw;
+    height: 200vh;
+  }
+
+  .slideshow-img {
+    width: 70vw;
+    height: 100vh;
+
+    object-fit: contain;
+    outline: 8px solid var(--Primary-base-color);
+    outline-offset: -0.5rem;
+    opacity: 80%;
+  }
 }

@@ -7,6 +7,8 @@
   --Primary-font-family-Bold: "Playfair Display", serif;
   --Header-1-Desktop-font-size: 40px;
   --Header-2-Desktop-font-size: 32px;
+  --Header-1-Tablet-Mobile-font-size: 22px;
+  --Header-2-Tablet-Mobile-font-size: 18px;
   --Body-1-and-2-font-size: 20px;
   --Main-Nav-link-font-size: 30px;
 }
@@ -60,6 +62,10 @@ h3 a {
 .h2-our-museum {
   font-family: var(--Secondary-font-family);
   font-size: var(--Header-2-Desktop-font-size);
+}
+.h1-text {
+  font-family: var(--Secondary-font-family);
+  font-size: var(--Body-1-and-2-font-size);
 }
 
 /* .mob-nav-box {
@@ -410,8 +416,6 @@ h3 a {
 }
 
 .h1-text {
-  font-family: var(--Secondary-font-family);
-  font-size: var(--Body-1-and-2-font-size);
   font-weight: bold;
   overflow: hidden;
   height: 100vh;
@@ -952,5 +956,16 @@ footer {
     outline: 8px solid var(--Primary-base-color);
     outline-offset: -0.5rem;
     opacity: 80%;
+  }
+
+  h1,
+  h3 a {
+    font-size: var(--Header-1-Tablet-Mobile-font-size);
+  }
+
+  .h4-Get-Involved,
+  .h2-our-museum {
+    font-family: var(--Secondary-font-family);
+    font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 }

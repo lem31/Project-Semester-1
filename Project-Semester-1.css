@@ -804,7 +804,7 @@ footer {
     position: absolute;
     z-index: 12;
     margin-left: 1rem;
-    margin-top: -10rem;
+    margin-top: -9.5rem;
   }
 
   .hamburger {
@@ -843,6 +843,7 @@ footer {
 
   .logo {
     padding-left: 0;
+    width: 20rem;
   }
 
   .text-box {
@@ -854,40 +855,40 @@ footer {
 
   .search-box-wrapper {
     grid-area: Search;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 80vw;
-    height: 75%;
+    display: block;
+    width: 50px;
+    height: 5vh;
     padding-left: 0;
     padding-top: 0;
+    margin-left: -7rem;
+    margin-top: -2.5rem;
   }
   .search-box {
     grid-area: Search;
-    align-items: center;
-    justify-content: start;
     padding-bottom: 0;
     padding-left: 0;
-    height: 50px;
-    width: 200px;
     background-color: transparent;
-  }
-
-  .search-icon-mob {
-    grid-area: Search;
-    display: flex;
-    position: relative;
+    display: block;
+    flex-direction: column;
+    width: 50px;
+    height: 5vh;
+    padding: 0;
     z-index: 12;
-    width: 100px;
-    height: 100px;
-    padding-left: 2.5rem;
   }
 
   .Logo-Search {
     grid-area: Logo;
     justify-content: start;
-    width: 100px;
+    width: 10px;
     height: 5vh;
+  }
+
+  .search-icon-mob {
+    grid-area: Search;
+    display: block;
+    z-index: 12;
+    width: 80px;
+    height: 80px;
   }
 
   footer {
@@ -904,12 +905,16 @@ footer {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    border: none;
+    border: 3px solid orange;
   }
 
   header {
     justify-self: center;
     justify-content: center;
+    border: 3px solid orange;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
   }
 
   html {

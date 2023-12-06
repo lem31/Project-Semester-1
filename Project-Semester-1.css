@@ -70,8 +70,11 @@ h3 a {
 
 body {
   width: 100vw;
-  padding: 5rem;
-  /* overflow-x: hidden; */
+  border: 5rem solid var(--Primary-base-color);
+}
+
+html {
+  overflow-x: hidden;
 }
 
 header {
@@ -955,5 +958,9 @@ footer {
 
   main {
     overflow-y: scroll;
+  }
+
+  .explore-img {
+    object-fit: contain;
   }
 }

@@ -395,20 +395,20 @@ h3 a {
 .Our-Museum-text-box {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
   position: absolute;
-  overflow: hidden;
-  justify-content: center;
   align-items: center;
+  justify-self: center;
+  justify-content: start;
+  padding-top: 2rem;
   z-index: 12;
+  margin-top: 70%;
 }
 
 .Our-Museum-h3 {
   width: 18rem;
   height: 5rem;
   z-index: 10;
-  margin: 0 auto;
+  text-align: center;
 }
 
 /* NEWS SECTION */
@@ -498,10 +498,9 @@ h3 a {
   position: absolute;
   height: 100%;
   width: 100%;
-  position: absolute;
   align-items: center;
-  justify-content: start;
   justify-self: center;
+  justify-content: start;
   padding-top: 2rem;
   z-index: 10;
   margin: 0 auto;
@@ -709,6 +708,10 @@ footer {
   justify-content: center;
 }
 
+.footer-link {
+  text-decoration: none;
+}
+
 .follow-box,
 .Account-box,
 .stay-informed-box,
@@ -738,6 +741,7 @@ footer {
 .footer-header {
   font-size: 20px;
   font-family: var(--Secondary-font-family);
+  margin-bottom: -0.1rem;
 }
 
 @media (max-width: 1000px) {

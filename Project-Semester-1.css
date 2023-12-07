@@ -83,10 +83,11 @@ main {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 200%;
+
+  overflow-y: hidden;
+  scroll-behavior: smooth;
   justify-content: center;
   align-items: center;
-  margin: 0;
 }
 
 .header-box {
@@ -271,18 +272,17 @@ input[type="search"]:focus {
   display: flex;
   flex-direction: column;
   width: 100vw;
+  height: 100vh;
   z-index: 8;
   position: relative;
   align-items: center;
+  justify-content: center;
 }
 
 .Our-Museum {
-  margin-top: -5rem;
+  margin-top: 40%;
 }
 
-.Explore {
-  margin-top: 5rem;
-}
 .Explore-text-box {
   display: flex;
   flex-direction: column;
@@ -301,12 +301,8 @@ input[type="search"]:focus {
   overflow: hidden;
   position: static;
   width: 90%;
-  height: 180vh;
+  height: 100%;
   align-items: center;
-}
-
-.Transition-box-Our-Museum {
-  margin-top: -8rem;
 }
 
 .explore-img,
@@ -374,14 +370,16 @@ h1,
 h3 a {
   overflow: hidden;
   height: 100vh;
+  margin: 0 auto;
 }
 
 .h2-wrapper {
   display: grid;
-  width: 80vw;
+  width: 100vw;
   overflow: hidden;
   justify-content: center;
   position: static;
+  margin: 0 auto;
 }
 
 .h2-our-museum {
@@ -391,7 +389,8 @@ h3 a {
 }
 
 .Our-Museum-text-box {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -405,7 +404,7 @@ h3 a {
   width: 18rem;
   height: 5rem;
   z-index: 10;
-  margin-top: -10rem;
+  margin: 0 auto;
 }
 
 .h1-text {
@@ -421,11 +420,12 @@ h3 a {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 200vh;
+  height: 80vh;
   z-index: 8;
   position: relative;
   align-items: center;
-  margin: auto;
+  margin-top: 62%;
+  background-color: transparent;
 }
 
 .header-news-box {
@@ -433,11 +433,13 @@ h3 a {
   width: 100vw;
   justify-content: center;
   z-index: 9;
+  margin: 0 auto;
 }
 
 .h2-news {
   width: 100%;
   justify-self: center;
+  margin: 0 auto;
 }
 
 .h3-news {
@@ -450,7 +452,7 @@ h3 a {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: -5rem;
+  /* margin-top: -5rem; */
 }
 
 .image-slideshow {
@@ -502,6 +504,7 @@ h3 a {
   justify-self: center;
   padding-top: 2rem;
   z-index: 10;
+  margin: 0 auto;
 }
 
 .slideshow-text {
@@ -632,21 +635,20 @@ label {
 /* GET INVOLVED SECTION HOME*/
 
 .Get-involved {
-  width: 100%;
-  height: 100vh;
+  width: 50%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 0;
   padding-bottom: 5rem;
+  margin-top: 60%;
   z-index: 12;
-  margin: auto;
+  aspect-ratio: revert;
 }
 
 .Get-involved-header-box {
   display: grid;
   justify-content: center;
-  z-index: 12;
   width: 100vw;
 }
 

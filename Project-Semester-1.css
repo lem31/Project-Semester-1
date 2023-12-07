@@ -754,8 +754,7 @@ footer {
 
   .header-box {
     justify-self: center;
-    z-index: 8;
-    position: relative;
+    overflow-y: hidden;
   }
 
   .logo {
@@ -774,14 +773,11 @@ footer {
 
   nav {
     grid-area: Hamburger;
-    z-index: 12;
   }
 
   .mobile-link {
-    position: static;
     text-wrap: nowrap;
     background-color: var(--Primary-base-color);
-    z-index: 12;
     font-size: var(--Main-Nav-link-font-size);
     font-family: var(--Secondary-font-family);
     text-decoration: none;
@@ -805,16 +801,15 @@ footer {
     display: flex;
     flex-direction: column;
     width: 250px;
-    height: 100%;
     padding-left: 0;
-    z-index: 12;
     margin-left: 1rem;
     margin-top: -4.5rem;
-    position: static;
   }
 
   .hamburger {
     display: block;
+    position: static;
+    margin-bottom: 30rem;
   }
 
   #drop-down-checkbox:checked ~ .mobile-link {
@@ -893,7 +888,7 @@ footer {
   .search-icon-mob {
     grid-area: Search;
     display: block;
-    z-index: 12;
+
     width: 80px;
     height: 80px;
   }
@@ -919,9 +914,7 @@ footer {
     justify-self: center;
     justify-content: center;
     border: 3px solid orange;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+    overflow-y: hidden;
     position: relative;
   }
 
@@ -960,7 +953,6 @@ footer {
     padding-left: 0.7rem;
     width: 280px;
     height: 15rem;
-    z-index: 10;
     gap: 2rem;
   }
 

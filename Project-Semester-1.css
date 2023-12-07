@@ -90,7 +90,7 @@ main {
   display: flex;
   flex-direction: column;
 
-  overflow-y: hidden;
+  overflow: hidden;
   scroll-behavior: smooth;
   justify-content: center;
   align-items: center;
@@ -257,8 +257,8 @@ input[type="search"]:focus {
 .Our-Museum {
   display: flex;
   flex-direction: column;
-  width: 700px;
-  height: 700px;
+  width: 100%;
+  height: 100%;
   z-index: 8;
   position: static;
   align-items: center;
@@ -274,7 +274,7 @@ input[type="search"]:focus {
 }
 
 .Our-Museum {
-  margin-top: 36%;
+  margin-top: 35%;
 }
 
 .Explore-text-box {
@@ -323,7 +323,7 @@ input[type="search"]:focus {
   z-index: 8;
   position: absolute;
   width: 90vw;
-  height: 80%;
+  height: 800px;
   margin: 0;
 }
 
@@ -416,20 +416,23 @@ h3 a {
 .Special-Events {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  height: 500px;
+  width: 700px;
+  height: 700px;
   z-index: 8;
   position: static;
   align-items: center;
-  margin-top: 38%;
+  margin-top: 80%;
   background-color: transparent;
 }
 
 .header-news-box {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   width: 100vw;
+  height: 100%;
+  padding-bottom: 10rem;
   justify-content: center;
-  z-index: 9;
+  z-index: 12;
   margin: 0 auto;
 }
 
@@ -445,18 +448,18 @@ h3 a {
 
 .img-slideshow-wrapper {
   width: 90vw;
-  height: 100vh;
+  height: 100%;
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: -8rem;
+  margin-top: -20rem;
 }
 
 .image-slideshow {
   display: flex;
   flex-direction: column;
   width: 90vw;
-  height: 300vh;
+  height: 340vh;
   position: relative;
   overflow: hidden;
 }
@@ -802,7 +805,7 @@ footer {
     position: absolute;
     z-index: 12;
     margin-left: 1rem;
-    margin-top: -7.2rem;
+    margin-top: -4.5rem;
   }
 
   .hamburger {
@@ -842,7 +845,7 @@ footer {
 
   .logo {
     padding-left: 0;
-    margin-top: 20%;
+    margin-top: 45%;
     width: 20rem;
   }
 
@@ -884,9 +887,10 @@ footer {
     display: flex;
     flex-direction: row;
     width: 28vw;
-    height: 210px;
+    height: 200px;
     justify-content: end;
     align-items: center;
+    margin-top: 22%;
   }
 
   .search-icon-mob {
@@ -940,6 +944,7 @@ footer {
 
   .Explore {
     height: 350px;
+    margin-top: 0;
   }
 
   .Explore-text-box {
@@ -957,16 +962,30 @@ footer {
     gap: 2rem;
   }
 
+  .Our-Museum {
+    margin-top: 45%;
+  }
+
+  .img-box {
+    height: 300px;
+  }
+
   .Special-Events {
     height: 500px;
-
-    margin-top: 15%;
   }
 
   .h1-text {
     font-size: var(--Body-1-and-2-T-M-font-size);
     padding-left: 2rem;
     position: static;
-    height: 100rem;
+    height: 100%;
+  }
+
+  .h1 {
+    height: 100%;
+  }
+  .Transition-box {
+    width: 50%;
+    height: 50%;
   }
 }

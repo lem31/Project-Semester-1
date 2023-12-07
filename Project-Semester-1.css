@@ -727,7 +727,15 @@ footer {
   font-family: var(--Secondary-font-family);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
+  .Our-Museum {
+    margin-top: -30%;
+  }
+
+  .Special-Events {
+    margin-top: -5%;
+  }
+
   .Mob-grid-box {
     width: 100%;
     display: grid;
@@ -917,8 +925,228 @@ footer {
     overflow-x: hidden;
   }
 
-  main {
-    overflow-y: scroll;
+  h1,
+  h3 a {
+    font-size: var(--Header-1-Tablet-Mobile-font-size);
+  }
+
+  .h4-Get-Involved,
+  .h2-our-museum {
+    font-family: var(--Secondary-font-family);
+    font-size: var(--Header-2-Tablet-Mobile-font-size);
+  }
+
+  .Explore-text-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2rem;
+    padding-left: 0.7rem;
+    width: 280px;
+    height: 15rem;
+    z-index: 10;
+    gap: 2rem;
+  }
+
+  .h1-text {
+    font-size: var(--Body-1-and-2-T-M-font-size);
+    padding-left: 2rem;
+    position: static;
+    height: 100rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+  .Mob-grid-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "Hamburger Logo Search";
+  }
+
+  .header-box {
+    justify-self: center;
+  }
+
+  .logo {
+    grid-area: Logo;
+  }
+
+  .search-box {
+    grid-area: search;
+  }
+
+  .search-icon-desktop,
+  .more-btn,
+  .desktop-link {
+    display: none;
+  }
+
+  nav {
+    grid-area: Hamburger;
+  }
+
+  .mobile-link {
+    position: static;
+    text-wrap: nowrap;
+    background-color: var(--Primary-base-color);
+    z-index: 12;
+    font-size: var(--Main-Nav-link-font-size);
+    font-family: var(--Secondary-font-family);
+    text-decoration: none;
+    margin-left: 1.5rem;
+  }
+
+  #mobile-link-1 {
+    margin-top: -1.5rem;
+  }
+
+  .nav-wrapper {
+    background-color: var(--Secondary-base-color);
+    display: flex;
+    flex-direction: column;
+    position: static;
+    justify-content: start;
+    align-items: start;
+    padding-right: 0;
+  }
+
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 5vh;
+    padding-left: 0;
+    position: absolute;
+    z-index: 12;
+    margin-left: 1rem;
+    margin-top: -7.2rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  #drop-down-checkbox:checked ~ .mobile-link {
+    display: block;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
+
+  .mobile-link {
+    font-size: var(--Main-Nav-link-font-size);
+    font-family: var(--Secondary-font-family);
+    text-decoration: none;
+    position: static;
+    z-index: 12;
+  }
+
+  #search-bar {
+    visibility: hidden;
+  }
+
+  .logo-wrapper {
+    grid-area: Logo;
+    max-width: 30vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    margin-left: 10%;
+  }
+
+  .logo {
+    padding-left: 0;
+    margin-top: 20%;
+    width: 20rem;
+  }
+
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    height: 200%;
+    width: 100%;
+  }
+
+  .search-box-wrapper {
+    grid-area: Search;
+    display: block;
+    width: 50px;
+    height: 5vh;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .search-box {
+    grid-area: Search;
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: transparent;
+    display: block;
+    flex-direction: column;
+    width: 50px;
+    height: 5vh;
+    padding: 0;
+    z-index: 12;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .Logo-Search {
+    grid-area: Logo;
+  }
+
+  .mob-search-box {
+    display: flex;
+    flex-direction: row;
+    width: 28vw;
+    height: 210px;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .search-icon-mob {
+    grid-area: Search;
+    display: block;
+    z-index: 12;
+    width: 80px;
+    height: 80px;
+  }
+
+  footer {
+    background-color: var(--Primary-base-color);
+  }
+
+  .footer-header {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  body {
+    background-color: var(--Secondary-base-color);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    border: 3px solid orange;
+  }
+
+  header {
+    justify-self: center;
+    justify-content: center;
+    border: 3px solid orange;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    overflow-x: hidden;
   }
 
   h1,
@@ -942,11 +1170,23 @@ footer {
     padding-top: 2rem;
     padding-left: 0.7rem;
     width: 280px;
+    height: 15rem;
     z-index: 10;
+    gap: 2rem;
   }
+
   .h1-text {
     font-size: var(--Body-1-and-2-T-M-font-size);
-    margin-top: -10rem;
     padding-left: 2rem;
+    position: static;
+    height: 100rem;
+  }
+
+  .Our-Museum {
+    margin-top: 10%;
+  }
+
+  .Special-Events {
+    margin-top: 26%;
   }
 }

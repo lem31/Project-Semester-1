@@ -279,11 +279,16 @@ input[type="search"]:focus {
   justify-content: center;
 }
 
+.Explore {
+  margin-top: 5rem;
+}
+
 .Our-Museum {
-  margin-top: 40%;
+  margin-top: 38%;
 }
 
 .Explore-text-box {
+  height: 20rem;
   display: flex;
   flex-direction: column;
   position: static;
@@ -303,6 +308,10 @@ input[type="search"]:focus {
   width: 90%;
   height: 100%;
   align-items: center;
+}
+
+.Transition-box-Our-Museum {
+  margin-top: -7rem;
 }
 
 .explore-img,
@@ -411,7 +420,6 @@ h3 a {
   font-weight: bold;
   overflow: hidden;
   height: 100vh;
-  margin-top: -3rem;
 }
 
 /* NEWS SECTION */
@@ -424,7 +432,7 @@ h3 a {
   z-index: 8;
   position: relative;
   align-items: center;
-  margin-top: 62%;
+  margin-top: 49%;
   background-color: transparent;
 }
 
@@ -452,7 +460,7 @@ h3 a {
   display: grid;
   align-items: center;
   justify-content: center;
-  /* margin-top: -5rem; */
+  margin-top: -8rem;
 }
 
 .image-slideshow {
@@ -641,7 +649,7 @@ label {
   flex-direction: column;
   align-items: center;
   padding-bottom: 5rem;
-  margin-top: 60%;
+  margin-top: 55%;
   z-index: 12;
   aspect-ratio: revert;
 }

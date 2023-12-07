@@ -83,10 +83,10 @@ main {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: auto;
+  height: 200%;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .header-box {
@@ -271,7 +271,6 @@ input[type="search"]:focus {
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: auto;
   z-index: 8;
   position: relative;
   align-items: center;
@@ -287,7 +286,7 @@ input[type="search"]:focus {
 .Explore-text-box {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: static;
   align-items: center;
   justify-content: start;
   justify-self: center;
@@ -300,9 +299,9 @@ input[type="search"]:focus {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  position: relative;
-  width: 100%;
-  height: 200vh;
+  position: static;
+  width: 90%;
+  height: 180vh;
   align-items: center;
 }
 
@@ -312,12 +311,9 @@ input[type="search"]:focus {
 
 .explore-img,
 .Our-Museum-img {
-  object-fit: cover;
-
+  object-fit: contain;
   position: relative;
-  width: 100%;
-
-  height: 100%;
+  width: 88vw;
   border: 8px solid var(--Primary-base-color);
 }
 
@@ -326,7 +322,7 @@ input[type="search"]:focus {
   opacity: 0;
   z-index: 8;
   position: absolute;
-  width: 86vw;
+  width: 90vw;
   height: 80%;
   margin: 0;
 }
@@ -385,6 +381,7 @@ h3 a {
   width: 80vw;
   overflow: hidden;
   justify-content: center;
+  position: static;
 }
 
 .h2-our-museum {
@@ -424,11 +421,11 @@ h3 a {
   display: flex;
   flex-direction: column;
   width: 100vw;
-
+  height: 200vh;
   z-index: 8;
   position: relative;
   align-items: center;
-  margin-top: -8rem;
+  margin: auto;
 }
 
 .header-news-box {
@@ -448,7 +445,7 @@ h3 a {
 }
 
 .img-slideshow-wrapper {
-  width: 90%;
+  width: 90vw;
   height: 100vh;
   display: grid;
   align-items: center;
@@ -497,7 +494,6 @@ h3 a {
   display: flex;
   flex-direction: column;
   position: absolute;
-  max-height: 500px;
   height: 100%;
   width: 100%;
   position: absolute;
@@ -637,13 +633,14 @@ label {
 
 .Get-involved {
   width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 0;
   padding-bottom: 5rem;
-  padding-top: 60rem;
-  /* z-index: 12; */
+  z-index: 12;
+  margin: auto;
 }
 
 .Get-involved-header-box {
@@ -663,6 +660,7 @@ label {
   position: relative;
   object-fit: contain;
   background-color: var(--Secondary-base-color);
+  z-index: 12;
 }
 
 .support-box img,

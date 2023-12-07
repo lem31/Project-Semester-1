@@ -755,10 +755,7 @@ footer {
   .header-box {
     justify-self: center;
     z-index: 8;
-  }
-
-  header {
-    z-index: 8;
+    position: relative;
   }
 
   .logo {
@@ -779,6 +776,7 @@ footer {
     grid-area: Hamburger;
     z-index: 12;
   }
+
   .mobile-link {
     position: static;
     text-wrap: nowrap;
@@ -791,14 +789,13 @@ footer {
   }
 
   #mobile-link-1 {
-    margin-top: -1.5rem;
+    margin-top: -6rem;
   }
-
   .nav-wrapper {
     background-color: var(--Secondary-base-color);
     display: flex;
     flex-direction: column;
-    position: static;
+    position: relative;
     justify-content: start;
     align-items: start;
     padding-right: 0;
@@ -808,11 +805,12 @@ footer {
     display: flex;
     flex-direction: column;
     width: 250px;
-    height: 5vh;
+    height: 100%;
     padding-left: 0;
     z-index: 12;
     margin-left: 1rem;
     margin-top: -4.5rem;
+    position: static;
   }
 
   .hamburger {
@@ -924,6 +922,7 @@ footer {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    position: relative;
   }
 
   html {

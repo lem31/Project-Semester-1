@@ -89,7 +89,6 @@ header {
 main {
   display: flex;
   flex-direction: column;
-
   overflow: hidden;
   scroll-behavior: smooth;
   justify-content: center;
@@ -755,6 +754,11 @@ footer {
 
   .header-box {
     justify-self: center;
+    z-index: 8;
+  }
+
+  header {
+    z-index: 8;
   }
 
   .logo {
@@ -773,8 +777,8 @@ footer {
 
   nav {
     grid-area: Hamburger;
+    z-index: 12;
   }
-
   .mobile-link {
     position: static;
     text-wrap: nowrap;
@@ -806,7 +810,6 @@ footer {
     width: 250px;
     height: 5vh;
     padding-left: 0;
-    position: absolute;
     z-index: 12;
     margin-left: 1rem;
     margin-top: -4.5rem;
@@ -822,14 +825,6 @@ footer {
 
   #desktop-exhibitions-link {
     margin-top: 0;
-  }
-
-  .mobile-link {
-    font-size: var(--Main-Nav-link-font-size);
-    font-family: var(--Secondary-font-family);
-    text-decoration: none;
-    position: static;
-    z-index: 12;
   }
 
   #search-bar {

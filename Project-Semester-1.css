@@ -274,7 +274,7 @@ input[type="search"]:focus {
   width: 100vw;
   height: 100vh;
   z-index: 8;
-  position: relative;
+  position: static;
   align-items: center;
   justify-content: center;
 }
@@ -284,19 +284,24 @@ input[type="search"]:focus {
 }
 
 .Our-Museum {
-  margin-top: 38%;
+  margin-top: 36%;
 }
 
 .Explore-text-box {
-  height: 20rem;
+  height: 30rem;
   display: flex;
   flex-direction: column;
   position: static;
   align-items: center;
-  justify-content: start;
-  justify-self: center;
-  padding-top: 2rem;
+  gap: 10rem;
+  padding-top: 8rem;
   z-index: 10;
+}
+
+.h1-text {
+  font-weight: bold;
+  overflow: hidden;
+  height: 20rem;
 }
 
 .Transition-box,
@@ -385,10 +390,10 @@ h3 a {
 .h2-wrapper {
   display: grid;
   width: 100vw;
-  overflow: hidden;
+  height: 2rem;
   justify-content: center;
   position: static;
-  margin: 0 auto;
+  padding-bottom: 12rem;
 }
 
 .h2-our-museum {
@@ -416,12 +421,6 @@ h3 a {
   margin: 0 auto;
 }
 
-.h1-text {
-  font-weight: bold;
-  overflow: hidden;
-  height: 100vh;
-}
-
 /* NEWS SECTION */
 
 .Special-Events {
@@ -430,9 +429,9 @@ h3 a {
   width: 100vw;
   height: 80vh;
   z-index: 8;
-  position: relative;
+  position: static;
   align-items: center;
-  margin-top: 49%;
+  margin-top: 38%;
   background-color: transparent;
 }
 

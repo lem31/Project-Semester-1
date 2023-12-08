@@ -55,7 +55,11 @@ p,
 }
 
 h1,
-h3 a {
+.Our-Museum-h3,
+h3 a,
+.h4-support,
+.h5-volunteer,
+.h6-internships {
   font-family: var(--Primary-font-family-Bold);
   font-size: var(--Header-1-Desktop-font-size);
 }
@@ -74,7 +78,6 @@ body,
 header,
 main,
 footer {
-  /* position: relative; */
   max-width: 100vw;
   width: 100%;
 }
@@ -682,8 +685,6 @@ label {
   height: 100%;
   justify-content: center;
   align-items: center;
-  font-size: var(--Header-1-Desktop-font-size);
-  font-family: var(--Header-1-Desktop-font-family);
 }
 
 .support-header-box,
@@ -745,6 +746,20 @@ footer {
 }
 
 @media (max-width: 1000px) {
+  .Our-Museum-h3 {
+    font-size: var(--Header-1-Tablet-Mobile-font-size);
+  }
+
+  h1,
+  h3 a {
+    font-size: var(--Header-1-Tablet-Mobile-font-size);
+  }
+
+  .h4-Get-Involved,
+  .h2-our-museum {
+    font-size: var(--Header-2-Tablet-Mobile-font-size);
+  }
+
   .Mob-grid-box {
     width: 100%;
     display: grid;
@@ -924,16 +939,6 @@ footer {
 
   html {
     overflow-x: hidden;
-  }
-
-  h1,
-  h3 a {
-    font-size: var(--Header-1-Tablet-Mobile-font-size);
-  }
-
-  .h4-Get-Involved,
-  .h2-our-museum {
-    font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 
   .Our-Museum-text-box {

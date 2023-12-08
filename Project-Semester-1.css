@@ -63,7 +63,8 @@ h1,
 .Our-Museum-h3 a,
 .h4-support,
 .h5-volunteer,
-.h6-internships {
+.h6-internships,
+.slideshow-header {
   font-family: var(--Primary-font-family-Bold);
   font-size: var(--Header-1-Desktop-font-size);
 }
@@ -748,7 +749,8 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  .Our-Museum-h3 {
+  .Our-Museum-h3,
+  .slideshow-header {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 

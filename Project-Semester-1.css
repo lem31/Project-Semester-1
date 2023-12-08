@@ -75,7 +75,8 @@ h1,
   font-family: var(--Secondary-font-family);
   font-size: var(--Header-2-Desktop-font-size);
 }
-.h1-text {
+.h1-text,
+.slideshow-text {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
@@ -515,8 +516,6 @@ h3 a {
 .slideshow-text {
   width: 100%;
   height: fit-content;
-  font-size: var(--Body-1-and-2-font-size);
-  font-family: var(--Secondary-font-family);
   background-color: var(--Primary-base-color);
 }
 
@@ -767,6 +766,10 @@ footer {
   .h2-our-museum,
   .h2-news {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
+  }
+
+  .slideshow-text {
+    font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
   .Mob-grid-box {

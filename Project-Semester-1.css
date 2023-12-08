@@ -9,7 +9,7 @@
   --Header-2-Desktop-font-size: 32px;
   --Header-1-Tablet-Mobile-font-size: 22px;
   --Header-2-Tablet-Mobile-font-size: 20px;
-  --Header-2-All-Screens-font-size: 18px;
+  --Header-3-All-Screens-font-size: 18px;
   --Body-1-and-2-font-size: 20px;
   --Body-1-and-2-T-M-font-size: 16px;
   --Main-Nav-link-font-size: 30px;
@@ -54,9 +54,13 @@ p,
   color: var(--Text-base-color);
 }
 
+.h3-news {
+  font-size: var(--Header-3-All-Screens-font-size);
+  font-family: var(--Secondary-font-family);
+}
+
 h1,
-.Our-Museum-h3,
-h3 a,
+.Our-Museum-h3 a,
 .h4-support,
 .h5-volunteer,
 .h6-internships {
@@ -413,6 +417,10 @@ h3 a {
   height: 5rem;
   z-index: 10;
   text-align: center;
+}
+
+.Our-Museum-h3 a {
+  text-decoration: none;
 }
 
 /* NEWS SECTION */

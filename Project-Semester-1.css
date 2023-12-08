@@ -529,31 +529,15 @@ h3 a {
   margin-top: -1.2rem;
 }
 
-#caret-1 {
-  position: absolute;
-  border-radius: 20px;
-  width: 500px;
-  margin-left: -5.7rem;
-  margin-top: 10rem;
-  z-index: 12;
-}
-
-#caret-2 {
-  position: absolute;
-  margin-left: -5.7rem;
-  margin-top: 10rem;
-
-  width: 500px;
-
-  z-index: 12;
-}
-
+#caret-1,
+#caret-2,
 #caret-3 {
   position: absolute;
-  margin-left: -5.7rem;
-  margin-top: 10rem;
-  z-index: 12;
+  /* border-radius: 20px; */
   width: 500px;
+  margin-left: -8rem;
+  margin-top: 30%;
+  z-index: 12;
 }
 
 form {

@@ -533,11 +533,32 @@ h3 a {
 #caret-2,
 #caret-3 {
   position: absolute;
-  /* border-radius: 20px; */
+  border-radius: 200px;
   width: 500px;
   margin-left: -8rem;
   margin-top: 30%;
   z-index: 12;
+  border: none;
+  padding: 0;
+  outline: 0;
+  background: none;
+  background-color: transparent;
+}
+
+#caret-3:hover {
+  transition: all 0.5s ease-in-out 0s;
+  transform: rotate(360deg);
+}
+
+#caret-1:hover,
+#caret-1:active {
+  transition: all 0.5s ease-in-out 0s;
+  transform: rotate(360deg);
+}
+
+#caret-2:hover {
+  transition: all 0.5s ease-in-out 0s;
+  transform: rotate(360deg);
 }
 
 form {

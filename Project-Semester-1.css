@@ -268,7 +268,6 @@ input[type="search"]:focus {
   width: 100%;
   height: 100%;
   z-index: 8;
-  /* position: static; */
   align-items: center;
   justify-content: center;
   overflow: hidden;
@@ -289,7 +288,6 @@ input[type="search"]:focus {
   height: 30rem;
   display: flex;
   flex-direction: column;
-  /* position: static; */
   align-items: center;
   gap: 10rem;
   padding-top: 8rem;
@@ -307,7 +305,6 @@ input[type="search"]:focus {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  /* position: static; */
   width: 90%;
   height: 100%;
   align-items: center;
@@ -323,16 +320,15 @@ input[type="search"]:focus {
   position: relative;
   width: 88vw;
   border: 8px solid var(--Primary-base-color);
+  filter: brightness(50%);
 }
 
 .img-box,
 .Our-Museum-img-box {
   opacity: 0;
-  z-index: 8;
   position: absolute;
-  width: 90vw;
+  width: 88vw;
   height: 800px;
-  margin: 0;
 }
 
 .Transition-box > div {

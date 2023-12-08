@@ -432,7 +432,7 @@ h3 a {
 .header-news-box {
   display: flex;
   flex-wrap: wrap;
-  width: 50vw;
+  width: 40vw;
   height: 100%;
   padding-bottom: 10rem;
 
@@ -754,7 +754,8 @@ footer {
   }
 
   .h4-Get-Involved,
-  .h2-our-museum {
+  .h2-our-museum,
+  .h2-news {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 

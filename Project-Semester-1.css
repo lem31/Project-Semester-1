@@ -83,7 +83,8 @@ h1,
 
 .mobile-link,
 .desktop-link,
-#more {
+#more,
+.desktop-drop-down-link {
   font-size: var(--Main-Nav-link-font-size);
   font-family: var(--Secondary-font-family);
 }

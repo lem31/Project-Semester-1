@@ -81,6 +81,13 @@ h1,
   font-size: var(--Body-1-and-2-font-size);
 }
 
+.mobile-link,
+.desktop-link,
+#more {
+  font-size: var(--Main-Nav-link-font-size);
+  font-family: var(--Secondary-font-family);
+}
+
 body,
 header,
 main,
@@ -178,17 +185,9 @@ main {
   width: 100%;
 }
 
-nav a {
-  font-family: var(--Secondary-font-family);
-  font-size: var(--Main-Nav-link-font-size);
-  font-weight: bold;
-}
-
 .desktop-link {
   text-decoration: none;
   margin-left: 1rem;
-  font-size: var(--Main-Nav-link-font-size);
-  font-family: var(--Secondary-font-family);
 }
 
 #explore-link {
@@ -220,8 +219,6 @@ input[type="search"]:focus {
 
 .mobile-link {
   display: none;
-  font-size: var(--Main-Nav-link-font-size);
-  font-family: var(--Secondary-font-family);
   text-decoration: none;
   position: relative;
   z-index: 999;
@@ -244,11 +241,8 @@ input[type="search"]:focus {
   border: none;
   outline: none;
   background: none;
-  font-family: var(--Secondary-font-family);
-  font-size: var(--Main-Nav-link-font-size);
   text-decoration: none;
   position: relative;
-  margin-top: -0.1rem;
 }
 
 #drop-down-checkbox {
@@ -803,8 +797,6 @@ footer {
   .mobile-link {
     text-wrap: nowrap;
     background-color: var(--Primary-base-color);
-    font-size: var(--Main-Nav-link-font-size);
-    font-family: var(--Secondary-font-family);
     text-decoration: none;
     margin-left: 1.5rem;
   }
@@ -1064,8 +1056,6 @@ footer {
   .mobile-link {
     text-wrap: nowrap;
     background-color: var(--Primary-base-color);
-    font-size: var(--Main-Nav-link-font-size);
-    font-family: var(--Secondary-font-family);
     text-decoration: none;
     margin-left: 1.5rem;
   }

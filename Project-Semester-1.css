@@ -65,7 +65,8 @@ h3 a,
 }
 
 .h4-Get-Involved,
-.h2-our-museum {
+.h2-our-museum,
+.h2-news {
   font-family: var(--Secondary-font-family);
   font-size: var(--Header-2-Desktop-font-size);
 }
@@ -431,18 +432,15 @@ h3 a {
 .header-news-box {
   display: flex;
   flex-wrap: wrap;
-  width: 100vw;
+  width: 50vw;
   height: 100%;
   padding-bottom: 10rem;
-  justify-content: center;
+
   z-index: 12;
-  margin: 0 auto;
 }
 
 .h2-news {
   width: 100%;
-  justify-self: center;
-  margin: 0 auto;
 }
 
 .h3-news {

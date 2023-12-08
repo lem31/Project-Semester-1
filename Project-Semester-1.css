@@ -438,15 +438,15 @@ h3 a {
 .header-news-box {
   display: flex;
   flex-wrap: wrap;
-  width: 40vw;
+  width: 30vw;
   height: 100%;
   padding-bottom: 10rem;
-
   z-index: 12;
 }
 
 .h2-news {
   width: 100%;
+  text-wrap: nowrap;
 }
 
 .h3-news {
@@ -510,7 +510,6 @@ h3 a {
   justify-content: start;
   padding-top: 2rem;
   z-index: 10;
-  margin: 0 auto;
 }
 
 .slideshow-text {
@@ -750,10 +749,14 @@ footer {
   margin-bottom: -0.1rem;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 501px) and (max-width: 1000px) {
   .Our-Museum-h3,
   .slideshow-header {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
+  }
+  .slideshow-header {
+    text-wrap: wrap;
+    width: 200px;
   }
 
   h1,
@@ -768,6 +771,14 @@ footer {
   .h2-our-museum,
   .h2-news {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
+  }
+
+  .h2-news {
+    text-wrap: wrap;
+  }
+
+  .header-news-box {
+    width: 20vw;
   }
 
   .slideshow-text {
@@ -976,5 +987,285 @@ footer {
   .Transition-box {
     width: 50%;
     height: 50%;
+  }
+
+  #caret-1,
+  #caret-2,
+  #caret-3 {
+    width: 440px;
+
+    margin-left: -9rem;
+  }
+
+  #caret-1 {
+    margin-top: 30%;
+  }
+
+  #caret-2 {
+    margin-top: 24%;
+  }
+  #caret-3 {
+    margin-top: 18%;
+  }
+}
+
+@media (max-width: 500px) {
+  .Our-Museum-h3,
+  .slideshow-header {
+    font-size: var(--Header-1-Tablet-Mobile-font-size);
+  }
+
+  .slideshow-header {
+    text-wrap: wrap;
+    width: 200px;
+  }
+
+  h1,
+  h3 a,
+  .h4-support,
+  .h5-volunteer,
+  .h6-internships {
+    font-size: var(--Header-1-Tablet-Mobile-font-size);
+  }
+
+  .h4-Get-Involved,
+  .h2-our-museum,
+  .h2-news {
+    font-size: var(--Header-2-Tablet-Mobile-font-size);
+  }
+
+  .h2-news {
+    text-wrap: wrap;
+  }
+
+  .header-news-box {
+    width: 20vw;
+  }
+
+  .slideshow-text {
+    font-size: var(--Body-1-and-2-T-M-font-size);
+  }
+
+  .Mob-grid-box {
+    width: 100vw;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-icon-desktop,
+  .more-btn,
+  .desktop-link {
+    display: none;
+  }
+
+  .mobile-link {
+    text-wrap: nowrap;
+    background-color: var(--Primary-base-color);
+    font-size: var(--Main-Nav-link-font-size);
+    font-family: var(--Secondary-font-family);
+    text-decoration: none;
+    margin-left: 1.5rem;
+  }
+
+  #mobile-link-1 {
+    margin-top: -6rem;
+  }
+
+  .nav-wrapper {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-right: 0;
+  }
+
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 0;
+    margin-left: 10%;
+
+    position: absolute;
+    z-index: 999;
+  }
+
+  .hamburger {
+    display: block;
+
+    margin-bottom: 30rem;
+  }
+
+  #drop-down-checkbox:checked ~ .mobile-link {
+    display: block;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
+
+  #search-bar {
+    visibility: hidden;
+  }
+
+  .logo-wrapper {
+    flex-direction: column;
+    height: 280px;
+    width: 300px;
+    justify-content: end;
+    margin-left: 30%;
+  }
+
+  .logo {
+    padding-left: 0;
+    width: 20rem;
+  }
+
+  .text-box {
+    display: flex;
+    flex-direction: column;
+    height: 200%;
+    width: 100%;
+  }
+
+  .search-box-wrapper {
+    grid-area: Search;
+    display: block;
+    width: 50px;
+    height: 5vh;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .search-box {
+    grid-area: Search;
+    padding-bottom: 0;
+    padding-left: 0;
+    background-color: transparent;
+    display: block;
+    flex-direction: column;
+    width: 50px;
+    height: 5vh;
+    padding: 0;
+    z-index: 12;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .mob-search-box {
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    width: 200px;
+    align-items: end;
+    justify-content: end;
+  }
+
+  .search-icon-mob {
+    grid-area: Search;
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-left: -8rem;
+  }
+
+  footer {
+    background-color: var(--Primary-base-color);
+  }
+
+  .footer-header {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  body {
+    background-color: var(--Secondary-base-color);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    border: 3px solid orange;
+  }
+
+  header {
+    justify-self: center;
+    justify-content: center;
+    border: 3px solid orange;
+    overflow-y: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .Our-Museum-text-box {
+    margin-top: 90%;
+  }
+
+  .Explore {
+    height: 350px;
+    margin-top: 0;
+  }
+
+  .Explore-text-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    padding-top: 2rem;
+    padding-left: 0.7rem;
+    width: 280px;
+    height: 15rem;
+    gap: 2rem;
+  }
+
+  .Our-Museum {
+    margin-top: 45%;
+  }
+
+  .img-box {
+    height: 300px;
+  }
+
+  .Special-Events {
+    height: 500px;
+  }
+
+  .h1-text {
+    font-size: var(--Body-1-and-2-T-M-font-size);
+    padding-left: 2rem;
+    position: static;
+    height: 100%;
+  }
+
+  .h1 {
+    height: 100%;
+  }
+  .Transition-box {
+    width: 50%;
+    height: 50%;
+  }
+
+  #caret-1,
+  #caret-2,
+  #caret-3 {
+    width: 200px;
+
+    margin-left: -4rem;
+  }
+
+  #caret-1 {
+    margin-top: 50%;
+  }
+
+  #caret-2 {
+    margin-top: 28%;
+  }
+  #caret-3 {
+    margin-top: 5%;
   }
 }

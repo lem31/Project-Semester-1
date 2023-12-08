@@ -8,7 +8,8 @@
   --Header-1-Desktop-font-size: 40px;
   --Header-2-Desktop-font-size: 32px;
   --Header-1-Tablet-Mobile-font-size: 22px;
-  --Header-2-Tablet-Mobile-font-size: 18px;
+  --Header-2-Tablet-Mobile-font-size: 20px;
+  --Header-2-All-Screens-font-size: 18px;
   --Body-1-and-2-font-size: 20px;
   --Body-1-and-2-T-M-font-size: 16px;
   --Main-Nav-link-font-size: 30px;
@@ -169,7 +170,7 @@ main {
 
 nav a {
   font-family: var(--Secondary-font-family);
-  font-size: 25px;
+  font-size: var(--Main-Nav-link-font-size);
   font-weight: bold;
 }
 
@@ -805,7 +806,7 @@ footer {
     width: 280px;
     padding-left: 0;
     margin-left: 1rem;
-    margin-top: -5rem;
+    margin-top: -6rem;
     position: absolute;
     z-index: 999;
   }
@@ -886,7 +887,7 @@ footer {
     height: 200px;
     justify-content: end;
     align-items: center;
-    margin-top: 10%;
+    margin-top: -18%;
   }
 
   .search-icon-mob {

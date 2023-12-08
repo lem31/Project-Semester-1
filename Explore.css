@@ -1,0 +1,30 @@
+.mobile-and-drop-box {
+  margin-top: -2.7rem;
+  margin-left: 29rem;
+}
+
+#more {
+  margin-top: 0.2rem;
+}
+
+#desktop-exhibitions-link {
+  margin-top: -5.8rem;
+}
+
+.For-kids {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+.For-kids-banner {
+  width: 100vw;
+  height: 30vw;
+  display: flex;
+}
+
+.For-kids-banner-img {
+  width: 100%;
+  object-fit: cover;
+}

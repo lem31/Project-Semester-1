@@ -775,25 +775,12 @@ footer {
   }
 
   .Mob-grid-box {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "Hamburger Logo Search";
-  }
-
-  .header-box {
-    justify-self: center;
-
-    z-index: 2;
-  }
-
-  .logo {
-    grid-area: Logo;
-  }
-
-  .search-box {
-    grid-area: search;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 
   .search-icon-desktop,
@@ -835,7 +822,7 @@ footer {
     width: 280px;
     padding-left: 0;
     margin-left: 1rem;
-    margin-top: -6rem;
+    /* margin-top: -6rem; */
     position: absolute;
     z-index: 999;
   }
@@ -859,19 +846,19 @@ footer {
   }
 
   .logo-wrapper {
-    grid-area: Logo;
+    /* grid-area: Logo;
     max-width: 30vw;
     height: 30vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: end;
-    margin-left: 8%;
+    align-items: end; */
+    /* margin-left: 8%; */
   }
 
   .logo {
     padding-left: 0;
-    margin-top: 30%;
+    /* margin-top: 30%; */
     width: 20rem;
   }
 
@@ -906,17 +893,17 @@ footer {
   }
 
   .Logo-Search {
-    grid-area: Logo;
+    /* grid-area: Logo; */
   }
 
   .mob-search-box {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     width: 28vw;
     height: 200px;
     justify-content: end;
-    align-items: center;
-    margin-top: -18%;
+    align-items: center; */
+    /* margin-top: -18%; */
   }
 
   .search-icon-mob {

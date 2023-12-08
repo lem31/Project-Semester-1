@@ -644,12 +644,11 @@ label {
 
 .Get-involved {
   width: 50%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 5rem;
-  margin-top: 55%;
+  margin-top: 48%;
   z-index: 12;
   aspect-ratio: revert;
 }
@@ -758,7 +757,10 @@ footer {
   }
 
   h1,
-  h3 a {
+  h3 a,
+  .h4-support,
+  .h5-volunteer,
+  .h6-internships {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 

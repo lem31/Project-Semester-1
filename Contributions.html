@@ -18,44 +18,110 @@
 
   <body>
     <header>
-      <div class="Logo-Search">
-        <img
-          src="Images/Logo-Semester-Project-1-1-removebg-preview.png"
-          alt="CS Museum Logo"
-        />
+      <div class="header-box">
+        <div class="Mob-grid-box">
+          <div class="logo-wrapper">
+            <img
+              class="logo"
+              src="Images/Logo-Semester-Project-1-1-removebg-preview.png"
+              alt="CS Museum Logo"
+            />
+          </div>
 
-        <div class="search-box">
-          <img
-            src="Images/Turquoise-search-icon.png"
-            alt="Turquoise search icon"
-          />
+          <div class="mob-search-box">
+            <img
+              class="search-icon-mob"
+              src="Images/Turquoise-search-icon.png"
+              alt="Turquoise search icon"
+            />
+          </div>
+          <div class="search-box-wrapper">
+            <div class="search-box">
+              <img
+                class="search-icon-desktop"
+                src="Images/Black-search-Icon.png"
+                alt=""
+              />
+              <form>
+                <input
+                  type="search"
+                  id="search-bar"
+                  name="search-b"
+                  placeholder="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
 
-          <img src="Images/Black-search-Icon.png" alt="Black search icon" />
-          <input type="search" id="search-bar" name="search-b" />
+        <div class="nav-wrapper">
+          <nav id="Nav-menu">
+            <a class="desktop-link" id="home-link" class="desktop-link" href=""
+              >Home</a
+            >
+            <a class="desktop-link" href="About.html">About</a>
+            <a class="desktop-link" href="Contact.html">Contact</a>
+            <a id="explore-link" class="desktop-link" href="Explore.html"
+              >Explore</a
+            >
+
+            <div class="mobile-and-drop-box">
+              <input type="checkbox" id="drop-down-checkbox" />
+              <label id="more" for="drop-down-checkbox">
+                <span class="more-btn">More</span>
+                <img
+                  class="hamburger"
+                  src="Images/Hamburger-icon.png"
+                  alt="Hamburger icon"
+                />
+              </label>
+
+              <a class="mobile-link" id="mobile-link-1" href="">Home</a>
+              <a class="mobile-link" id="mobile-link-2" href="About.html"
+                >About</a
+              >
+              <a class="mobile-link" id="mobile-link-3" href="Contact.html"
+                >Contact</a
+              >
+              <a class="mobilie-link" id="mobile-link-4" href="Explore.html"
+                >Explore</a
+              >
+
+              <a
+                class="mobile-link desktop-drop-down-link"
+                id="desktop-exhibitions-link"
+                href="Exhibitions.html"
+                >Exhibitions</a
+              >
+              <a
+                class="mobile-link desktop-drop-down-link"
+                href="Contributions.html"
+                >Contributions</a
+              >
+              <a
+                class="mobile-link desktop-drop-down-link"
+                href="Volunteer.html"
+                >Volunteer</a
+              >
+              <a
+                class="mobile-link desktop-drop-down-link"
+                href="Internships.html"
+                >Internships</a
+              >
+              <a
+                class="mobile-link desktop-drop-down-link"
+                href="Privacy-policy.html"
+                >Privacy Policy</a
+              >
+              <a
+                class="mobile-link desktop-drop-down-link"
+                href="Terms&Conditions.html"
+                >Terms & Conditions</a
+              >
+            </div>
+          </nav>
         </div>
       </div>
-
-      <input type="checkbox" id="mobile-checkbox" />
-      <label id="hamburger" for="mobile-checkbox">
-        <img src="Images/Hamburger-icon.png" alt="Hamburger icon" />
-      </label>
-
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="About.html">About</a>
-        <a href="Contact.html">Contact</a>
-        <a href="Explore.html">Explore</a>
-        <a href="">More</a>
-
-        <div class="Dropdown-links">
-          <a href="Exhibitions.html">Exhibitions</a>
-          <a href="Contributions.html">Contributions</a>
-          <a href="Volunteer.html">Volunteer</a>
-          <a href="Internships.html">Internships</a>
-          <a href="Privacy-policy.html">Privacy Policy</a>
-          <a href="Terms&Conditions.html">Terms & Conditions</a>
-        </div>
-      </nav>
     </header>
     <main>
       <section class="support">

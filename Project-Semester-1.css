@@ -223,8 +223,8 @@ input[type="search"]:focus {
   font-size: var(--Main-Nav-link-font-size);
   font-family: var(--Secondary-font-family);
   text-decoration: none;
-  position: static;
-  z-index: 12;
+  position: relative;
+  z-index: 999;
   background-color: var(--Primary-base-color);
 }
 

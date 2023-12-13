@@ -52,7 +52,9 @@ p,
 .Key-links-box a,
 .mobile-link,
 #more,
-.h4-Get-Involved {
+.h4-Get-Involved,
+.h1-explore,
+.h1-text-explore {
   color: var(--Text-base-color);
 }
 
@@ -66,7 +68,8 @@ h1,
 .h4-support,
 .h5-volunteer,
 .h6-internships,
-.slideshow-header {
+.slideshow-header,
+.h1-explore {
   font-family: var(--Primary-font-family-Bold);
   font-size: var(--Header-1-Desktop-font-size);
 }
@@ -78,7 +81,8 @@ h1,
   font-size: var(--Header-2-Desktop-font-size);
 }
 .h1-text,
-.slideshow-text {
+.slideshow-text,
+.h1-text-explore {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }

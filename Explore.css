@@ -15,16 +15,34 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
+
   align-items: center;
 }
 
 .For-kids-banner {
   width: 100vw;
-  height: 30vw;
+  height: 60vh;
   display: flex;
+  position: relative;
 }
 
 .For-kids-banner-img {
   width: 100%;
   object-fit: cover;
+}
+
+.For-kids-h1-text-box {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.h1-box {
+  height: 100px;
+  width: 400px;
+}
+
+.h1-explore {
+  width: 330px;
+  text-wrap: nowrap;
 }

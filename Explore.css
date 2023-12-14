@@ -29,6 +29,10 @@
   position: relative;
 }
 
+.Researchers-Banner {
+  padding-bottom: 10rem;
+}
+
 .For-kids-banner-img,
 .For-teachers-banner-img,
 .Researchers-banner-img {
@@ -41,14 +45,20 @@
   filter: brightness(50%);
 }
 
+.Researchers-banner-img {
+  filter: brightness(50%);
+}
+
 .For-kids-h1-text-box,
-.For-teachers-h2-text-box {
+.For-teachers-h2-text-box,
+.Researchers-h3-text-box {
   position: absolute;
   display: flex;
   flex-direction: column;
 }
 
-.For-teachers-h2-text-box {
+.For-teachers-h2-text-box,
+.Researchers-h3-text-box {
   padding-left: 5rem;
 }
 

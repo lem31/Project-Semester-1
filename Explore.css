@@ -11,7 +11,8 @@
   margin-top: -5.8rem;
 }
 
-.For-kids {
+.For-kids,
+.For-teachers {
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -19,19 +20,26 @@
   align-items: center;
 }
 
-.For-kids-banner {
+.For-kids-banner,
+.For-teachers-banner {
   width: 100vw;
   height: 60vh;
   display: flex;
   position: relative;
 }
 
-.For-kids-banner-img {
+.For-kids-banner-img,
+.For-teachers-banner-img {
   width: 100%;
   object-fit: cover;
 }
 
-.For-kids-h1-text-box {
+.For-teachers-banner-img {
+  height: 480px;
+}
+
+.For-kids-h1-text-box,
+.For-teachers-h2-text-box {
   position: absolute;
   display: flex;
   flex-wrap: wrap;

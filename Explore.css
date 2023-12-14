@@ -45,12 +45,14 @@
   flex-wrap: wrap;
 }
 
-.h1-box {
+.h1-box,
+.h2-box {
   height: 100px;
   width: 400px;
 }
 
-.h1-explore {
+.h1-explore,
+.h2-explore {
   width: 330px;
   text-wrap: nowrap;
 }

@@ -36,13 +36,18 @@
 
 .For-teachers-banner-img {
   height: 480px;
+  filter: brightness(50%);
 }
 
 .For-kids-h1-text-box,
 .For-teachers-h2-text-box {
   position: absolute;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.For-teachers-h2-text-box {
+  padding-left: 5rem;
 }
 
 .h1-box,
@@ -53,7 +58,6 @@
 
 .h1-explore,
 .h2-explore {
-  width: 330px;
   text-wrap: nowrap;
 }
 

@@ -21,7 +21,8 @@
 }
 
 .For-kids-banner,
-.For-teachers-banner {
+.For-teachers-banner,
+.Researchers-Banner {
   width: 100vw;
   height: 60vh;
   display: flex;
@@ -29,7 +30,8 @@
 }
 
 .For-kids-banner-img,
-.For-teachers-banner-img {
+.For-teachers-banner-img,
+.Researchers-banner-img {
   width: 100%;
   object-fit: cover;
 }

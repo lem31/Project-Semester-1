@@ -1036,6 +1036,14 @@ footer {
     margin-left: -10rem;
   }
 
+  .For-teachers-3-img-box {
+    margin-top: 35rem;
+  }
+
+  .for-kids-text {
+    background-color: var(--Secondary-base-color);
+  }
+
   #bumper-swing-box {
     z-index: 8;
     visibility: visible;
@@ -1043,19 +1051,16 @@ footer {
 
   #woolly-mammoth-box {
     z-index: 9;
-    /* visibility: hidden; */
     margin-left: -250rem;
   }
 
   #stars-club-box {
     z-index: 10;
-    /* visibility: hidden; */
     margin-left: -250rem;
   }
 
   #holiday-club-box {
     z-index: 11;
-    /* visibility: hidden; */
     margin-left: -250rem;
   }
 

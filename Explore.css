@@ -16,7 +16,6 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-
   align-items: center;
 }
 
@@ -91,6 +90,26 @@
     "Bumper Mammoth"
     "Stars Holiday";
   column-gap: 20px;
+}
+
+.For-kids-radio {
+  display: none;
+}
+
+#bumper-swing-box {
+  grid-area: Bumper;
+}
+
+#woolly-mammoth-box {
+  grid-area: Mammoth;
+}
+
+#stars-club-box {
+  grid-area: Stars;
+}
+
+#holiday-club-box {
+  grid-area: Holiday;
 }
 
 .for-kids-img-box {

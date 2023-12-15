@@ -70,7 +70,8 @@ h1,
 .h6-internships,
 .slideshow-header,
 .h1-explore,
-.h2-explore {
+.h2-explore,
+.h3-researchers {
   font-family: var(--Primary-font-family-Bold);
   font-size: var(--Header-1-Desktop-font-size);
 }
@@ -85,7 +86,9 @@ h1,
 .slideshow-text,
 .h1-text-explore,
 .for-kids-text,
-.h2-text {
+.h2-text,
+.for-teachers-text,
+.h3-text-researchers {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
@@ -758,9 +761,11 @@ footer {
 @media (min-width: 501px) and (max-width: 1000px) {
   .Our-Museum-h3,
   .slideshow-header,
-  .h2-explore {
+  .h2-explore,
+  .h3-researchers {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
+
   .slideshow-header {
     text-wrap: wrap;
     width: 200px;
@@ -793,7 +798,9 @@ footer {
   .h1-text,
   .h1-text-explore,
   .for-kids-text,
-  .h2-text {
+  .h2-tex,
+  .for-teachers-text,
+  .h3-text-researchers {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1024,7 +1031,8 @@ footer {
   .Our-Museum-h3,
   .slideshow-header,
   .h1-explore,
-  .h2-explore {
+  .h2-explore,
+  .h3-researchers {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -1058,7 +1066,9 @@ footer {
   .slideshow-text,
   .for-kids-text,
   .h1-text-explore,
-  .h2-text {
+  .h2-text,
+  .for-teachers-text,
+  .h3-text-researchers {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 

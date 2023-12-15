@@ -82,7 +82,8 @@ h1,
 }
 .h1-text,
 .slideshow-text,
-.h1-text-explore {
+.h1-text-explore,
+.for-kids-text {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
@@ -750,6 +751,8 @@ footer {
   margin-bottom: -0.1rem;
 }
 
+/* SMALL SCREENS */
+
 @media (min-width: 501px) and (max-width: 1000px) {
   .Our-Museum-h3,
   .slideshow-header {
@@ -764,7 +767,8 @@ footer {
   h3 a,
   .h4-support,
   .h5-volunteer,
-  .h6-internships {
+  .h6-internships,
+  .h1-explore {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -782,7 +786,10 @@ footer {
     width: 20vw;
   }
 
-  .slideshow-text {
+  .slideshow-text,
+  .h1-text,
+  .h1-text-explore,
+  .for-kids-text {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -974,7 +981,6 @@ footer {
   }
 
   .h1-text {
-    font-size: var(--Body-1-and-2-T-M-font-size);
     padding-left: 2rem;
     position: static;
     height: 100%;
@@ -1008,9 +1014,12 @@ footer {
   }
 }
 
+/* XTRA SMALL SCREENS */
+
 @media (max-width: 500px) {
   .Our-Museum-h3,
-  .slideshow-header {
+  .slideshow-header,
+  .h1-explore {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -1041,7 +1050,9 @@ footer {
     width: 20vw;
   }
 
-  .slideshow-text {
+  .slideshow-text,
+  .for-kids-text,
+  .h1-text-explore {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1233,7 +1244,6 @@ footer {
   }
 
   .h1-text {
-    font-size: var(--Body-1-and-2-T-M-font-size);
     padding-left: 2rem;
     position: static;
     height: 100%;

@@ -467,7 +467,7 @@ h3 a {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: -20rem;
+  margin-top: -15rem;
 }
 
 .image-slideshow {
@@ -481,7 +481,7 @@ h3 a {
 
 .slide {
   width: 90vw;
-  height: 400vh;
+  height: 100vh;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -492,7 +492,7 @@ h3 a {
   display: flex;
   flex-direction: column;
   width: 90vw;
-  height: 400vh;
+  height: 280vh;
   position: relative;
   padding-top: 10rem;
   background-color: black;
@@ -842,7 +842,6 @@ footer {
     width: 280px;
     padding-left: 0;
     margin-left: 10%;
-
     position: absolute;
     z-index: 999;
   }
@@ -988,6 +987,22 @@ footer {
     height: 500px;
   }
 
+  .image-slideshow {
+    width: 95vw;
+  }
+
+  .slide {
+    width: 10vw;
+  }
+
+  .slide-img-box {
+    width: 90vw;
+  }
+
+  .slideshow-img {
+    width: 90vw;
+  }
+
   .h1-text {
     padding-left: 2rem;
     position: static;
@@ -1005,20 +1020,19 @@ footer {
   #caret-1,
   #caret-2,
   #caret-3 {
-    width: 440px;
-
-    margin-left: -9rem;
+    width: 400px;
+    margin-left: -22rem;
   }
 
   #caret-1 {
-    margin-top: 30%;
+    margin-top: 17%;
   }
 
   #caret-2 {
-    margin-top: 24%;
+    margin-top: 8.5%;
   }
   #caret-3 {
-    margin-top: 18%;
+    margin-top: 1%;
   }
 }
 
@@ -1256,6 +1270,40 @@ footer {
     height: 500px;
   }
 
+  .image-slideshow {
+    width: 95vw;
+  }
+
+  .slide {
+    width: 10vw;
+  }
+
+  .slide-img-box {
+    width: 90vw;
+  }
+
+  .slideshow-img {
+    width: 90vw;
+  }
+
+  #caret-1,
+  #caret-2,
+  #caret-3 {
+    width: 300px;
+    margin-left: -16rem;
+  }
+
+  #caret-1 {
+    margin-top: 28%;
+  }
+
+  #caret-2 {
+    margin-top: 15%;
+  }
+  #caret-3 {
+    margin-top: 2%;
+  }
+
   .h1-text {
     padding-left: 2rem;
     position: static;
@@ -1268,24 +1316,5 @@ footer {
   .Transition-box {
     width: 50%;
     height: 50%;
-  }
-
-  #caret-1,
-  #caret-2,
-  #caret-3 {
-    width: 200px;
-
-    margin-left: -4rem;
-  }
-
-  #caret-1 {
-    margin-top: 50%;
-  }
-
-  #caret-2 {
-    margin-top: 28%;
-  }
-  #caret-3 {
-    margin-top: 5%;
   }
 }

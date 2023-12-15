@@ -115,6 +115,7 @@ body {
 
 header {
   background-color: var(--Secondary-base-color);
+  overflow-x: hidden;
 }
 
 main {
@@ -1018,96 +1019,6 @@ footer {
   }
   #caret-3 {
     margin-top: 18%;
-  }
-
-  /* EXPLORE PAGE */
-
-  .For-kids-wrapper {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    width: 200px;
-    height: 50px;
-  }
-
-  /* form {
-    display: flex;
-    flex-direction: column;
-  } */
-
-  .for-kids-img-box {
-    position: absolute;
-    margin-top: 30rem;
-    margin-left: -10rem;
-  }
-
-  .For-teachers-3-img-box {
-    margin-top: 35rem;
-  }
-
-  .for-kids-text {
-    background-color: var(--Secondary-base-color);
-  }
-
-  #bumper-swing-box {
-    z-index: 8;
-    visibility: visible;
-  }
-
-  #woolly-mammoth-box {
-    z-index: 9;
-    margin-left: -250rem;
-  }
-
-  #stars-club-box {
-    z-index: 10;
-    margin-left: -250rem;
-  }
-
-  #holiday-club-box {
-    z-index: 11;
-    margin-left: -250rem;
-  }
-
-  #For-kids-radio-1:checked ~ #woolly-mammoth-box {
-    margin-left: -10rem;
-  }
-
-  #For-kids-radio-2:checked ~ #stars-club-box {
-    margin-left: -10rem;
-  }
-
-  #For-kids-radio-3:checked ~ #holiday-club-box {
-    margin-left: -10rem;
-  }
-
-  .caret-explore {
-    position: absolute;
-    margin-left: 18rem;
-    margin-top: 12rem;
-    visibility: visible;
-  }
-
-  .For-kids-radio {
-    margin-top: 30rem;
-    position: relative;
-    z-index: 12;
-    display: none;
-  }
-
-  #caret-explore-1 {
-    z-index: 9;
-  }
-
-  #caret-explore-2 {
-    z-index: 8;
-  }
-  #caret-explore-3 {
-    z-index: 7;
-  }
-
-  #caret-explore-4 {
-    z-index: 6;
   }
 }
 

@@ -76,11 +76,12 @@
   width: 400px;
 }
 
-/* .caret-explore {
+.caret-explore {
   visibility: hidden;
-} */
+}
 
-.For-kids-wrapper {
+.For-kids-wrapper,
+form {
   width: 100vw;
   justify-content: center;
   display: grid;
@@ -140,7 +141,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-right: 10rem;
+  padding-right: 5rem;
 }
 
 .for-teachers-text-box {
@@ -154,4 +155,122 @@
 
 #for-teachers-text-box-3 {
   margin-right: 3rem;
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+  .For-kids-wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 50px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45%;
+  }
+
+  .Researchers-Banner {
+    padding-top: 10rem;
+  }
+
+  .for-kids-img-box {
+    position: absolute;
+    margin-top: 85rem;
+    margin-left: -10rem;
+  }
+
+  .for-kids-image {
+    width: 1200px;
+  }
+  .For-teachers-3-img-box {
+    padding-top: 10rem;
+  }
+
+  .lab-img {
+    width: 800px;
+  }
+
+  .for-kids-text {
+    background-color: var(--Secondary-base-color);
+  }
+
+  #bumper-swing-box {
+    z-index: 8;
+    visibility: visible;
+  }
+
+  #woolly-mammoth-box {
+    z-index: 9;
+    margin-left: -250rem;
+  }
+
+  #stars-club-box {
+    z-index: 10;
+    margin-left: -250rem;
+    padding-top: 2rem;
+  }
+
+  #holiday-club-box {
+    z-index: 11;
+    margin-left: -250rem;
+    padding-top: 2rem;
+  }
+
+  #For-kids-radio-1:checked ~ #woolly-mammoth-box {
+    margin-left: -10rem;
+  }
+
+  #For-kids-radio-2:checked ~ #stars-club-box {
+    margin-left: -10rem;
+  }
+
+  #For-kids-radio-3:checked ~ #holiday-club-box {
+    margin-left: -10rem;
+  }
+
+  .caret-explore {
+    position: absolute;
+    margin-left: 18rem;
+    margin-top: 15rem;
+    visibility: visible;
+  }
+
+  .For-kids-radio {
+    margin-top: 30rem;
+    position: relative;
+    z-index: 12;
+    display: none;
+  }
+
+  #caret-explore-1 {
+    z-index: 9;
+  }
+
+  #caret-explore-2 {
+    z-index: 8;
+  }
+  #caret-explore-3 {
+    z-index: 7;
+  }
+
+  #caret-explore-4 {
+    z-index: 6;
+  }
+
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 0;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
 }

@@ -1030,6 +1030,11 @@ footer {
     height: 50px;
   }
 
+  /* form {
+    display: flex;
+    flex-direction: column;
+  } */
+
   .for-kids-img-box {
     position: absolute;
     margin-top: 30rem;

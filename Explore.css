@@ -76,9 +76,9 @@
   width: 400px;
 }
 
-.caret-explore {
+/* .caret-explore {
   visibility: hidden;
-}
+} */
 
 .For-kids-wrapper {
   width: 100vw;
@@ -89,7 +89,6 @@
   grid-template-areas:
     "Bumper Mammoth"
     "Stars Holiday";
-  column-gap: 20px;
 }
 
 .For-kids-radio {

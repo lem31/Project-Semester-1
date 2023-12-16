@@ -204,6 +204,10 @@ form {
     width: 800px;
   }
 
+  .lab-img-box {
+    padding-left: 1rem;
+  }
+
   .for-kids-text {
     background-color: var(--Secondary-base-color);
   }
@@ -311,6 +315,11 @@ form {
     position: absolute;
     margin-top: 85rem;
     margin-left: -10rem;
+    width: 400px;
+  }
+
+  .for-kids-text-box {
+    width: 220px;
   }
 
   .for-kids-image {
@@ -433,9 +442,6 @@ form {
     margin-left: -10rem;
   }
 
-  .for-kids-image {
-    width: 1200px;
-  }
   .For-teachers-3-img-box {
     padding-top: 30rem;
   }
@@ -468,6 +474,11 @@ form {
     z-index: 11;
     margin-left: -250rem;
     padding-top: 2rem;
+  }
+
+  .teachers-img,
+  .for-kids-image {
+    width: 600px;
   }
 
   #For-kids-radio-1:checked ~ #woolly-mammoth-box {

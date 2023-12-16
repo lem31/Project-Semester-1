@@ -313,7 +313,7 @@ input[type="search"]:focus {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  width: 90%;
+  width: 100%;
   height: 100%;
   align-items: center;
 }
@@ -326,7 +326,7 @@ input[type="search"]:focus {
 .Our-Museum-img {
   object-fit: contain;
   position: relative;
-  width: 88vw;
+  width: 89vw;
   border: 8px solid var(--Primary-base-color);
   filter: brightness(50%);
 }
@@ -335,7 +335,7 @@ input[type="search"]:focus {
 .Our-Museum-img-box {
   opacity: 0;
   position: absolute;
-  width: 88vw;
+  width: 90vw;
   height: 800px;
 }
 

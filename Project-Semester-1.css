@@ -986,6 +986,10 @@ footer {
     height: 500px;
   }
 
+  .img-slideshow-wrapper {
+    margin-top: -18rem;
+  }
+
   .h1-text {
     padding-left: 2rem;
     position: static;

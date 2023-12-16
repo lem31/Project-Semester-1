@@ -990,6 +990,24 @@ footer {
     margin-top: -18rem;
   }
 
+  #caret-1,
+  #caret-2,
+  #caret-3 {
+    width: 400px;
+    margin-left: -8rem;
+  }
+
+  #caret-1 {
+    margin-top: 150px;
+  }
+
+  #caret-2 {
+    margin-top: 85px;
+  }
+  #caret-3 {
+    margin-top: 18px;
+  }
+
   .h1-text {
     padding-left: 2rem;
     position: static;
@@ -1002,24 +1020,6 @@ footer {
   .Transition-box {
     width: 50%;
     height: 50%;
-  }
-
-  #caret-1,
-  #caret-2,
-  #caret-3 {
-    width: 400px;
-    margin-left: -22rem;
-  }
-
-  #caret-1 {
-    margin-top: 110px;
-  }
-
-  #caret-2 {
-    margin-top: 55px;
-  }
-  #caret-3 {
-    margin-top: 4px;
   }
 }
 
@@ -1257,22 +1257,26 @@ footer {
     height: 500px;
   }
 
+  .img-slideshow-wrapper {
+    margin-top: -20rem;
+  }
+
   #caret-1,
   #caret-2,
   #caret-3 {
     width: 300px;
-    margin-left: -16rem;
+    margin-left: -5rem;
   }
 
   #caret-1 {
-    margin-top: 28%;
+    margin-top: 150px;
   }
 
   #caret-2 {
-    margin-top: 15%;
+    margin-top: 85px;
   }
   #caret-3 {
-    margin-top: 2%;
+    margin-top: 18px;
   }
 
   .h1-text {

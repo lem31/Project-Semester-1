@@ -986,23 +986,6 @@ footer {
     height: 500px;
   }
 
-  .image-slideshow {
-    width: 95vw;
-  }
-
-  .slide {
-    width: 10vw;
-    height: 500px;
-  }
-
-  .slide-img-box {
-    width: 90vw;
-  }
-
-  .slideshow-img {
-    width: 90vw;
-  }
-
   .h1-text {
     padding-left: 2rem;
     position: static;
@@ -1268,23 +1251,6 @@ footer {
 
   .Special-Events {
     height: 500px;
-  }
-
-  .image-slideshow {
-    width: 95vw;
-  }
-
-  .slide {
-    width: 9vw;
-    height: 500px;
-  }
-
-  .slide-img-box {
-    width: 90vw;
-  }
-
-  .slideshow-img {
-    width: 90vw;
   }
 
   #caret-1,

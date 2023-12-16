@@ -450,6 +450,15 @@ form {
     width: 800px;
   }
 
+  .Screen-img-box,
+  .Tour-guide-img-box {
+    padding-left: 1.5rem;
+  }
+
+  .lab-img-box {
+    padding-right: 5rem;
+  }
+
   .for-kids-text {
     background-color: var(--Secondary-base-color);
   }
@@ -479,6 +488,10 @@ form {
   .teachers-img,
   .for-kids-image {
     width: 600px;
+  }
+
+  .for-teachers-text-box {
+    width: 180px;
   }
 
   #For-kids-radio-1:checked ~ #woolly-mammoth-box {

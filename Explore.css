@@ -58,7 +58,7 @@
 
 .For-teachers-h2-text-box,
 .Researchers-h3-text-box {
-  padding-left: 5rem;
+  margin-left: 5rem;
 }
 
 .h1-box,
@@ -147,7 +147,7 @@ form {
 
 .Screen-img-box,
 .Tour-guide-img-box {
-  padding-left: 5rem;
+  margin-left: 5rem;
 }
 
 .for-teachers-text-box {
@@ -205,7 +205,7 @@ form {
   }
 
   .lab-img-box {
-    padding-left: 1rem;
+    margin-left: 1rem;
   }
 
   .for-kids-text {
@@ -452,7 +452,7 @@ form {
 
   .Screen-img-box,
   .Tour-guide-img-box {
-    padding-left: 1.5rem;
+    margin-left: 1.5rem;
   }
 
   .lab-img-box {
@@ -552,5 +552,14 @@ form {
 
   #desktop-exhibitions-link {
     margin-top: 0;
+  }
+
+  .h1-box {
+    width: 200px;
+  }
+
+  .h1-explore {
+    width: 200px;
+    margin: 0;
   }
 }

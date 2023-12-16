@@ -494,6 +494,11 @@ form {
     width: 180px;
   }
 
+  .For-teachers-h2-text-box,
+  .For-kids-h1-text-box {
+    width: 200px;
+  }
+
   #For-kids-radio-1:checked ~ #woolly-mammoth-box {
     margin-left: -10rem;
   }
@@ -508,8 +513,8 @@ form {
 
   .caret-explore {
     position: absolute;
-    margin-left: 18rem;
-    margin-top: 15rem;
+    margin-left: 13rem;
+    margin-top: 10rem;
     visibility: visible;
   }
 

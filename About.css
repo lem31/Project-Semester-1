@@ -158,4 +158,42 @@
   #desktop-exhibitions-link {
     margin-top: 0;
   }
+
+  .About-box-2,
+  .About-box-4,
+  .About-wrapper-4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .About-box-2 {
+    width: 20vw;
+  }
+
+  .About-box-4,
+  .About-wrapper-4 {
+    width: 10vw;
+    height: 45rem;
+    padding-bottom: 10rem;
+    margin: 0;
+    align-items: center;
+  }
+
+  .About-wrapper-4 {
+    flex-direction: column;
+    z-index: 12;
+  }
+
+  .About-text-box-4 {
+    margin-left: 2rem;
+    padding: 0;
+  }
+
+  .building-blocks-img-box {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
 }

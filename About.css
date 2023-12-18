@@ -92,16 +92,26 @@
 .About-text-4-wrapper {
   width: 200px;
   position: absolute;
-  padding-right: 4rem;
+  padding-right: 10rem;
 }
 
 .elements-img-box {
   display: flex;
+  margin-left: -3rem;
 }
 
 .elements-img-About {
   width: 400px;
   height: 320px;
+}
+
+.circle-img-box {
+  width: 600px;
+  margin-right: 25rem;
+}
+
+.circle-img-About {
+  width: 900px;
 }
 
 .About-box-3 {
@@ -188,17 +198,8 @@
   }
 
   .building-blocks-img-box {
-    min-width: 80vw;
-    max-width: 80vw;
     display: flex;
     flex-direction: column;
-    max-height: 60px;
-    margin-top: -18em;
-    margin-right: 15rem;
-  }
-
-  .building-blocks-img {
-    min-width: 700px;
   }
 
   .About-text-box-2 {
@@ -216,18 +217,6 @@
     width: 100vw;
     margin-top: -5rem;
     align-items: center;
-  }
-
-  .circle-img-box,
-  .circle-img-box-2 {
-    min-width: 70vw;
-    max-width: 70vw;
-    display: flex;
-  }
-
-  .circle-img-About {
-    min-width: 600px;
-    padding-right: 15rem;
   }
 
   .About-img-box-3 {

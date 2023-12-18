@@ -564,6 +564,5 @@ form {
   .circle-img-box {
     display: flex;
     flex-direction: column;
-    width: 200px;
   }
 }

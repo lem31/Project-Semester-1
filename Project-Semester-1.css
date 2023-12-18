@@ -772,7 +772,9 @@ footer {
   .h4-support,
   .h5-volunteer,
   .h6-internships,
-  .h1-explore {
+  .h1-explore,
+  .h2-explore,
+  .h3-researchers {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -1029,6 +1031,8 @@ footer {
   .Our-Museum-h3,
   .slideshow-header,
   .h1-explore,
+  .h2-explore,
+  .h3-researchers,
   .h2-explore,
   .h3-researchers {
     font-size: var(--Header-1-Tablet-Mobile-font-size);

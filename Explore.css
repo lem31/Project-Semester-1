@@ -41,10 +41,11 @@
 
 .For-teachers-banner-img {
   height: 480px;
-  filter: brightness(50%);
 }
 
-.Researchers-banner-img {
+.Researchers-banner-img,
+.For-teachers-banner-img,
+.For-kids-banner-img {
   filter: brightness(50%);
 }
 

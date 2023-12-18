@@ -560,4 +560,10 @@ form {
   #desktop-exhibitions-link {
     margin-top: 0;
   }
+
+  .circle-img-box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
 }

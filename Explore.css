@@ -350,13 +350,21 @@ form {
   #stars-club-box {
     z-index: 10;
     margin-left: -250rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
+  }
+
+  #Stars-club-img {
+    padding-top: 1rem;
   }
 
   #holiday-club-box {
     z-index: 11;
     margin-left: -250rem;
     padding-top: 2rem;
+  }
+
+  #holiday-club-img {
+    padding-top: 1rem;
   }
 
   #For-kids-radio-1:checked ~ #woolly-mammoth-box {
@@ -394,10 +402,12 @@ form {
   }
   #caret-explore-3 {
     z-index: 7;
+    margin-top: 11rem;
   }
 
   #caret-explore-4 {
     z-index: 6;
+    margin-top: 11rem;
   }
 
   .mobile-and-drop-box {

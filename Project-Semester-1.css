@@ -11,6 +11,7 @@
   --Header-2-Tablet-Mobile-font-size: 20px;
   --Header-3-All-Screens-font-size: 18px;
   --Body-1-and-2-font-size: 20px;
+  --Body-3-font-size: 16px;
   --Body-1-and-2-T-M-font-size: 16px;
   --Main-Nav-link-font-size: 30px;
 }
@@ -69,7 +70,9 @@ h1,
 .slideshow-header,
 .h1-explore,
 .h2-explore,
-.h3-researchers {
+.h3-researchers,
+.h1-about,
+.About-text-2 {
   font-family: var(--Primary-font-family-Bold);
   font-size: var(--Header-1-Desktop-font-size);
 }
@@ -86,9 +89,15 @@ h1,
 .for-kids-text,
 .h2-text,
 .for-teachers-text,
-.h3-text-researchers {
+.h3-text-researchers,
+.About-text-1 {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
+}
+
+.About-text-2 {
+  font-family: var(--Secondary-font-family);
+  font-size: var(--Body-3-font-size);
 }
 
 .mobile-link,
@@ -758,7 +767,8 @@ footer {
   .Our-Museum-h3,
   .slideshow-header,
   .h2-explore,
-  .h3-researchers {
+  .h3-researchers,
+  .h1-about {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -798,7 +808,8 @@ footer {
   .for-kids-text,
   .h2-tex,
   .for-teachers-text,
-  .h3-text-researchers {
+  .h3-text-researchers,
+  .About-text-1 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1034,7 +1045,8 @@ footer {
   .h2-explore,
   .h3-researchers,
   .h2-explore,
-  .h3-researchers {
+  .h3-researchers,
+  .h1-about {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -1070,7 +1082,8 @@ footer {
   .h1-text-explore,
   .h2-text,
   .for-teachers-text,
-  .h3-text-researchers {
+  .h3-text-researchers,
+  .About-text-1 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 

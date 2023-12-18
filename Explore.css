@@ -58,7 +58,8 @@
 }
 
 .For-teachers-h2-text-box,
-.Researchers-h3-text-box {
+.Researchers-h3-text-box,
+.For-kids-h1-text-box {
   margin-left: 5rem;
 }
 
@@ -71,10 +72,6 @@
 .h1-explore,
 .h2-explore {
   text-wrap: nowrap;
-}
-
-.h1-explore {
-  width: 400px;
 }
 
 .caret-explore {

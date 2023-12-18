@@ -119,7 +119,6 @@ footer {
 }
 
 body {
-  border: 2rem solid var(--Primary-base-color);
   overflow-x: hidden;
   margin: 0;
 }

@@ -66,7 +66,7 @@
 .h1-box,
 .h2-box {
   height: 100px;
-  width: 400px;
+  width: 200px;
 }
 
 .h1-explore,
@@ -326,7 +326,7 @@ form {
     width: 1200px;
   }
   .For-teachers-3-img-box {
-    padding-top: 10rem;
+    padding-top: 0;
   }
 
   .lab-img {
@@ -448,12 +448,13 @@ form {
 
   .for-kids-img-box {
     position: absolute;
-    margin-top: 85rem;
-    margin-left: -10rem;
+    margin-top: 75rem;
+    margin-left: -3.5rem;
+    width: 200px;
   }
 
   .For-teachers-3-img-box {
-    padding-top: 30rem;
+    padding-top: 22rem;
   }
 
   .lab-img {
@@ -466,7 +467,7 @@ form {
   }
 
   .lab-img-box {
-    padding-right: 5rem;
+    margin-right: 5rem;
   }
 
   .for-kids-text {
@@ -500,7 +501,8 @@ form {
     width: 600px;
   }
 
-  .for-teachers-text-box {
+  .for-teachers-text-box,
+  .for-kids-text-box {
     width: 180px;
   }
 
@@ -523,7 +525,7 @@ form {
 
   .caret-explore {
     position: absolute;
-    margin-left: 13rem;
+    margin-left: 7rem;
     margin-top: 10rem;
     visibility: visible;
   }
@@ -562,14 +564,5 @@ form {
 
   #desktop-exhibitions-link {
     margin-top: 0;
-  }
-
-  .h1-box {
-    width: 200px;
-  }
-
-  .h1-explore {
-    width: 200px;
-    margin: 0;
   }
 }

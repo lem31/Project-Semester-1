@@ -482,18 +482,22 @@ form {
   #woolly-mammoth-box {
     z-index: 9;
     margin-left: -250rem;
+    padding-left: 6.5rem;
+    padding-top: 1rem;
   }
 
   #stars-club-box {
     z-index: 10;
     margin-left: -250rem;
-    padding-top: 2rem;
+    padding-left: 6.5rem;
+    padding-top: 4.5rem;
   }
 
   #holiday-club-box {
     z-index: 11;
     margin-left: -250rem;
-    padding-top: 2rem;
+    padding-left: 6.5rem;
+    padding-top: 4.5rem;
   }
 
   .teachers-img,

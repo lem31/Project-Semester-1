@@ -11,14 +11,6 @@
   margin-top: -5.8rem;
 }
 
-.For-kids,
-.For-teachers {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  align-items: center;
-}
-
 .For-kids-banner,
 .For-teachers-banner,
 .Researchers-Banner {

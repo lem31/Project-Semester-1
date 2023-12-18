@@ -123,6 +123,7 @@
 .About-img-3 {
   width: 100%;
   object-fit: contain;
+  margin-top: -10rem;
 }
 
 .About-text-3-wrapper {
@@ -131,13 +132,13 @@
 
 .About-wrapper-4 {
   display: flex;
-  margin-left: -10rem;
+  margin-left: -14rem;
 }
 
 .building-blocks-img-box {
   width: 100px;
   display: flex;
-  margin-left: -40rem;
+  margin-left: -44rem;
   position: absolute;
 }
 

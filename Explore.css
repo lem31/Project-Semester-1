@@ -64,7 +64,8 @@
 }
 
 .h1-box,
-.h2-box {
+.h2-box,
+.h3-box {
   height: 100px;
   width: 200px;
 }
@@ -119,11 +120,6 @@ form {
 
 .for-kids-image {
   width: 800px;
-}
-
-.for-kids-text-box {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .For-teachers-3-img-box {
@@ -319,7 +315,7 @@ form {
   }
 
   .for-kids-text-box {
-    width: 220px;
+    width: 100px;
   }
 
   .for-kids-image {
@@ -335,6 +331,10 @@ form {
 
   .for-kids-text {
     background-color: var(--Secondary-base-color);
+  }
+
+  .For-kids-h1-text-box {
+    margin-left: 0;
   }
 
   #bumper-swing-box {
@@ -506,9 +506,8 @@ form {
     width: 180px;
   }
 
-  .For-teachers-h2-text-box,
-  .For-kids-h1-text-box {
-    width: 200px;
+  .For-teachers-h2-text-box {
+    margin-left: 0;
   }
 
   #For-kids-radio-1:checked ~ #woolly-mammoth-box {

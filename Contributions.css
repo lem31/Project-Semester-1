@@ -137,3 +137,59 @@
     padding-top: 15rem;
   }
 }
+
+/* XTRA SMALL SCREENS */
+
+@media (max-width: 500px) {
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 0;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
+
+  .circle-img-box {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(6.3rem, 100%), 1fr));
+    grid-template-areas:
+      "Gap Circle Gap1"
+      "Beetles Gap5 Shells"
+      "Coins Gap4 Clocks";
+    margin: 0;
+    padding-right: 22rem;
+    padding-top: 5rem;
+  }
+
+  .h1-text-box-support {
+    padding-top: 15rem;
+  }
+
+  .beetle-img,
+  .coin-img,
+  .shell-img,
+  .clock-img,
+  .text-circle {
+    width: 500px;
+  }
+
+  .support-text-box-3 {
+    width: 460px;
+    padding-top: 2rem;
+  }
+
+  .support-text-3 {
+    width: 100px;
+  }
+
+  .h1-text-box-support {
+    padding-top: 5rem;
+  }
+}

@@ -12,7 +12,9 @@
   margin-top: -5.8rem;
 }
 
-.caret-volunteer {
+.caret-volunteer,
+label,
+.Volunteer-radio {
   display: none;
 }
 

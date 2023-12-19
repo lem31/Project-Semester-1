@@ -15,7 +15,7 @@
 
 .caret-volunteer,
 .Volunteer-radio {
-  display: none;
+  visibility: hidden;
 }
 
 .volunteer-box {
@@ -112,8 +112,21 @@
 
   .caret-volunteer,
   .Volunteer-radio {
-    display: flex;
+    margin-top: 20rem;
+    margin-left: 10rem;
+  }
+
+  .Volunteer-radio {
+    position: relative;
+    z-index: 12;
+    visibility: hidden;
+  }
+
+  .caret-volunteer {
+    width: 20px;
+    height: 40px;
     position: absolute;
+    visibility: visible;
   }
 
   .volunteer-3-box-wrapper {
@@ -123,6 +136,11 @@
   .volunteer-img-box {
     position: absolute;
     margin-right: 0;
+  }
+
+  .volunteer-img {
+    width: 100%;
+    object-fit: contain;
   }
 
   #volunteer-img-box-2,
@@ -147,9 +165,106 @@
   }
 
   #caret-2-volunteer {
-    z-index: 8;
+    z-index: 10;
   }
   #caret-3-volunteer {
     z-index: 7;
+  }
+
+  #Volunteer-radio-1:checked ~ #volunteer-img-box-2 {
+    margin-left: 0;
+  }
+
+  #Volunteer-radio-2:checked ~ #volunteer-img-box-3 {
+    margin-left: 0;
+  }
+}
+
+/* XTRA SMALL SCREENS */
+
+@media (max-width: 500px) {
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 0;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
+
+  .caret-volunteer,
+  .Volunteer-radio {
+    margin-top: 20rem;
+    margin-left: 10rem;
+  }
+
+  .Volunteer-radio {
+    position: relative;
+    z-index: 12;
+    visibility: hidden;
+  }
+
+  .caret-volunteer {
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    visibility: visible;
+  }
+
+  .volunteer-3-box-wrapper {
+    position: relative;
+  }
+
+  .volunteer-img-box {
+    position: absolute;
+    margin-right: 0;
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .volunteer-img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  #volunteer-img-box-2,
+  #volunteer-img-box-3 {
+    margin-left: -250rem;
+  }
+
+  #volunteer-img-box-1 {
+    z-index: 8;
+  }
+
+  #volunteer-img-box-2 {
+    z-index: 9;
+  }
+
+  #volunteer-img-box-3 {
+    z-index: 10;
+  }
+
+  #caret-1-volunteer {
+    z-index: 9;
+  }
+
+  #caret-2-volunteer {
+    z-index: 10;
+  }
+  #caret-3-volunteer {
+    z-index: 7;
+  }
+
+  #Volunteer-radio-1:checked ~ #volunteer-img-box-2 {
+    margin-left: 0;
+  }
+
+  #Volunteer-radio-2:checked ~ #volunteer-img-box-3 {
+    margin-left: 0;
   }
 }

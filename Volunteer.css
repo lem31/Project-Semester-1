@@ -1,10 +1,11 @@
 .mobile-and-drop-box {
   margin-top: -2.7rem;
   margin-left: 29rem;
+  z-index: 999;
 }
 
 #more {
-  margin-top: 0.2rem;
+  margin-top: 0.3rem;
 }
 
 #desktop-exhibitions-link {

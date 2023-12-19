@@ -1,0 +1,42 @@
+.mobile-and-drop-box {
+  margin-top: -2.7rem;
+  margin-left: 29rem;
+}
+
+#more {
+  margin-top: 0.2rem;
+}
+
+#desktop-exhibitions-link {
+  margin-top: -5.8rem;
+}
+
+.internships {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.internships-banner {
+  width: 85vw;
+  display: flex;
+  position: relative;
+  padding-top: 5rem;
+}
+
+.internships-banner-img {
+  width: 85vw;
+  object-fit: contain;
+  border: 2px solid #41a2a6;
+}
+
+.h1-text-box-internships {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 85vw;
+  align-items: center;
+  margin-top: 15rem;
+  max-height: 100px;
+}

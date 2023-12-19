@@ -45,3 +45,23 @@
   justify-self: center;
   height: 100px;
 }
+
+.internships-text-box-1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+
+.internships-img-box-1 {
+  display: flex;
+  width: 100vw;
+  position: relative;
+  padding-top: 5rem;
+}
+
+.internships-img-1 {
+  width: 100%;
+  object-fit: contain;
+}

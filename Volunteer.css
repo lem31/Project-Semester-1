@@ -1,0 +1,46 @@
+.mobile-and-drop-box {
+  margin-top: -2.7rem;
+  margin-left: 29rem;
+}
+
+#more {
+  margin-top: 0.2rem;
+}
+
+#desktop-exhibitions-link {
+  margin-top: -5.8rem;
+}
+
+.caret-volunteer {
+  display: none;
+}
+
+.volunteer-box {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+.volunteer-banner {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  position: relative;
+}
+
+.volunteer-banner-img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+  filter: brightness(50%);
+}
+
+.h1-volunteer-box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  padding-top: 20rem;
+}

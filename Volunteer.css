@@ -65,3 +65,12 @@
   width: 100%;
   object-fit: contain;
 }
+
+.volunteer-text-box {
+  height: 200px;
+  padding-top: 4rem;
+}
+
+.volunteer-text {
+  max-height: 100px;
+}

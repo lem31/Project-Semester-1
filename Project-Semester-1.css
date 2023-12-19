@@ -28,7 +28,9 @@ header,
 
 body,
 .nav-wrapper,
-.drop-down-link {
+.drop-down-link,
+.volunteer-text,
+.volunteer-text-box {
   background-color: var(--Primary-base-color);
 }
 

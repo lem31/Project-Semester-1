@@ -121,7 +121,7 @@
   .caret-volunteer,
   .Volunteer-radio {
     margin-top: 20rem;
-    margin-left: 10rem;
+    margin-left: 8rem;
   }
 
   .Volunteer-radio {
@@ -131,8 +131,8 @@
   }
 
   .caret-volunteer {
-    width: 20px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
     position: absolute;
     visibility: visible;
   }
@@ -217,7 +217,7 @@
   .caret-volunteer,
   .Volunteer-radio {
     margin-top: 20rem;
-    margin-left: 10rem;
+    margin-left: 8rem;
   }
 
   .Volunteer-radio {
@@ -291,5 +291,6 @@
   }
   .volunteer-text {
     margin-top: -5.8rem;
+    height: 200px;
   }
 }

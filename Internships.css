@@ -37,6 +37,11 @@
   position: absolute;
   width: 85vw;
   align-items: center;
-  margin-top: 15rem;
-  max-height: 100px;
+  justify-content: center;
+  height: 400px;
+}
+
+.h1-internships {
+  justify-self: center;
+  height: 100px;
 }

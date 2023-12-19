@@ -59,18 +59,21 @@
   width: 80vw;
   justify-content: center;
   padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .volunteer-img {
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .volunteer-text-box {
-  height: 200px;
+  height: 150px;
   padding-top: 4rem;
 }
 
 .volunteer-text {
   max-height: 100px;
+  margin-top: -3rem;
+  padding-left: 1rem;
 }

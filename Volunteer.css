@@ -21,6 +21,7 @@
   flex-direction: column;
   width: 100vw;
   align-items: center;
+  padding-bottom: 15rem;
 }
 
 .volunteer-banner {
@@ -44,4 +45,23 @@
   align-items: center;
   width: 100vw;
   padding-top: 20rem;
+}
+
+.volunteer-img-box {
+  width: 22rem;
+  height: 25rem;
+  margin-right: 2rem;
+}
+
+.volunteer-3-box-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.volunteer-img {
+  width: 100%;
+  object-fit: contain;
 }

@@ -93,13 +93,15 @@ h1,
 .for-teachers-text,
 .h3-text-researchers,
 .About-text-1,
-.About-text-3 {
+.About-text-3,
+.support-text-1 {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
 
 .About-text-2,
-.About-text-4 {
+.About-text-4,
+.support-text-3 {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-3-font-size);
 }
@@ -805,7 +807,8 @@ footer {
   }
 
   .About-text-2,
-  .About-text-4 {
+  .About-text-4,
+  .support-text-3 {
     font-family: var(--Secondary-font-family);
     font-size: var(--Body-3-T-M-font-size);
   }
@@ -826,7 +829,8 @@ footer {
   .for-teachers-text,
   .h3-text-researchers,
   .About-text-1,
-  .About-text-3 {
+  .About-text-3,
+  .support-text-1 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1102,12 +1106,14 @@ footer {
   .for-teachers-text,
   .h3-text-researchers,
   .About-text-1,
-  .About-text-3 {
+  .About-text-3,
+  .support-text-1 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
   .About-text-2,
-  .About-text-4 {
+  .About-text-4,
+  .support-text-3 {
     font-family: var(--Secondary-font-family);
     font-size: var(--Body-3-T-M-font-size);
   }

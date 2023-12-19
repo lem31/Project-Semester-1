@@ -285,6 +285,10 @@
   .circle-img-About {
     width: 550px;
   }
+
+  .About-text-3-wrapper {
+    margin-top: -5rem;
+  }
 }
 
 /* XTRA SMALL SCREENS */

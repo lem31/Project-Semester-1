@@ -1,0 +1,75 @@
+.support-banner {
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  position: relative;
+  padding-top: 5rem;
+}
+
+.support-banner-img {
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+.h1-text-box-support {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100vw;
+  align-items: center;
+  padding-top: 30rem;
+}
+
+.text-box-support-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: center;
+}
+
+.circle-img-box {
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "Beetles Gap Shells"
+    "Gap2 Circle Gap3"
+    "Coins Gap4 Clocks";
+}
+
+.beetle-img {
+  grid-area: Beetles;
+}
+
+.coin-img {
+  grid-area: Coins;
+}
+
+.shell-img {
+  grid-area: Shells;
+}
+
+.clock-img {
+  grid-area: Clocks;
+}
+
+.text-circle,
+.support-text-box-3 {
+  grid-area: Circle;
+}
+
+.support-text-box-3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 750px;
+  padding-top: 5rem;
+  align-items: center;
+}
+
+.support-text-3 {
+  text-wrap: wrap;
+  width: 200px;
+}

@@ -181,27 +181,109 @@
     margin-top: 0;
   }
 
-  .About-box-2,
-  .About-box-4 {
-    display: flex;
-    flex-direction: column;
+  .About-text-2-wrapper {
+    padding-left: 19rem;
+    padding-bottom: 9rem;
   }
 
   .About-text-2,
   .About-text-4 {
     text-wrap: wrap;
-    width: 150px;
+    width: 100px;
+    z-index: 12;
+    position: absolute;
+  }
+
+  .circle-img-box {
+    width: 300px;
   }
 
   .elements-img-box {
     flex-direction: column;
-    width: 100vw;
-    margin-top: -5rem;
+    width: 300px;
+    margin-top: -3rem;
+    margin-left: 0;
+    padding: 0;
     align-items: center;
+  }
+
+  .elements-img-About {
+    width: 200px;
+    height: 150px;
   }
 
   .About-img-box-3 {
     margin-top: -18rem;
+  }
+
+  .About-box-2,
+  .About-box-4 {
+    flex-direction: column;
+  }
+
+  .About-box-2 {
+    gap: 0;
+    padding-top: 5rem;
+  }
+
+  .About-box-2 {
+    width: 300px;
+    height: 400px;
+    padding-bottom: 15rem;
+  }
+
+  .About-box-4 {
+    margin-top: -5rem;
+    padding: 0;
+    width: 400px;
+    height: 500px;
+  }
+
+  .About-wrapper-4 {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .About-text-4-wrapper {
+    width: 120px;
+    padding-left: 0;
+    padding-top: 5rem;
+    padding-right: 1rem;
+  }
+
+  .building-blocks-img-box {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 390px;
+    align-items: center;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+  }
+
+  .building-blocks-img {
+    width: 500px;
+  }
+
+  .circle-img-box-2 {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 500px;
+    align-items: center;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+    z-index: 11;
+  }
+
+  .circle-img-About {
+    width: 550px;
   }
 }
 
@@ -238,6 +320,8 @@
     flex-direction: column;
     margin: 0;
     padding: 0;
+    width: 100px;
+    align-items: center;
   }
 
   .About-text-box-2 {

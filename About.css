@@ -181,6 +181,10 @@
     margin-top: 0;
   }
 
+  .h1-about {
+    text-align: center;
+  }
+
   .About-text-2-wrapper {
     padding-left: 19rem;
     padding-bottom: 9rem;
@@ -306,6 +310,10 @@
 
   #desktop-exhibitions-link {
     margin-top: 0;
+  }
+
+  .h1-about {
+    text-align: center;
   }
 
   .About-img-box-3 {

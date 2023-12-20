@@ -32,7 +32,8 @@ body,
 .volunteer-text,
 .volunteer-text-box,
 .volunteer-button,
-.internships-button {
+.internships-button,
+.contact-button {
   background-color: var(--Primary-base-color);
 }
 
@@ -66,7 +67,8 @@ p,
 .h6-exhibitions,
 table,
 .h4-contact,
-.contact-label {
+.contact-label,
+.contact-button {
   color: var(--Text-base-color);
 }
 

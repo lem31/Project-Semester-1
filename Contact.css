@@ -94,11 +94,11 @@ tr {
 .contact-form {
   width: 500px;
   height: 500px;
-  margin-bottom: 3rem;
+  margin-bottom: 5rem;
 }
 
 .contact-input {
-  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .name-label,
@@ -107,5 +107,11 @@ tr {
 }
 
 .message-input {
-  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.contact-button {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }

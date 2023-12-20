@@ -117,7 +117,9 @@ h1,
 .exhibitions-text-1,
 .exhibitions-text-2,
 .exhibitions-text-3,
-.exhibitions-text-4 {
+.exhibitions-text-4,
+.exhibitions-text-5,
+.exhibitions-text-6 {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
@@ -868,7 +870,9 @@ footer {
   .exhibitions-text-1,
   .exhibitions-text-2,
   .exhibitions-text-3,
-  .exhibitions-text-4 {
+  .exhibitions-text-4,
+  .exhibitions-text-5,
+  .exhibitions-text-6 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1160,7 +1164,9 @@ footer {
   .exhibitions-text-1,
   .exhibitions-text-2,
   .exhibitions-text-3,
-  .exhibitions-text-4 {
+  .exhibitions-text-4,
+  .exhibitions-text-5,
+  .exhibitions-text-6 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 

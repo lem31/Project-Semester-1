@@ -61,7 +61,9 @@ p,
 .h1-text-explore,
 .volunteer-button,
 .internships-button,
-.h4-exhibitions {
+.h4-exhibitions,
+.h5-exhibitions,
+.h6-exhibitions {
   color: var(--Text-base-color);
 }
 
@@ -95,7 +97,9 @@ h1,
 .internships-button,
 .h2-exhibitions,
 .h3-exhibitions,
-.h4-exhibitions {
+.h4-exhibitions,
+.h5-exhibitions,
+.h6-exhibitions {
   font-family: var(--Secondary-font-family);
   font-size: var(--Header-2-Desktop-font-size);
 }
@@ -119,7 +123,9 @@ h1,
 .exhibitions-text-3,
 .exhibitions-text-4,
 .exhibitions-text-5,
-.exhibitions-text-6 {
+.exhibitions-text-6,
+.exhibitions-text-7,
+.exhibitions-text-8 {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
@@ -833,7 +839,10 @@ footer {
   .volunteer-button,
   .internships-button,
   .h2-exhibitions,
-  .h3-exhibitions {
+  .h3-exhibitions,
+  .h4-exhibitions,
+  .h5-exhibitions,
+  .h6-exhibitions {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 
@@ -872,7 +881,9 @@ footer {
   .exhibitions-text-3,
   .exhibitions-text-4,
   .exhibitions-text-5,
-  .exhibitions-text-6 {
+  .exhibitions-text-6,
+  .exhibitions-text-7,
+  .exhibitions-text-8 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1135,7 +1146,10 @@ footer {
   .volunteer-button,
   .internships-button,
   .h2-exhibitions,
-  .h3-exhibitions {
+  .h3-exhibitions,
+  .h4-exhibitions,
+  .h5-exhibitions,
+  .h6-exhibitions {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 
@@ -1166,7 +1180,9 @@ footer {
   .exhibitions-text-3,
   .exhibitions-text-4,
   .exhibitions-text-5,
-  .exhibitions-text-6 {
+  .exhibitions-text-6,
+  .exhibitions-text-7,
+  .exhibitions-text-8 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 

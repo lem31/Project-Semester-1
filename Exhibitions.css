@@ -45,7 +45,9 @@
 }
 .Cosmology-box,
 .Evolution-box,
-.Biology-Medicine-box {
+.Biology-Medicine-box,
+.Robotics-AI-box,
+.Ecology-box {
   display: flex;
   flex-direction: column;
   width: 70vw;
@@ -53,4 +55,44 @@
   background-color: #20252b;
   padding: 3rem;
   margin-top: 5rem;
+}
+
+.Ecology-box {
+  margin-bottom: 5rem;
+}
+
+/* SMALL SCREENS */
+
+@media (min-width: 501px) and (max-width: 1000px) {
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 0;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
+}
+
+/* XTRA SMALL SCREENS */
+
+@media (max-width: 500px) {
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 0;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
 }

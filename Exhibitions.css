@@ -43,7 +43,8 @@
 .h1-exhibitions {
   height: 100px;
 }
-.Cosmology-box {
+.Cosmology-box,
+.Evolution-box {
   display: flex;
   flex-direction: column;
   width: 70vw;

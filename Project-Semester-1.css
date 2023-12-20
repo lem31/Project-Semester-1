@@ -110,7 +110,8 @@ h1,
 .volunteer-text,
 .volunteer-text-1,
 .internships-text-1,
-.internships-text-2 {
+.internships-text-2,
+.exhibitions-text-1 {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
@@ -856,7 +857,8 @@ footer {
   .volunteer-text,
   .volunteer-text-1,
   .internships-text-1,
-  .internships-text-2 {
+  .internships-text-2,
+  .exhibitions-text-1 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1143,7 +1145,8 @@ footer {
   .volunteer-text,
   .volunteer-text-1,
   .internships-text-1,
-  .internships-text-2 {
+  .internships-text-2,
+  .exhibitions-text-1 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 

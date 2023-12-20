@@ -49,19 +49,20 @@
 .Get-in-touch-box {
   display: flex;
   flex-direction: column;
-  width: 86vw;
   border: 5px solid #41a2a6;
 }
 
 .Visit-info-box {
   margin-top: -20rem;
   padding-left: 2rem;
+  width: 86vw;
 }
 
 .Get-in-touch-box {
   margin-top: 5rem;
   align-items: center;
   margin-bottom: 5rem;
+  width: 88vw;
 }
 
 table {

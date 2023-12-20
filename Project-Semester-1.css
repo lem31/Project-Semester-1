@@ -60,7 +60,8 @@ p,
 .h1-explore,
 .h1-text-explore,
 .volunteer-button,
-.internships-button {
+.internships-button,
+.h4-exhibitions {
   color: var(--Text-base-color);
 }
 
@@ -93,7 +94,8 @@ h1,
 .volunteer-button,
 .internships-button,
 .h2-exhibitions,
-.h3-exhibitions {
+.h3-exhibitions,
+.h4-exhibitions {
   font-family: var(--Secondary-font-family);
   font-size: var(--Header-2-Desktop-font-size);
 }
@@ -114,7 +116,8 @@ h1,
 .internships-text-2,
 .exhibitions-text-1,
 .exhibitions-text-2,
-.exhibitions-text-3 {
+.exhibitions-text-3,
+.exhibitions-text-4 {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
@@ -864,7 +867,8 @@ footer {
   .internships-text-2,
   .exhibitions-text-1,
   .exhibitions-text-2,
-  .exhibitions-text-3 {
+  .exhibitions-text-3,
+  .exhibitions-text-4 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1155,7 +1159,8 @@ footer {
   .internships-text-2,
   .exhibitions-text-1,
   .exhibitions-text-2,
-  .exhibitions-text-3 {
+  .exhibitions-text-3,
+  .exhibitions-text-4 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 

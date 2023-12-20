@@ -78,7 +78,8 @@ h1,
 .h3-researchers,
 .h1-about,
 .About-text-2,
-.h1-support {
+.h1-support,
+.h1-internships {
   font-family: var(--Primary-font-family-Bold);
   font-size: var(--Header-1-Desktop-font-size);
 }
@@ -804,7 +805,8 @@ footer {
   .h1-explore,
   .h2-explore,
   .h3-researchers,
-  .h1-support {
+  .h1-support,
+  .h1-internships {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -1079,7 +1081,8 @@ footer {
   .h2-explore,
   .h3-researchers,
   .h1-about,
-  .h1-support {
+  .h1-support,
+  .h1-internships {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 

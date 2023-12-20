@@ -121,3 +121,55 @@ tr {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+/* SMALL SCREENS */
+
+@media (min-width: 501px) and (max-width: 1000px) {
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 0;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
+
+  .contact-banner-img {
+    margin-top: -5rem;
+  }
+
+  .Visit-info-box {
+    margin-top: -10rem;
+  }
+}
+
+/* XTRA SMALL SCREENS */
+
+@media (max-width: 500px) {
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 0;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
+
+  .contact-banner-img {
+    margin-top: -2rem;
+  }
+
+  .Visit-info-box {
+    margin-top: -6rem;
+  }
+}

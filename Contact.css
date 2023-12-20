@@ -45,13 +45,23 @@
   z-index: 12;
 }
 
-.Visit-info-box {
+.Visit-info-box,
+.Get-in-touch-box {
   display: flex;
   flex-direction: column;
   width: 86vw;
   border: 5px solid #41a2a6;
+}
+
+.Visit-info-box {
   margin-top: -20rem;
   padding-left: 2rem;
+}
+
+.Get-in-touch-box {
+  margin-top: 5rem;
+  align-items: center;
+  margin-bottom: 5rem;
 }
 
 table {
@@ -78,4 +88,26 @@ tr {
 
 .contact-text {
   font-weight: lighter;
+}
+
+.contact-form {
+  width: 500px;
+  height: 500px;
+}
+
+.contact-input {
+  height: 4rem;
+}
+
+.name-input {
+  margin-top: -7rem;
+}
+
+.email-input {
+  margin-top: -7rem;
+}
+
+.name-label,
+.email-label {
+  margin-top: 2rem;
 }

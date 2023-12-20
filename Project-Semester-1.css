@@ -64,7 +64,9 @@ p,
 .h4-exhibitions,
 .h5-exhibitions,
 .h6-exhibitions,
-table {
+table,
+.h4-contact,
+.contact-label {
   color: var(--Text-base-color);
 }
 
@@ -88,7 +90,8 @@ h1,
 .h1-support,
 .h1-internships,
 .h1-exhibitions,
-.h1-contact {
+.h1-contact,
+.h4-contact {
   font-family: var(--Primary-font-family-Bold);
   font-size: var(--Header-1-Desktop-font-size);
 }
@@ -830,7 +833,8 @@ footer {
   .h1-support,
   .h1-internships,
   .h1-exhibitions,
-  .h1-contact {
+  .h1-contact,
+  .h4-contact {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -1118,7 +1122,8 @@ footer {
   .h1-about,
   .h1-support,
   .h1-internships,
-  .h1-contact {
+  .h1-contact,
+  .h4-contact {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 

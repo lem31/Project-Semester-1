@@ -56,19 +56,19 @@
     rgba(0, 0, 0, 1) 0%,
     rgba(75, 76, 77, 1) 63%
   );
+  width: 82vw;
 }
 
 .Visit-info-box {
   margin-top: -20rem;
   padding-left: 2rem;
-  width: 86vw;
 }
 
 .Get-in-touch-box {
   margin-top: 5rem;
   align-items: center;
   margin-bottom: 5rem;
-  width: 88vw;
+  width: 87vw;
 }
 
 table {
@@ -146,6 +146,11 @@ tr {
   .Visit-info-box {
     margin-top: -10rem;
   }
+
+  .contact-form {
+    width: 300px;
+    height: 500px;
+  }
 }
 
 /* XTRA SMALL SCREENS */
@@ -171,5 +176,14 @@ tr {
 
   .Visit-info-box {
     margin-top: -6rem;
+  }
+
+  .contact-form {
+    width: 300px;
+    height: 500px;
+  }
+
+  table {
+    width: 15rem;
   }
 }

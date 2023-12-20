@@ -103,7 +103,9 @@ h1,
 .support-text-1,
 .support-text-4,
 .volunteer-text,
-.volunteer-text-1 {
+.volunteer-text-1,
+.internships-text-1,
+.internships-text-2 {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
@@ -843,7 +845,9 @@ footer {
   .support-text-1,
   .support-text-4,
   .volunteer-text,
-  .volunteer-text-1 {
+  .volunteer-text-1,
+  .internships-text-1,
+  .internships-text-2 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1124,7 +1128,9 @@ footer {
   .support-text-1,
   .support-text-4,
   .volunteer-text,
-  .volunteer-text-1 {
+  .volunteer-text-1,
+  .internships-text-1,
+  .internships-text-2 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 

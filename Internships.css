@@ -46,7 +46,8 @@
   height: 100px;
 }
 
-.internships-text-box-1 {
+.internships-text-box-1,
+.internships-text-box-2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

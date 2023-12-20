@@ -126,6 +126,11 @@
   .internships-text-1 {
     width: 600px;
   }
+
+  .h1-internships {
+    justify-self: center;
+    height: 200px;
+  }
 }
 
 /* XTRA SMALL SCREENS */
@@ -143,5 +148,10 @@
 
   #desktop-exhibitions-link {
     margin-top: 0;
+  }
+
+  .h1-internships {
+    justify-self: center;
+    height: 200px;
   }
 }

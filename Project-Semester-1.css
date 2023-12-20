@@ -817,7 +817,9 @@ footer {
 
   .h4-Get-Involved,
   .h2-our-museum,
-  .h2-news {
+  .h2-news,
+  .volunteer-button,
+  .internships-button {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 
@@ -1108,7 +1110,9 @@ footer {
 
   .h4-Get-Involved,
   .h2-our-museum,
-  .h2-news {
+  .h2-news,
+  .volunteer-button,
+  .internships-button {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 

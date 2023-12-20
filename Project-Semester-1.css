@@ -92,7 +92,8 @@ h1,
 .h2-news,
 .volunteer-button,
 .internships-button,
-.h2-exhibitions {
+.h2-exhibitions,
+.h3-exhibitions {
   font-family: var(--Secondary-font-family);
   font-size: var(--Header-2-Desktop-font-size);
 }
@@ -111,7 +112,9 @@ h1,
 .volunteer-text-1,
 .internships-text-1,
 .internships-text-2,
-.exhibitions-text-1 {
+.exhibitions-text-1,
+.exhibitions-text-2,
+.exhibitions-text-3 {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
@@ -824,7 +827,8 @@ footer {
   .h2-news,
   .volunteer-button,
   .internships-button,
-  .h2-exhibitions {
+  .h2-exhibitions,
+  .h3-exhibitions {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 
@@ -858,7 +862,9 @@ footer {
   .volunteer-text-1,
   .internships-text-1,
   .internships-text-2,
-  .exhibitions-text-1 {
+  .exhibitions-text-1,
+  .exhibitions-text-2,
+  .exhibitions-text-3 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1120,7 +1126,8 @@ footer {
   .h2-news,
   .volunteer-button,
   .internships-button,
-  .h2-exhibitions {
+  .h2-exhibitions,
+  .h3-exhibitions {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 
@@ -1146,7 +1153,9 @@ footer {
   .volunteer-text-1,
   .internships-text-1,
   .internships-text-2,
-  .exhibitions-text-1 {
+  .exhibitions-text-1,
+  .exhibitions-text-2,
+  .exhibitions-text-3 {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 

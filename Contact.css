@@ -93,21 +93,18 @@ tr {
 .contact-form {
   width: 500px;
   height: 500px;
+  margin-bottom: 3rem;
 }
 
 .contact-input {
-  height: 4rem;
-}
-
-.name-input {
-  margin-top: -7rem;
-}
-
-.email-input {
-  margin-top: -7rem;
+  padding-top: 2rem;
 }
 
 .name-label,
 .email-label {
   margin-top: 2rem;
+}
+
+.message-input {
+  padding-top: 10rem;
 }

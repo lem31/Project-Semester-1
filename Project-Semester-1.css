@@ -68,7 +68,8 @@ table {
   color: var(--Text-base-color);
 }
 
-.h3-news {
+.h3-news,
+.h3-contact {
   font-size: var(--Header-3-All-Screens-font-size);
   font-family: var(--Secondary-font-family);
 }
@@ -101,7 +102,8 @@ h1,
 .h3-exhibitions,
 .h4-exhibitions,
 .h5-exhibitions,
-.h6-exhibitions {
+.h6-exhibitions,
+.h2-contact {
   font-family: var(--Secondary-font-family);
   font-size: var(--Header-2-Desktop-font-size);
 }
@@ -120,14 +122,10 @@ h1,
 .volunteer-text-1,
 .internships-text-1,
 .internships-text-2,
-.exhibitions-text-1,
-.exhibitions-text-2,
-.exhibitions-text-3,
-.exhibitions-text-4,
-.exhibitions-text-5,
-.exhibitions-text-6,
-.exhibitions-text-7,
-.exhibitions-text-8 {
+.exhibitions-text,
+.contact-text,
+td,
+tr {
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
 }
@@ -879,14 +877,8 @@ footer {
   .volunteer-text-1,
   .internships-text-1,
   .internships-text-2,
-  .exhibitions-text-1,
-  .exhibitions-text-2,
-  .exhibitions-text-3,
-  .exhibitions-text-4,
-  .exhibitions-text-5,
-  .exhibitions-text-6,
-  .exhibitions-text-7,
-  .exhibitions-text-8 {
+  .exhibitions-text,
+  .contact-text {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 
@@ -1179,14 +1171,8 @@ footer {
   .volunteer-text-1,
   .internships-text-1,
   .internships-text-2,
-  .exhibitions-text-1,
-  .exhibitions-text-2,
-  .exhibitions-text-3,
-  .exhibitions-text-4,
-  .exhibitions-text-5,
-  .exhibitions-text-6,
-  .exhibitions-text-7,
-  .exhibitions-text-8 {
+  .exhibitions-text,
+  .contact-text {
     font-size: var(--Body-1-and-2-T-M-font-size);
   }
 

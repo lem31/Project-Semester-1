@@ -48,7 +48,7 @@
 .Visit-info-box {
   display: flex;
   flex-direction: column;
-  width: 85vw;
+  width: 86vw;
   border: 5px solid #41a2a6;
   margin-top: -20rem;
   padding-left: 2rem;
@@ -59,5 +59,23 @@ table {
   flex-direction: column;
   width: 85vw;
   border: 5px solid #41a2a6;
-  width: 15rem;
+  width: 20rem;
+}
+
+td,
+tr {
+  width: 200px;
+}
+
+.td-border-btm {
+  border-bottom: 1px solid white;
+}
+
+.td-time {
+  border-left: 1px solid white;
+  font-weight: lighter;
+}
+
+.contact-text {
+  font-weight: lighter;
 }

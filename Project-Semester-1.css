@@ -81,7 +81,8 @@ h1,
 .h1-about,
 .About-text-2,
 .h1-support,
-.h1-internships {
+.h1-internships,
+.h1-exhibitions {
   font-family: var(--Primary-font-family-Bold);
   font-size: var(--Header-1-Desktop-font-size);
 }
@@ -90,7 +91,8 @@ h1,
 .h2-our-museum,
 .h2-news,
 .volunteer-button,
-.internships-button {
+.internships-button,
+.h2-exhibitions {
   font-family: var(--Secondary-font-family);
   font-size: var(--Header-2-Desktop-font-size);
 }
@@ -811,7 +813,8 @@ footer {
   .h2-explore,
   .h3-researchers,
   .h1-support,
-  .h1-internships {
+  .h1-internships,
+  .h1-exhibitions {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -819,7 +822,8 @@ footer {
   .h2-our-museum,
   .h2-news,
   .volunteer-button,
-  .internships-button {
+  .internships-button,
+  .h2-exhibitions {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 
@@ -1104,7 +1108,8 @@ footer {
   h3 a,
   .h4-support,
   .h5-volunteer,
-  .h6-internships {
+  .h6-internships,
+  .h1-exhibitions {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -1112,7 +1117,8 @@ footer {
   .h2-our-museum,
   .h2-news,
   .volunteer-button,
-  .internships-button {
+  .internships-button,
+  .h2-exhibitions {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 

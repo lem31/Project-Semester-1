@@ -125,4 +125,17 @@
   #more {
     margin-left: 0;
   }
+
+  .Cosmology-box,
+  .Evolution-box,
+  .Biology-Medicine-box,
+  .Robotics-AI-box,
+  .Ecology-box {
+    width: 60vw;
+  }
+
+  .Exhibitions-banner-img {
+    width: 100%;
+    object-fit: cover;
+  }
 }

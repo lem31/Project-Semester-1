@@ -58,13 +58,14 @@
 .Visit-info-box {
   margin-top: -20rem;
   padding-left: 2rem;
+  width: 86.9vw;
 }
 
 .Get-in-touch-box {
   margin-top: 5rem;
   align-items: center;
   margin-bottom: 5rem;
-  width: 87vw;
+  width: 89vw;
 }
 
 table {
@@ -96,7 +97,7 @@ tr {
 .contact-form {
   width: 500px;
   height: 500px;
-  margin-bottom: 5rem;
+  margin-bottom: 8rem;
 }
 
 .contact-input {

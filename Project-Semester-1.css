@@ -110,7 +110,8 @@ h1,
 .h6-exhibitions,
 .h2-contact,
 .h2-pp,
-.h2-TC {
+.h2-TC,
+.contact-button {
   font-family: var(--Secondary-font-family);
   font-size: var(--Header-2-Desktop-font-size);
 }
@@ -854,7 +855,8 @@ footer {
   .h5-exhibitions,
   .h6-exhibitions,
   .h2-pp,
-  .h2-TC {
+  .h2-TC,
+  .contact-button {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 
@@ -1159,7 +1161,8 @@ footer {
   .h5-exhibitions,
   .h6-exhibitions,
   .h2-pp,
-  .h2-TC {
+  .h2-TC,
+  .contact-button {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 

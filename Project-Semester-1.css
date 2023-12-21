@@ -647,7 +647,6 @@ label {
   z-index: 12;
   display: flex;
   width: 20rem;
-
   display: none;
 }
 
@@ -871,7 +870,7 @@ footer {
   }
 
   .header-news-box {
-    width: 20vw;
+    width: 40vw;
   }
 
   .slideshow-text,
@@ -1171,7 +1170,7 @@ footer {
   }
 
   .header-news-box {
-    width: 20vw;
+    width: 40vw;
   }
 
   .slideshow-text,
@@ -1398,7 +1397,7 @@ footer {
   #caret-2,
   #caret-3 {
     width: 300px;
-    margin-left: -5rem;
+    margin-left: -6.3rem;
   }
 
   #caret-1 {

@@ -107,12 +107,12 @@ h1,
 .h2-contact,
 .h2-pp,
 .h2-TC,
-.contact-button {
+.contact-button,
+.slideshow-text {
   font-family: var(--Secondary-font-family);
   font-size: var(--Header-2-Desktop-font-size);
 }
 .h1-text,
-.slideshow-text,
 .h1-text-explore,
 .for-kids-text,
 .h2-text,
@@ -585,7 +585,6 @@ h3 a {
   height: fit-content;
   background-color: var(--Primary-base-color);
   font-weight: bolder;
-  color: black;
 }
 
 .text-box {

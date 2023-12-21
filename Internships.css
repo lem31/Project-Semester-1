@@ -119,6 +119,12 @@
     margin-left: 1.5rem;
   }
 
+  .desktop-drop-down-link,
+  .mobile-link {
+    padding-bottom: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+
   #more {
     margin-left: 0;
   }
@@ -162,6 +168,12 @@
 
   .desktop-drop-down-link {
     margin-left: 1.5rem;
+  }
+
+  .desktop-drop-down-link,
+  .mobile-link {
+    padding-bottom: 0.8rem;
+    padding-bottom: 0.8rem;
   }
 
   #more {

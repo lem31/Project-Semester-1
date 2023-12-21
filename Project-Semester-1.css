@@ -251,6 +251,10 @@ main {
   align-items: center;
 }
 
+#Nav-menu {
+  height: 30px;
+}
+
 .nav {
   display: flex;
   flex-wrap: nowrap;

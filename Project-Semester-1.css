@@ -788,7 +788,6 @@ footer {
   flex-direction: column;
   width: 100%;
   height: auto;
-
   align-items: center;
 }
 
@@ -807,7 +806,7 @@ footer {
 }
 
 .footer-header {
-  font-size: 20px;
+  font-size: var(--Header-2-Desktop-font-size);
   font-family: var(--Secondary-font-family);
   margin-bottom: -0.1rem;
 }
@@ -1025,8 +1024,9 @@ footer {
   }
 
   .footer-header {
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
+    font-weight: bolder;
   }
 
   body {
@@ -1331,8 +1331,9 @@ footer {
   }
 
   .footer-header {
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
+    font-weight: bolder;
   }
 
   body {

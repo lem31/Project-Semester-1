@@ -20,7 +20,6 @@
 
 .Contact-banner {
   width: 100vw;
-
   display: flex;
   position: relative;
 }
@@ -39,7 +38,7 @@
   height: 50px;
   justify-content: center;
   align-items: center;
-  z-index: 999;
+  /* z-index: 999; */
   padding-top: 6rem;
 }
 

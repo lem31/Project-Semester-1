@@ -821,7 +821,7 @@ footer {
 /* SMALL SCREENS */
 
 @media (min-width: 501px) and (max-width: 1000px) {
-  .Our-Museum-h3,
+  .Our-Museum-h3 a,
   .slideshow-header,
   .h2-explore,
   .h3-researchers,
@@ -1126,7 +1126,7 @@ footer {
 /* XTRA SMALL SCREENS */
 
 @media (max-width: 500px) {
-  .Our-Museum-h3,
+  .Our-Museum-h3 a,
   .slideshow-header,
   .h1-explore,
   .h2-explore,

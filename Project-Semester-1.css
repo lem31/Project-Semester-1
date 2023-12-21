@@ -654,19 +654,22 @@ label {
   display: none;
 }
 
+.radio-1,
+.radio-2,
+.radio-3 {
+  margin-top: 10rem;
+}
+
 .radio-1 {
   margin-left: 5rem;
-  margin-top: 10rem;
 }
 
 .radio-2 {
   margin-left: 6rem;
-  margin-top: 10rem;
 }
 
 .radio-3 {
   margin-left: 30rem;
-  margin-top: 10rem;
 }
 
 #slide-1 {
@@ -1400,14 +1403,14 @@ footer {
   }
 
   #caret-1 {
-    margin-top: 150px;
+    margin-top: 250px;
   }
 
   #caret-2 {
-    margin-top: 85px;
+    margin-top: 200px;
   }
   #caret-3 {
-    margin-top: 18px;
+    margin-top: 150px;
   }
 
   .h1-text {

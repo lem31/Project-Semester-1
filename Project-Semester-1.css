@@ -644,19 +644,12 @@ label {
   padding-top: 0.3rem;
 }
 
-.radio-1,
-.radio-2,
-.radio-3 {
+.radio-home {
   position: absolute;
   z-index: 12;
   display: flex;
   width: 20rem;
   display: none;
-}
-
-.radio-1,
-.radio-2,
-.radio-3 {
   margin-top: 10rem;
 }
 

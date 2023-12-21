@@ -798,8 +798,7 @@ footer {
 .Key-links-box a {
   text-align: left;
   font-family: var(--Secondary-font-family);
-  font-size: 16px;
-  font-weight: bold;
+  font-size: var(--Body-1-and-2-font-size);
 }
 
 .links-box {

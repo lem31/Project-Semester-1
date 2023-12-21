@@ -30,7 +30,7 @@
 
 .h1-pp-box {
   display: flex;
-  width: 98vw;
+  width: 96vw;
   height: 75rem;
   justify-content: center;
   align-items: center;
@@ -40,4 +40,10 @@
 
 .pp-text {
   font-weight: lighter;
+}
+
+.Privacy-policy-text {
+  display: flex;
+  flex-direction: column;
+  width: 96vw;
 }

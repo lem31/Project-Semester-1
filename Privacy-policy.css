@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
   position: relative;
   z-index: 12;
 }
@@ -35,7 +35,7 @@
 .h1-pp-box {
   display: flex;
   width: 96vw;
-  height: 75rem;
+  height: 50rem;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -50,4 +50,40 @@
   display: flex;
   flex-direction: column;
   width: 96vw;
+}
+
+/* SMALL SCREENS */
+
+@media (min-width: 501px) and (max-width: 1000px) {
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 0;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
+}
+
+/* XTRA SMALL SCREENS */
+
+@media (max-width: 500px) {
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    padding-left: 0;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
 }

@@ -799,6 +799,7 @@ footer {
   text-align: left;
   font-family: var(--Secondary-font-family);
   font-size: 16px;
+  font-weight: bold;
 }
 
 .links-box {

@@ -156,6 +156,28 @@ form {
 /* SMALL SCREENS */
 
 @media (min-width: 501px) and (max-width: 1000px) {
+  .mobile-and-drop-box {
+    display: flex;
+    flex-direction: column;
+    width: 285px;
+    padding-left: 0;
+    margin-left: 2%;
+    position: absolute;
+    z-index: 999;
+  }
+
+  #desktop-exhibitions-link {
+    margin-top: 0;
+  }
+
+  .desktop-drop-down-link {
+    margin-left: 1.5rem;
+  }
+
+  #more {
+    margin-left: 0;
+  }
+
   .For-kids-wrapper {
     display: flex;
     flex-direction: row;
@@ -267,7 +289,11 @@ form {
   #caret-explore-4 {
     z-index: 6;
   }
+}
 
+/* XTRA SMALL SCREENS */
+
+@media (max-width: 500px) {
   .mobile-and-drop-box {
     display: flex;
     flex-direction: column;
@@ -282,14 +308,14 @@ form {
     margin-top: 0;
   }
 
+  .desktop-drop-down-link {
+    margin-left: 1.5rem;
+  }
+
   #more {
     margin-left: 0;
   }
-}
 
-/* XTRA SMALL SCREENS */
-
-@media (max-width: 500px) {
   .For-kids-wrapper {
     display: flex;
     flex-direction: row;
@@ -415,20 +441,6 @@ form {
 
   #caret-explore-4 {
     z-index: 6;
-  }
-
-  .mobile-and-drop-box {
-    display: flex;
-    flex-direction: column;
-    width: 285px;
-    padding-left: 0;
-    margin-left: 2%;
-    position: absolute;
-    z-index: 999;
-  }
-
-  #desktop-exhibitions-link {
-    margin-top: 0;
   }
 
   .circle-img-box {

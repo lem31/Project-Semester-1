@@ -1,14 +1,14 @@
-.mobile-and-drop-box {
-  margin-top: -2.7rem;
-  margin-left: 29rem;
-}
-
 #more {
-  margin-top: 0.2rem;
+  padding-top: 0.8rem;
+  margin-left: 0.8rem;
 }
 
 #desktop-exhibitions-link {
-  margin-top: -5.8rem;
+  margin-top: -5.9rem;
+}
+
+.desktop-drop-down-link {
+  margin-left: 1rem;
 }
 
 .For-kids-banner,
@@ -271,7 +271,7 @@ form {
   .mobile-and-drop-box {
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 285px;
     padding-left: 0;
     margin-left: 2%;
     position: absolute;
@@ -280,6 +280,10 @@ form {
 
   #desktop-exhibitions-link {
     margin-top: 0;
+  }
+
+  #more {
+    margin-left: 0;
   }
 }
 
@@ -416,7 +420,7 @@ form {
   .mobile-and-drop-box {
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 285px;
     padding-left: 0;
     margin-left: 2%;
     position: absolute;

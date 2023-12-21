@@ -1,10 +1,14 @@
 #more {
-  margin-top: 0.6rem;
+  padding-top: 0.8rem;
   margin-left: 0.8rem;
 }
 
 #desktop-exhibitions-link {
-  margin-top: -5.8rem;
+  margin-top: -5.9rem;
+}
+
+.desktop-drop-down-link {
+  margin-left: 1rem;
 }
 
 .About-wrapper,
@@ -166,7 +170,7 @@
   .mobile-and-drop-box {
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 285px;
     padding-left: 0;
     margin-left: 2%;
     position: absolute;
@@ -175,6 +179,10 @@
 
   #desktop-exhibitions-link {
     margin-top: 0;
+  }
+
+  .desktop-drop-down-link {
+    margin-left: 1.5rem;
   }
 
   #more {
@@ -301,7 +309,7 @@
   .mobile-and-drop-box {
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 285px;
     padding-left: 0;
     margin-left: 2%;
     position: absolute;
@@ -310,6 +318,10 @@
 
   #desktop-exhibitions-link {
     margin-top: 0;
+  }
+
+  .desktop-drop-down-link {
+    margin-left: 1.5rem;
   }
 
   #more {

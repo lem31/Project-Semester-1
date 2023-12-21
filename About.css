@@ -312,6 +312,10 @@
     margin-top: 0;
   }
 
+  #more {
+    margin-left: 0;
+  }
+
   .h1-about {
     text-align: center;
   }

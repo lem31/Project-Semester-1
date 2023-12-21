@@ -1,10 +1,10 @@
-.mobile-and-drop-box {
-  margin-top: -2.7rem;
-  margin-left: 29rem;
+#more {
+  margin-top: 0.6rem;
+  margin-left: 0.8rem;
 }
 
-#more {
-  margin-top: 0.2rem;
+#desktop-exhibitions-link {
+  margin-top: -5.8rem;
 }
 
 #desktop-exhibitions-link {
@@ -138,6 +138,10 @@ tr {
     margin-top: 0;
   }
 
+  #more {
+    margin-left: 0;
+  }
+
   .contact-banner-img {
     margin-top: -5rem;
   }
@@ -167,6 +171,10 @@ tr {
 
   #desktop-exhibitions-link {
     margin-top: 0;
+  }
+
+  #more {
+    margin-left: 0;
   }
 
   .contact-banner-img {

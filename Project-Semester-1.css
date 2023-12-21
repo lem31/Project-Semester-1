@@ -935,16 +935,15 @@ footer {
     flex-direction: column;
     width: 280px;
     padding-left: 0;
-    margin-left: 10%;
+    margin-left: 2%;
     position: absolute;
     z-index: 999;
-    margin-top: -3.5rem;
+    margin-top: -3rem;
   }
 
   .hamburger {
     display: block;
     margin-bottom: 0;
-    margin-top: -0.2rem;
   }
 
   #drop-down-checkbox:checked ~ .mobile-link {
@@ -1240,16 +1239,15 @@ footer {
     flex-direction: column;
     width: 280px;
     padding-left: 0;
-    margin-left: 10%;
+    margin-left: 2%;
     position: absolute;
     z-index: 999;
-    margin-top: -3.5rem;
+    margin-top: -3rem;
   }
 
   .hamburger {
     display: block;
     margin-bottom: 0;
-    margin-top: -0.2rem;
   }
 
   #drop-down-checkbox:checked ~ .mobile-link {

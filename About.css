@@ -1,10 +1,6 @@
-.mobile-and-drop-box {
-  margin-top: -2.7rem;
-  margin-left: 29rem;
-}
-
 #more {
-  margin-top: 0.2rem;
+  margin-top: 0.6rem;
+  margin-left: 0.8rem;
 }
 
 #desktop-exhibitions-link {
@@ -179,6 +175,10 @@
 
   #desktop-exhibitions-link {
     margin-top: 0;
+  }
+
+  #more {
+    margin-left: 0;
   }
 
   .h1-about {

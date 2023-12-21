@@ -585,6 +585,7 @@ h3 a {
   height: fit-content;
   background-color: var(--Primary-base-color);
   font-weight: bolder;
+  color: black;
 }
 
 .text-box {

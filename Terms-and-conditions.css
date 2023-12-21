@@ -13,7 +13,7 @@
   margin-top: -5.8rem;
 }
 
-.Privacy-policy {
+.Terms-conditions {
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@
   z-index: 12;
 }
 
-.Privacy-policy-banner {
+.Terms-conditions-banner {
   width: 96vw;
   height: 400px;
   display: flex;
@@ -32,7 +32,7 @@
   margin-top: 5rem;
 }
 
-.h1-pp-box {
+.h1-TC-box {
   display: flex;
   width: 96vw;
   height: 75rem;
@@ -42,11 +42,11 @@
   z-index: 999;
 }
 
-.pp-text {
+.TC-text {
   font-weight: lighter;
 }
 
-.Privacy-policy-text {
+.Terms-conditions-text {
   display: flex;
   flex-direction: column;
   width: 96vw;

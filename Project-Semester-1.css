@@ -1213,7 +1213,8 @@ footer {
 
   .search-icon-desktop,
   .more-btn,
-  .desktop-link {
+  .desktop-link,
+  .search {
     display: none;
   }
 

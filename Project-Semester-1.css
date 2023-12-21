@@ -798,6 +798,7 @@ footer {
   text-align: left;
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-1-and-2-font-size);
+  color: black;
 }
 
 .links-box {

@@ -183,15 +183,15 @@
     margin-left: 0;
   }
   .circle-img-box {
-    width: 300px;
+    width: 260px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(6.3rem, 100%), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(4.2rem, 100%), 1fr));
     grid-template-areas:
       "Gap Circle Gap1"
       "Beetles Gap5 Shells"
       "Coins Gap4 Clocks";
     margin: 0;
-    padding-right: 22rem;
+    padding-right: 23rem;
     padding-top: 5rem;
   }
 

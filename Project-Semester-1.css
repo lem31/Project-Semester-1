@@ -388,7 +388,7 @@ input[type="search"]:focus {
 .Our-Museum-img {
   object-fit: contain;
   position: relative;
-  width: 89vw;
+  width: 90vw;
   border: 8px solid var(--Primary-base-color);
   filter: brightness(50%);
 }
@@ -397,7 +397,7 @@ input[type="search"]:focus {
 .Our-Museum-img-box {
   opacity: 0;
   position: absolute;
-  width: 90vw;
+  width: 91.5vw;
   height: 800px;
 }
 
@@ -406,7 +406,7 @@ input[type="search"]:focus {
 }
 
 .Transition-box-Our-Museum > div {
-  animation: animate 8s infinite;
+  animation: animate 10s infinite;
 }
 
 .Transition-box > div:nth-child(2),
@@ -1070,7 +1070,7 @@ footer {
     padding-top: 2rem;
     padding-left: 0.7rem;
     width: 280px;
-    height: 20rem;
+    height: 25rem;
     gap: 2rem;
   }
 
@@ -1112,6 +1112,7 @@ footer {
     padding-left: 2rem;
     position: static;
     height: 100%;
+    margin-top: -2rem;
   }
 
   .h1 {
@@ -1434,6 +1435,7 @@ footer {
 
   .h1 {
     height: 100%;
+    margin-left: 2rem;
   }
   .Transition-box {
     width: 50%;

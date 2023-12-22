@@ -1463,25 +1463,26 @@ footer {
 
   .control-box {
     height: 80px;
+    width: 90vw;
   }
 
   #caret-1,
   #caret-2,
   #caret-3 {
-    width: 250px;
+    width: 240px;
     margin-top: 3rem;
   }
 
   #caret-1 {
-    margin-left: -5rem;
+    margin-left: -3rem;
   }
 
   #caret-2 {
-    margin-left: -4rem;
+    margin-left: -2rem;
   }
 
   #caret-3 {
-    margin-left: -3rem;
+    margin-left: -1rem;
   }
 
   .h1-text-home {

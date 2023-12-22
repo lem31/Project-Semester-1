@@ -28,7 +28,7 @@
 
 .Terms-conditions-banner {
   width: 96vw;
-  height: 400px;
+  height: 200px;
   display: flex;
   position: relative;
   border: 5px solid #41a2a6;
@@ -38,11 +38,11 @@
 .h1-TC-box {
   display: flex;
   width: 96vw;
+  height: 40rem;
   justify-content: center;
   align-items: center;
   position: absolute;
   z-index: 999;
-  padding-top: 10rem;
 }
 
 .TC-text {

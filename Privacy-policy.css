@@ -27,7 +27,7 @@
 
 .Privacy-policy-banner {
   width: 96vw;
-  height: 400px;
+  height: 200px;
   display: flex;
   position: relative;
   border: 5px solid #41a2a6;
@@ -37,7 +37,7 @@
 .h1-pp-box {
   display: flex;
   width: 96vw;
-  height: 50rem;
+  height: 40rem;
   justify-content: center;
   align-items: center;
   position: absolute;

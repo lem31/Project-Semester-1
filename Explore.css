@@ -204,7 +204,7 @@ form {
 
   .for-kids-img-box {
     position: absolute;
-    margin-top: 15rem;
+    margin-top: 23rem;
     margin-left: -10rem;
     width: 460px;
   }
@@ -217,7 +217,7 @@ form {
     padding-top: 32rem;
   }
   .For-teachers-3-img-box {
-    padding-top: 10rem;
+    padding-top: 2rem;
     padding-right: 6rem;
   }
 
@@ -278,8 +278,8 @@ form {
 
   .caret-explore {
     position: absolute;
-    margin-left: 18rem;
-    margin-top: 15rem;
+    margin-left: 5rem;
+    margin-top: 6rem;
     visibility: visible;
   }
 
@@ -296,7 +296,6 @@ form {
 
   #caret-explore-2 {
     z-index: 8;
-    margin-top: 15.4rem;
   }
 
   #caret-explore-3 {
@@ -365,7 +364,7 @@ form {
 
   .for-kids-img-box {
     position: absolute;
-    margin-top: 8rem;
+    margin-top: 18rem;
     margin-left: -4rem;
     width: 200px;
   }
@@ -457,8 +456,8 @@ form {
 
   .caret-explore {
     position: absolute;
-    margin-left: 7rem;
-    margin-top: 10rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
     visibility: visible;
   }
 

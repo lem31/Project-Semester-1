@@ -1112,19 +1112,23 @@ footer {
   #caret-1,
   #caret-2,
   #caret-3 {
-    width: 400px;
+    width: 380px;
+  }
+
+  fieldset {
+    width: 90vw;
   }
 
   #caret-1 {
-    margin-left: -9rem;
+    margin-left: -4rem;
   }
 
   #caret-2 {
-    margin-left: -5em;
+    margin-left: -2.5em;
   }
 
   #caret-3 {
-    margin-left: -2rem;
+    margin-left: -1rem;
   }
 
   .img-slideshow-wrapper {

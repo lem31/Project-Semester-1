@@ -119,6 +119,9 @@ tr {
   margin-top: 1.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-weight: bolder;
+  color: gold;
+  border: 4px solid white;
 }
 
 /* SMALL SCREENS */

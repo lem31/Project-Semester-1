@@ -61,8 +61,7 @@ p,
 .h6-exhibitions,
 table,
 .h4-contact,
-.contact-label,
-.contact-button {
+.contact-label {
   color: var(--Text-base-color);
 }
 

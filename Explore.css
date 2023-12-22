@@ -362,13 +362,17 @@ form {
 
   .for-kids-img-box {
     position: absolute;
-    /* margin-top: 75rem; */
+    margin-top: 15rem;
     margin-left: -3.5rem;
     width: 200px;
   }
 
+  .For-teachers {
+    padding-top: 32rem;
+  }
   .For-teachers-3-img-box {
-    padding-top: 35rem;
+    padding-top: 10rem;
+    padding-right: 6rem;
   }
 
   .lab-img {

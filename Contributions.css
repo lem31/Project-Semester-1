@@ -112,7 +112,7 @@
     width: 285px;
     padding-left: 0;
     margin-left: 2%;
-    margin-top: -3.2rem;
+    margin-top: -3.7rem;
     position: absolute;
     z-index: 999;
   }
@@ -127,7 +127,6 @@
 
   .desktop-drop-down-link,
   .mobile-link {
-    padding-bottom: 0.8rem;
     padding-bottom: 0.8rem;
   }
 
@@ -162,7 +161,7 @@
     width: 285px;
     padding-left: 0;
     margin-left: 2%;
-    margin-top: -3.2rem;
+    margin-top: -3.7rem;
     position: absolute;
     z-index: 999;
   }
@@ -175,10 +174,14 @@
     margin-left: 1.5rem;
   }
 
+  .desktop-drop-down-link,
+  .mobile-link {
+    padding-bottom: 0.8rem;
+  }
+
   #more {
     margin-left: 0;
   }
-
   .circle-img-box {
     width: 300px;
     display: grid;

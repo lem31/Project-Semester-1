@@ -102,7 +102,7 @@
     width: 285px;
     padding-left: 0;
     margin-left: 2%;
-    margin-top: -3.2rem;
+    margin-top: -3.7rem;
     position: absolute;
     z-index: 999;
   }
@@ -117,7 +117,6 @@
 
   .desktop-drop-down-link,
   .mobile-link {
-    padding-bottom: 0.8rem;
     padding-bottom: 0.8rem;
   }
 
@@ -152,7 +151,7 @@
     width: 285px;
     padding-left: 0;
     margin-left: 2%;
-    margin-top: -3.2rem;
+    margin-top: -3.7rem;
     position: absolute;
     z-index: 999;
   }
@@ -167,7 +166,6 @@
 
   .desktop-drop-down-link,
   .mobile-link {
-    padding-bottom: 0.8rem;
     padding-bottom: 0.8rem;
   }
 

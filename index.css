@@ -307,10 +307,6 @@ input[type="search"]:focus {
   display: none;
 }
 
-#mobile-link-1 {
-  margin-top: 2.5rem;
-}
-
 #more {
   border: none;
   outline: none;
@@ -946,6 +942,10 @@ footer {
     margin-left: 1.5rem;
   }
 
+  mobile-link-1 {
+    margin-top: -25rem;
+  }
+
   .nav-wrapper {
     background-color: transparent;
     display: flex;
@@ -1283,8 +1283,8 @@ footer {
     margin-left: 1.5rem;
   }
 
-  #mobile-link-1 {
-    /* margin-top: -6rem; */
+  mobile-link-1 {
+    margin-top: -25rem;
   }
 
   .nav-wrapper {

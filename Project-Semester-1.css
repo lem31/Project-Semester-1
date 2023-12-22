@@ -352,7 +352,7 @@ input[type="search"]:focus {
 }
 
 .Our-Museum {
-  margin-top: 35%;
+  margin-top: 40%;
 }
 
 .Explore-text-box {
@@ -499,7 +499,7 @@ h3 a {
   z-index: 8;
   position: static;
   align-items: center;
-  margin-top: 70%;
+  margin-top: 75%;
   background-color: transparent;
 }
 
@@ -725,7 +725,7 @@ label {
   flex-direction: column;
   align-items: center;
   padding-bottom: 5rem;
-  margin-top: 65%;
+  margin-top: 50%;
   z-index: 12;
   aspect-ratio: revert;
 }
@@ -1109,15 +1109,15 @@ footer {
   }
 
   #caret-1 {
-    margin-left: -8rem;
+    margin-left: -7.5rem;
   }
 
   #caret-2 {
-    margin-left: -7rem;
+    margin-left: -6rem;
   }
 
   #caret-3 {
-    margin-left: -5rem;
+    margin-left: -4rem;
   }
 
   .img-slideshow-wrapper {
@@ -1140,7 +1140,7 @@ footer {
   }
 
   .Get-involved {
-    margin-top: 75%;
+    margin-top: 32rem;
   }
 }
 
@@ -1406,6 +1406,16 @@ footer {
     gap: 0;
   }
 
+  .explore-img,
+  .Our-Museum-img {
+    width: 90vw;
+  }
+
+  .img-box,
+  .Our-Museum-img-box {
+    width: 93.5vw;
+  }
+
   .Our-Museum {
     margin-top: 45%;
   }
@@ -1417,6 +1427,27 @@ footer {
   .Special-Events {
     height: 500px;
     margin-bottom: 12rem;
+  }
+
+  .slide {
+    width: 98vw;
+    height: 1000px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+
+  .slide-img-box {
+    width: 89vw;
+  }
+
+  .slideshow-img {
+    width: 85vw;
+  }
+
+  .text-box {
+    width: 95.6%;
   }
 
   .img-slideshow-wrapper {
@@ -1464,6 +1495,6 @@ footer {
   }
 
   .Get-involved {
-    margin-top: 60%;
+    margin-top: 25rem;
   }
 }

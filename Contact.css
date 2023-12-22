@@ -26,7 +26,7 @@
 
 .contact-banner-img {
   width: 100%;
-  margin-top: -10rem;
+  margin-top: -6rem;
   object-fit: contain;
 }
 
@@ -37,8 +37,8 @@
   margin: auto;
   width: 100vw;
   justify-content: center;
-  padding-top: 50px;
   z-index: 10;
+  padding-top: 2rem;
 }
 
 .Visit-info-box,
@@ -95,6 +95,8 @@ tr {
 }
 
 .contact-form {
+  display: flex;
+  flex-direction: column;
   width: 500px;
   height: 500px;
   margin-bottom: 8rem;
@@ -150,10 +152,6 @@ tr {
     margin-left: 0;
   }
 
-  .contact-banner-img {
-    margin-top: -5rem;
-  }
-
   .Visit-info-box {
     margin-top: -10rem;
   }
@@ -163,8 +161,8 @@ tr {
     height: 500px;
   }
 
-  .h1-text-box-contact {
-    padding-top: 20px;
+  .contact-banner-img {
+    margin-top: 0;
   }
 }
 
@@ -199,10 +197,6 @@ tr {
     margin-left: 0;
   }
 
-  .contact-banner-img {
-    margin-top: -2rem;
-  }
-
   .Visit-info-box {
     margin-top: -6rem;
   }
@@ -219,8 +213,7 @@ tr {
   table {
     width: 15rem;
   }
-
-  .h1-text-box-contact {
-    padding-top: 30px;
+  .contact-banner-img {
+    margin-top: 0;
   }
 }

@@ -38,10 +38,12 @@
   display: flex;
   width: 96vw;
   height: 40rem;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   z-index: 999;
+}
+
+.h1-pp {
+  padding-top: 5rem;
 }
 
 .pp-text {

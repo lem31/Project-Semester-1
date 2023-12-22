@@ -499,8 +499,18 @@ h3 a {
   z-index: 8;
   position: static;
   align-items: center;
-  margin-top: 80%;
+  margin-top: 70%;
   background-color: transparent;
+}
+
+.control-box {
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  background-color: var(--Primary-base-color);
+  position: absolute;
+  z-index: 12;
+  margin-top: 10rem;
 }
 
 .header-news-box {
@@ -527,7 +537,7 @@ h3 a {
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: -10rem;
+  margin-top: -15rem;
 }
 
 .image-slideshow {
@@ -604,14 +614,15 @@ h3 a {
   position: absolute;
   border-radius: 200px;
   width: 500px;
-  margin-left: -6rem;
-  margin-top: 30%;
   z-index: 12;
-  border: none;
-  padding: 0;
+  padding-right: 0;
   outline: 0;
-  background: none;
   background-color: transparent;
+  margin-top: 1%;
+}
+
+fieldset {
+  width: 82vw;
 }
 
 #caret-1:hover {
@@ -632,7 +643,7 @@ h3 a {
 form,
 fieldset {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 fieldset {
@@ -714,7 +725,7 @@ label {
   flex-direction: column;
   align-items: center;
   padding-bottom: 5rem;
-  margin-top: 55%;
+  margin-top: 65%;
   z-index: 12;
   aspect-ratio: revert;
 }
@@ -1086,26 +1097,29 @@ footer {
     height: 500px;
   }
 
-  .img-slideshow-wrapper {
-    margin-top: -18rem;
+  .control-box {
+    height: 100px;
   }
 
-  #caret-1,
-  #caret-2,
-  #caret-3 {
-    width: 400px;
-    margin-left: -6rem;
+  fieldset {
+    width: 50vw;
+    margin: 0;
   }
 
   #caret-1 {
-    margin-top: 150px;
+    margin-left: -6rem;
   }
 
   #caret-2 {
-    margin-top: 85px;
+    margin-left: 5rem;
   }
+
   #caret-3 {
-    margin-top: 18px;
+    margin-left: 15rem;
+  }
+
+  .img-slideshow-wrapper {
+    margin-top: -12.8rem;
   }
 
   .h1-text-home {

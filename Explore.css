@@ -205,7 +205,7 @@ form {
 
   .for-kids-img-box {
     position: absolute;
-    margin-top: 85rem;
+    margin-top: 15rem;
     margin-left: -10rem;
     width: 460px;
   }
@@ -213,8 +213,12 @@ form {
   .for-kids-image {
     width: 1200px;
   }
+
+  .For-teachers {
+    padding-top: 32rem;
+  }
   .For-teachers-3-img-box {
-    padding-top: 30rem;
+    padding-top: 10rem;
     padding-right: 6rem;
   }
 
@@ -358,13 +362,13 @@ form {
 
   .for-kids-img-box {
     position: absolute;
-    margin-top: 75rem;
+    /* margin-top: 75rem; */
     margin-left: -3.5rem;
     width: 200px;
   }
 
   .For-teachers-3-img-box {
-    padding-top: 28rem;
+    padding-top: 35rem;
   }
 
   .lab-img {
@@ -407,7 +411,7 @@ form {
     z-index: 11;
     margin-left: -250rem;
     padding-left: 6.5rem;
-    padding-top: 5.4rem;
+    padding-top: 10rem;
   }
 
   .teachers-img,

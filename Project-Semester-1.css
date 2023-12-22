@@ -556,7 +556,7 @@ h3 a {
 .slide-img-box {
   display: flex;
   flex-direction: column;
-  width: 65vw;
+  width: 60vw;
   height: 1800px;
   position: relative;
   padding-top: 10rem;
@@ -565,7 +565,7 @@ h3 a {
 }
 
 .slideshow-img {
-  width: 65vw;
+  width: 60vw;
   height: 100%;
   object-fit: contain;
   outline: 8px solid var(--Primary-base-color);
@@ -603,6 +603,16 @@ h3 a {
   margin-top: -2.8rem;
 }
 
+.special-events-form {
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.slideshow-caret,
+.radio-home {
+  vertical-align: middle;
+}
+
 #caret-1,
 #caret-2,
 #caret-3 {
@@ -613,23 +623,7 @@ h3 a {
   padding-right: 0;
   outline: 0;
   background-color: transparent;
-  margin-top: 1%;
-}
-
-#caret-1 {
-  margin-left: 8%;
-}
-
-#caret-2 {
-  margin-left: 3%;
-}
-
-#caret-3 {
-  margin-left: -4%;
-}
-
-fieldset {
-  width: 80vw;
+  margin-left: 30%;
 }
 
 #caret-1:hover {
@@ -647,33 +641,34 @@ fieldset {
   transform: rotate(360deg);
 }
 
-form,
-fieldset {
+.special-events-fieldset {
   display: flex;
   flex-direction: row;
-}
-
-fieldset {
+  width: 70vw;
   border: none;
 }
 
-label {
+.r-btn-next {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: start;
   align-items: start;
-  width: 100%;
+  width: 80%;
   height: 150px;
   padding-top: 0.3rem;
+  right: 0;
+  margin: 0 auto;
+  position: relative;
 }
 
 .radio-home {
   position: absolute;
   z-index: 12;
   display: flex;
-  width: 20rem;
-  display: none;
-  margin-top: 10rem;
+  width: 100px;
+  /* display: none; */
+  margin-top: 3rem;
+  z-index: 999;
 }
 
 .radio-1 {
@@ -681,11 +676,11 @@ label {
 }
 
 .radio-2 {
-  margin-left: 6rem;
+  margin-left: 20rem;
 }
 
 .radio-3 {
-  margin-left: 30rem;
+  margin-left: 20rem;
 }
 
 #slide-1 {
@@ -1109,26 +1104,26 @@ footer {
     margin-top: 8rem;
   }
 
+  .special-events-fieldset {
+    width: 50vw;
+  }
+
+  .radio-home {
+    width: 210px;
+  }
+
   #caret-1,
   #caret-2,
   #caret-3 {
     width: 380px;
   }
 
-  fieldset {
-    width: 90vw;
-  }
-
   #caret-1 {
-    margin-left: -4rem;
-  }
-
-  #caret-2 {
-    margin-left: -2.5em;
+    margin-left: -1rem;
   }
 
   #caret-3 {
-    margin-left: -1rem;
+    margin-left: 5rem;
   }
 
   .img-slideshow-wrapper {
@@ -1470,6 +1465,14 @@ footer {
     width: 90vw;
   }
 
+  .special-events-fieldset {
+    width: 50vw;
+  }
+
+  .radio-home {
+    width: 100px;
+  }
+
   #caret-1,
   #caret-2,
   #caret-3 {
@@ -1482,11 +1485,11 @@ footer {
   }
 
   #caret-2 {
-    margin-left: -2rem;
+    margin-left: -0.5rem;
   }
 
   #caret-3 {
-    margin-left: -1rem;
+    margin-left: 3rem;
   }
 
   .h1-text-home {

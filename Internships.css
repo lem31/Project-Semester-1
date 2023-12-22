@@ -1,16 +1,3 @@
-#more {
-  padding-top: 0.8rem;
-  margin-left: 0.8rem;
-}
-
-#desktop-exhibitions-link {
-  margin-top: -5.9rem;
-}
-
-.desktop-drop-down-link {
-  margin-left: 1rem;
-}
-
 .internships {
   width: 100vw;
   display: flex;
@@ -99,34 +86,6 @@
 /* SMALL SCREENS */
 
 @media (min-width: 501px) and (max-width: 1000px) {
-  .mobile-and-drop-box {
-    display: flex;
-    flex-direction: column;
-    width: 285px;
-    padding-left: 0;
-    margin-left: 2%;
-    margin-top: -3.7rem;
-    position: absolute;
-    z-index: 999;
-  }
-
-  #desktop-exhibitions-link {
-    margin-top: 0;
-  }
-
-  .desktop-drop-down-link {
-    margin-left: 1.5rem;
-  }
-
-  .desktop-drop-down-link,
-  .mobile-link {
-    padding-bottom: 0.8rem;
-  }
-
-  #more {
-    margin-left: 0;
-  }
-
   .internships-text-box-1,
   .internships-text-box-2 {
     padding-left: 2rem;
@@ -148,34 +107,6 @@
 /* XTRA SMALL SCREENS */
 
 @media (max-width: 500px) {
-  .mobile-and-drop-box {
-    display: flex;
-    flex-direction: column;
-    width: 285px;
-    padding-left: 0;
-    margin-left: 2%;
-    margin-top: -3.7rem;
-    position: absolute;
-    z-index: 999;
-  }
-
-  #desktop-exhibitions-link {
-    margin-top: 0;
-  }
-
-  .desktop-drop-down-link {
-    margin-left: 1.5rem;
-  }
-
-  .desktop-drop-down-link,
-  .mobile-link {
-    padding-bottom: 0.8rem;
-  }
-
-  #more {
-    margin-left: 0;
-  }
-
   .h1-text-box-internships {
     padding-top: 60px;
   }

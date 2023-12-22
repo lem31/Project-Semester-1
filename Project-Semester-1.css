@@ -585,12 +585,12 @@ h3 a {
   height: fit-content;
   background-color: var(--Primary-base-color);
   font-weight: bolder;
+  color: black;
 }
 
 .text-box {
   display: flex;
   flex-direction: column;
-  height: 100%;
   width: 100%;
   position: relative;
   margin-top: -1.2rem;
@@ -712,7 +712,7 @@ label {
   flex-direction: column;
   align-items: center;
   padding-bottom: 5rem;
-  margin-top: 48%;
+  margin-top: 75%;
   z-index: 12;
   aspect-ratio: revert;
 }
@@ -1119,6 +1119,10 @@ footer {
     width: 50%;
     height: 50%;
   }
+
+  .Get-involved {
+    margin-top: 55%;
+  }
 }
 
 /* XTRA SMALL SCREENS */
@@ -1430,5 +1434,9 @@ footer {
   .Transition-box {
     width: 50%;
     height: 50%;
+  }
+
+  .Get-involved {
+    margin-top: 40%;
   }
 }

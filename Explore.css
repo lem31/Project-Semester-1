@@ -222,6 +222,10 @@ form {
     padding-right: 6rem;
   }
 
+  .For-teachers-banner {
+    width: 110vw;
+  }
+
   .lab-img {
     width: 800px;
   }
@@ -373,6 +377,14 @@ form {
   .For-teachers-3-img-box {
     padding-top: 10rem;
     padding-right: 6rem;
+  }
+
+  .For-teachers-banner {
+    width: 115vw;
+  }
+
+  .For-teachers-banner-img {
+    object-fit: contain;
   }
 
   .lab-img {

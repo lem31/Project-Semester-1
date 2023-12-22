@@ -39,7 +39,7 @@ body,
 
 .drop-down-link,
 .desktop-link,
-h1,
+.h1,
 h3 a,
 h2,
 h3,
@@ -71,7 +71,7 @@ table,
   font-family: var(--Secondary-font-family);
 }
 
-h1,
+.h1,
 .Our-Museum-h3 a,
 .h4-support,
 .h5-volunteer,
@@ -139,21 +139,20 @@ tr,
   font-family: var(--Secondary-font-family);
   font-size: var(--Body-3-font-size);
 }
-
+/* 
 .mobile-link,
 .desktop-link,
 #more,
 .desktop-drop-down-link {
   font-size: var(--Main-Nav-link-font-size);
   font-family: var(--Secondary-font-family);
-}
+} */
 
 body,
 header,
 main,
 footer {
-  max-width: 100vw;
-  width: 100%;
+  width: 100vw;
 }
 
 body {
@@ -281,7 +280,7 @@ input[type="search"]:focus {
 
 .mobile-and-drop-box {
   width: 200px;
-  margin-left: 27.5rem;
+  margin-left: 50%;
   position: absolute;
   margin-top: -3rem;
   z-index: 12;
@@ -439,7 +438,7 @@ input[type="search"]:focus {
   }
 }
 
-h1,
+.h1,
 h3 a {
   overflow: hidden;
   height: 100vh;
@@ -846,7 +845,7 @@ footer {
     width: 200px;
   }
 
-  h1,
+  .h1,
   h3 a,
   .h4-support,
   .h5-volunteer,
@@ -1186,7 +1185,7 @@ footer {
     width: 200px;
   }
 
-  h1,
+  .h1,
   h3 a,
   .h4-support,
   .h5-volunteer,
@@ -1296,7 +1295,7 @@ footer {
     margin-left: 2%;
     position: absolute;
     z-index: 999;
-    margin-top: -3rem;
+    /* margin-top: -3rem; */
   }
 
   .hamburger {

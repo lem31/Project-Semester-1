@@ -1105,11 +1105,7 @@ footer {
   }
 
   .special-events-fieldset {
-    width: 50vw;
-  }
-
-  .radio-home {
-    width: 210px;
+    width: 40vw;
   }
 
   #caret-1,
@@ -1118,12 +1114,28 @@ footer {
     width: 380px;
   }
 
+  .radio-1 {
+    margin-left: 2rem;
+  }
+
+  .radio-2 {
+    margin-left: 18rem;
+  }
+
+  .radio-3 {
+    margin-left: 25rem;
+  }
+
   #caret-1 {
-    margin-left: -1rem;
+    margin-left: -2rem;
+  }
+
+  #caret-2 {
+    margin-left: 3rem;
   }
 
   #caret-3 {
-    margin-left: 5rem;
+    margin-left: 8rem;
   }
 
   .img-slideshow-wrapper {

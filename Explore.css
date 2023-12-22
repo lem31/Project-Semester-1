@@ -334,7 +334,9 @@ form {
     padding-bottom: 0.8rem;
   }
 
-  #more {
+  #more,
+  .Researchers-h3-text-box,
+  .For-kids-h1-text-box {
     margin-left: 0;
   }
 
@@ -344,11 +346,6 @@ form {
     position: relative;
     width: 100%;
     height: 50px;
-  }
-
-  .For-kids-h1-text-box,
-  .Researchers-h3-text-box {
-    margin-left: 0;
   }
 
   form {
@@ -412,8 +409,9 @@ form {
   }
 
   .For-teachers-h2-text-box {
-    margin-left: 3rem;
+    margin-left: 2rem;
     margin-top: 8rem;
+    width: 300px;
   }
 
   #bumper-swing-box {

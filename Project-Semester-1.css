@@ -624,6 +624,7 @@ h3 a {
   outline: 0;
   background-color: transparent;
   margin-left: 30%;
+  padding-top: 1rem;
 }
 
 #caret-1:hover {

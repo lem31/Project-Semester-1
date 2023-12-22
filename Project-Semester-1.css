@@ -858,7 +858,8 @@ footer {
   .h6-exhibitions,
   .h2-pp,
   .h2-TC,
-  .contact-button {
+  .contact-button,
+  .footer-header {
     font-size: var(--Header-2-Tablet-Mobile-font-size);
   }
 
@@ -1027,7 +1028,6 @@ footer {
   }
 
   .footer-header {
-    font-size: 25px;
     text-align: center;
     font-weight: bolder;
   }
@@ -1200,7 +1200,12 @@ footer {
 
   .About-text-2,
   .About-text-4,
-  .support-text-3 {
+  .support-text-3,
+  .follow-box a,
+  .Account-box a,
+  .stay-informed-box a,
+  .Key-links-box a,
+  .footer-header {
     font-family: var(--Secondary-font-family);
     font-size: var(--Body-3-T-M-font-size);
   }
@@ -1334,7 +1339,6 @@ footer {
   }
 
   .footer-header {
-    font-size: 22px;
     text-align: center;
     font-weight: bolder;
   }

@@ -622,7 +622,7 @@ h3 a {
 }
 
 fieldset {
-  width: 82vw;
+  width: 85rem;
 }
 
 #caret-1:hover {
@@ -1098,24 +1098,26 @@ footer {
   }
 
   .control-box {
-    height: 100px;
+    height: 120px;
+    margin-top: 8rem;
   }
 
-  fieldset {
-    width: 50vw;
-    margin: 0;
+  #caret-1,
+  #caret-2,
+  #caret-3 {
+    width: 400px;
   }
 
   #caret-1 {
-    margin-left: -6rem;
+    margin-left: -8rem;
   }
 
   #caret-2 {
-    margin-left: 5rem;
+    margin-left: -7rem;
   }
 
   #caret-3 {
-    margin-left: 15rem;
+    margin-left: -5rem;
   }
 
   .img-slideshow-wrapper {
@@ -1418,25 +1420,30 @@ footer {
   }
 
   .img-slideshow-wrapper {
-    margin-top: -20rem;
+    margin-top: -15rem;
+  }
+
+  .control-box {
+    height: 80px;
   }
 
   #caret-1,
   #caret-2,
   #caret-3 {
-    width: 300px;
-    margin-left: -4rem;
+    width: 250px;
+    margin-top: 3rem;
   }
 
   #caret-1 {
-    margin-top: 250px;
+    margin-left: -5rem;
   }
 
   #caret-2 {
-    margin-top: 200px;
+    margin-left: -4.5rem;
   }
+
   #caret-3 {
-    margin-top: 150px;
+    margin-left: -4rem;
   }
 
   .h1-text-home {

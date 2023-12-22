@@ -162,7 +162,6 @@ footer {
 body {
   overflow-x: hidden;
   margin: 0;
-  border: 2px solid orange;
 }
 
 html {
@@ -172,7 +171,6 @@ html {
 header {
   background-color: var(--Secondary-base-color);
   overflow-x: hidden;
-  border: 2px solid orange;
 }
 
 main {

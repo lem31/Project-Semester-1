@@ -617,15 +617,15 @@ h3 a {
 }
 
 #caret-1 {
-  margin-left: 20%;
-}
-
-#caret-2 {
   margin-left: 8%;
 }
 
+#caret-2 {
+  margin-left: 3%;
+}
+
 #caret-3 {
-  margin-left: -5%;
+  margin-left: -4%;
 }
 
 fieldset {
@@ -1116,15 +1116,15 @@ footer {
   }
 
   #caret-1 {
-    margin-left: -7.5rem;
+    margin-left: -9rem;
   }
 
   #caret-2 {
-    margin-left: -6rem;
+    margin-left: -5em;
   }
 
   #caret-3 {
-    margin-left: -4rem;
+    margin-left: -2rem;
   }
 
   .img-slideshow-wrapper {
@@ -1477,11 +1477,11 @@ footer {
   }
 
   #caret-2 {
-    margin-left: -4.5rem;
+    margin-left: -4rem;
   }
 
   #caret-3 {
-    margin-left: -4rem;
+    margin-left: -3rem;
   }
 
   .h1-text-home {

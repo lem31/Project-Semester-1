@@ -325,4 +325,12 @@
     margin-top: -8.5rem;
     height: 200px;
   }
+
+  .volunteer-box {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    padding-bottom: 5rem;
+  }
 }

@@ -366,17 +366,16 @@ form {
 
   .for-kids-img-box {
     position: absolute;
-    margin-top: 15rem;
-    margin-left: -3.5rem;
+    margin-top: 8rem;
+    margin-left: -4rem;
     width: 200px;
   }
 
   .For-teachers {
-    padding-top: 32rem;
+    padding-top: 23rem;
   }
   .For-teachers-3-img-box {
-    padding-top: 10rem;
-    padding-right: 6rem;
+    padding-left: 1.8rem;
   }
 
   .For-teachers-banner {
@@ -404,32 +403,6 @@ form {
     background-color: var(--Secondary-base-color);
   }
 
-  #bumper-swing-box {
-    z-index: 8;
-    visibility: visible;
-  }
-
-  #woolly-mammoth-box {
-    z-index: 9;
-    margin-left: -250rem;
-    padding-left: 6.5rem;
-    padding-top: 1rem;
-  }
-
-  #stars-club-box {
-    z-index: 10;
-    margin-left: -250rem;
-    padding-left: 6.5rem;
-    padding-top: 5.4rem;
-  }
-
-  #holiday-club-box {
-    z-index: 11;
-    margin-left: -250rem;
-    padding-left: 6.5rem;
-    padding-top: 10rem;
-  }
-
   .teachers-img,
   .for-kids-image {
     width: 600px;
@@ -441,7 +414,34 @@ form {
   }
 
   .For-teachers-h2-text-box {
-    margin-left: 0;
+    margin-left: 3rem;
+    margin-top: 8rem;
+  }
+
+  #bumper-swing-box {
+    z-index: 8;
+    visibility: visible;
+  }
+
+  #woolly-mammoth-box {
+    z-index: 9;
+    margin-left: -250rem;
+    padding-left: 6rem;
+    padding-top: 1rem;
+  }
+
+  #stars-club-box {
+    z-index: 10;
+    margin-left: -250rem;
+    padding-left: 6rem;
+    padding-top: 5.4rem;
+  }
+
+  #holiday-club-box {
+    z-index: 11;
+    margin-left: -250rem;
+    padding-left: 6rem;
+    padding-top: 10rem;
   }
 
   #For-kids-radio-1:checked ~ #woolly-mammoth-box {

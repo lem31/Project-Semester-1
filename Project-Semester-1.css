@@ -666,7 +666,7 @@ h3 a {
   z-index: 12;
   display: flex;
   width: 100px;
-  /* display: none; */
+  display: none;
   margin-top: 3rem;
   z-index: 999;
 }

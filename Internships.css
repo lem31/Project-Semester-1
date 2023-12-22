@@ -22,7 +22,7 @@
   width: 85vw;
   display: flex;
   position: relative;
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 .internships-banner-img {
@@ -139,7 +139,7 @@
   }
 
   .h1-text-box-internships {
-    padding-top: 150px;
+    padding-top: 100px;
   }
 }
 
@@ -176,6 +176,6 @@
   }
 
   .h1-text-box-internships {
-    padding-top: 120px;
+    padding-top: 60px;
   }
 }

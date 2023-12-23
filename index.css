@@ -367,7 +367,7 @@ input[type="search"]:focus {
 }
 
 .Our-Museum {
-  margin-top: 40%;
+  margin-top: 25rem;
 }
 
 .Explore-text-box {
@@ -514,7 +514,7 @@ h3 a {
   z-index: 8;
   position: static;
   align-items: center;
-  margin-top: 75%;
+  margin-top: 55rem;
   background-color: transparent;
 }
 
@@ -749,7 +749,7 @@ h3 a {
   flex-direction: column;
   align-items: center;
   padding-bottom: 5rem;
-  margin-top: 50%;
+  margin-top: 40rem;
   z-index: 12;
   aspect-ratio: revert;
 }
@@ -1090,7 +1090,7 @@ footer {
   }
 
   .Our-Museum-text-box {
-    margin-top: 90%;
+    margin-top: 70%;
   }
 
   .Explore {
@@ -1182,7 +1182,7 @@ footer {
   }
 
   .Get-involved {
-    margin-top: 32rem;
+    margin-top: 35rem;
   }
 }
 

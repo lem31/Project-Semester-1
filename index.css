@@ -22,15 +22,13 @@ main,
 header,
 .Explore,
 .Transition-box,
-.Our-Museum {
+.Our-Museum, .volunteer-text {
   background-color: var(--Secondary-base-color);
 }
 
 body,
 .nav-wrapper,
 .drop-down-link,
-.volunteer-text,
-.volunteer-text-box,
 .volunteer-button,
 .internships-button,
 .contact-button {
@@ -70,9 +68,13 @@ table,
 .h1-support,
 .h1-volunteer,
 .h1-exhibitions,
-.slideshow-text {
+.slideshow-text, .volunteer-text {
   color: var(--Text-base-color);
 }
+
+.contact-button, .volunteer-button{border: 4px solid var(--Primary-base-color);
+  background-color:var(--Secondary-base-color);
+  color: var(--Primary-base-color);}
 
 .h3-news,
 .h3-contact {

@@ -635,25 +635,25 @@ h3 a {
   vertical-align: middle;
 }
 
+
+
 #caret-1,
 #caret-2,
 #caret-3 {
   position: absolute;
   border-radius: 200px;
-  width: 500px;
   z-index: 12;
   padding-right: 0;
   outline: 0;
   background-color: transparent;
   padding-top: 1rem;
-  margin-left: -16rem;
+  margin-left: -17rem;
   padding-left: 1rem;
 }
 
 .special-events-fieldset {
   display: flex;
   flex-direction: row;
-  width: 100vw;
   margin: 0 auto;
   border: none;
 }
@@ -679,7 +679,7 @@ h3 a {
   justify-content: start;
   align-items: start;
   height: 150px;
-  padding-top: 0.3rem;
+  width: 100px;
   right: 0;
   margin: 0 auto;
   position: relative;
@@ -689,7 +689,6 @@ h3 a {
   position: absolute;
   z-index: 12;
   display: flex;
-
   display: none;
   margin-top: 3rem;
   z-index: 999;
@@ -1145,7 +1144,7 @@ footer {
   #caret-2,
   #caret-3 {
     width: 380px;
-    margin-top: -1rem;
+    margin-top: -5rem;
     margin-left: -12rem;
     padding-left: 1rem;
   }

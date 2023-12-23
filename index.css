@@ -250,7 +250,15 @@ main {
 
 #Nav-menu {
   height: 30px;
-  width: 560px;
+  width: 600px;
+  left: 0;
+  right: 0;
+}
+
+.more-btn {
+  margin-left: -7rem;
+
+  padding-bottom: 0;
 }
 
 .nav {
@@ -289,7 +297,7 @@ input[type="search"]:focus {
   flex-direction: column;
   width: 170px;
   padding: 0;
-  margin-left: 65%;
+  margin-left: 60%;
   left: 0;
   right: 0;
   z-index: 999;
@@ -318,18 +326,6 @@ input[type="search"]:focus {
 #mobile-link-3,
 #mobile-link-4 {
   display: none;
-}
-
-#more {
-  border: none;
-  outline: none;
-  background: none;
-  text-decoration: none;
-  position: static;
-  margin-top: -2.1rem;
-  padding: 0;
-  right: 0;
-  left: 0;
 }
 
 #drop-down-checkbox {

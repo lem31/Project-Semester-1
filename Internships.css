@@ -26,7 +26,8 @@
   margin: auto;
   width: 80vw;
   justify-content: center;
-  padding-top: 200px;
+  align-items: center;
+  padding-top: 100px;
 }
 
 .internships-text-box-1,

@@ -1509,9 +1509,8 @@ footer {
   #caret-1,
   #caret-2,
   #caret-3 {
-    transform: scale(0.5);
-
-    padding-left: 1rem;
+    transform: scale(0.4);
+    /* padding-left: 1rem; */
   }
 
   .h1-text-home {

@@ -62,7 +62,8 @@ p,
 table,
 .h4-contact,
 .contact-label,
-.h1-pp {
+.h1-pp,
+.h1-TC {
   color: var(--Text-base-color);
 }
 
@@ -88,7 +89,8 @@ table,
 .h1-exhibitions,
 .h1-contact,
 .h4-contact,
-.h1-pp {
+.h1-pp,
+.h1-TC {
   font-family: var(--Primary-font-family-Bold);
   font-size: var(--Header-1-Desktop-font-size);
 }
@@ -844,7 +846,8 @@ footer {
   .h2-explore,
   .h3-researchers,
   .h1-about,
-  .h1-pp {
+  .h1-pp,
+  .h1-TC {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -1185,7 +1188,8 @@ footer {
   .h1-internships,
   .h1-contact,
   .h4-contact,
-  .h1-pp {
+  .h1-pp,
+  .h1-TC {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 

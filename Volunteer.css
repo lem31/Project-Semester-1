@@ -43,18 +43,19 @@
 }
 
 .volunteer-img-box {
-  width: 22rem;
+  width: 40rem;
   height: 25rem;
-  margin-right: 2rem;
+  margin-left: -15rem;
 }
 
-.volunteer-3-box-wrapper {
+.volunteer-3-box-wrapper,
+.volunteer-fieldset {
   display: flex;
   flex-direction: row;
-  width: 80vw;
+  width: 10vw;
   justify-content: center;
-  margin-top: -30rem;
   padding-bottom: 5rem;
+  padding-right: 4rem;
 }
 
 .volunteer-img {
@@ -93,10 +94,6 @@
 /* SMALL SCREENS */
 
 @media (min-width: 501px) and (max-width: 1000px) {
-  .caret-volunteer,
-  .Volunteer-radio {
-  }
-
   .volunteer-fieldset {
     display: flex;
     flex-direction: row;

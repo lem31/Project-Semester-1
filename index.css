@@ -64,7 +64,8 @@ table,
 .contact-label,
 .h1-pp,
 .h1-TC,
-.h1-about {
+.h1-about,
+.h1-contact {
   color: var(--Text-base-color);
 }
 

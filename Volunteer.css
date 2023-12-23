@@ -53,7 +53,7 @@
   flex-direction: row;
   width: 80vw;
   justify-content: center;
-  margin-top: -5rem;
+  margin-top: -30rem;
   padding-bottom: 5rem;
 }
 
@@ -78,7 +78,7 @@
   display: flex;
   width: 100vw;
   justify-content: center;
-  margin-top: 30rem;
+  margin-top: 50rem;
   padding-right: 1rem;
 }
 
@@ -95,25 +95,33 @@
 @media (min-width: 501px) and (max-width: 1000px) {
   .caret-volunteer,
   .Volunteer-radio {
-    margin-top: 20rem;
-    margin-left: 8rem;
+  }
+
+  .volunteer-fieldset {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 6rem;
+    justify-content: center;
   }
 
   .Volunteer-radio {
-    position: relative;
+    position: absolute;
     z-index: 12;
     visibility: hidden;
   }
 
   .caret-volunteer {
-    width: 80px;
-    height: 80px;
-    position: absolute;
     visibility: visible;
+    position: absolute;
+    z-index: 12;
+    margin-top: -6rem;
   }
 
   .volunteer-3-box-wrapper {
     position: relative;
+    margin-top: 10rem;
+    padding-bottom: 0;
   }
 
   .volunteer-img-box {
@@ -163,7 +171,7 @@
   }
 
   .volunteer-button-box {
-    margin-top: 32rem;
+    margin-top: 40rem;
     padding-right: 0;
   }
 

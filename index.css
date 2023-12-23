@@ -1113,7 +1113,7 @@ footer {
   }
 
   .Our-Museum {
-    margin-top: 45%;
+    margin-top: 25%;
   }
 
   .img-box {
@@ -1122,6 +1122,7 @@ footer {
 
   .Special-Events {
     height: 500px;
+    margin-top: 60%;
   }
 
   .control-box {
@@ -1457,7 +1458,7 @@ footer {
   }
 
   .Our-Museum {
-    margin-top: 45%;
+    margin-top: 30%;
   }
 
   .img-box {
@@ -1467,6 +1468,8 @@ footer {
   .Special-Events {
     height: 500px;
     margin-bottom: 12rem;
+      margin-top: 75%;
+    }
   }
 
   .slide {

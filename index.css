@@ -69,7 +69,8 @@ table,
 .h1-internships,
 .h1-support,
 .h1-volunteer,
-.h1-exhibitions {
+.h1-exhibitions,
+.slideshow-text {
   color: var(--Text-base-color);
 }
 
@@ -606,11 +607,11 @@ h3 a {
 }
 
 .slideshow-text {
-  width: 100%;
+  width: 99.5%;
   height: fit-content;
-  background-color: var(--Primary-base-color);
+  background-color: var(--Secondary-base-color);
+  border: 2px solid var(--Primary-base-color);
   font-weight: bolder;
-  color: black;
 }
 
 .text-box {

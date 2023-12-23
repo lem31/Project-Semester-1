@@ -22,11 +22,12 @@
   width: 96vw;
   height: 40rem;
   position: absolute;
+  justify-content: center;
   z-index: 999;
 }
 
 .h1-pp {
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 .pp-text {

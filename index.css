@@ -61,7 +61,8 @@ p,
 .h6-exhibitions,
 table,
 .h4-contact,
-.contact-label {
+.contact-label,
+.h1-pp {
   color: var(--Text-base-color);
 }
 
@@ -86,7 +87,8 @@ table,
 .h1-internships,
 .h1-exhibitions,
 .h1-contact,
-.h4-contact {
+.h4-contact,
+.h1-pp {
   font-family: var(--Primary-font-family-Bold);
   font-size: var(--Header-1-Desktop-font-size);
 }
@@ -841,7 +843,8 @@ footer {
   .slideshow-header,
   .h2-explore,
   .h3-researchers,
-  .h1-about {
+  .h1-about,
+  .h1-pp {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 
@@ -1181,7 +1184,8 @@ footer {
   .h1-support,
   .h1-internships,
   .h1-contact,
-  .h4-contact {
+  .h4-contact,
+  .h1-pp {
     font-size: var(--Header-1-Tablet-Mobile-font-size);
   }
 

@@ -942,10 +942,6 @@ footer {
     margin-left: 1.5rem;
   }
 
-  mobile-link-1 {
-    margin-top: -25rem;
-  }
-
   .nav-wrapper {
     background-color: transparent;
     display: flex;
@@ -961,6 +957,7 @@ footer {
     width: 280px;
     padding-left: 0;
     margin-left: 2%;
+    margin-top: -5%;
     position: absolute;
     z-index: 999;
   }
@@ -971,8 +968,7 @@ footer {
 
   .hamburger {
     display: block;
-    margin-bottom: 0;
-    margin-top: -18%;
+    margin-bottom: -1.2rem;
   }
 
   #drop-down-checkbox:checked ~ .mobile-link {
@@ -1283,10 +1279,6 @@ footer {
     margin-left: 1.5rem;
   }
 
-  mobile-link-1 {
-    margin-top: -25rem;
-  }
-
   .nav-wrapper {
     background-color: transparent;
     display: flex;
@@ -1302,13 +1294,14 @@ footer {
     width: 280px;
     padding-left: 0;
     margin-left: 2%;
+    margin-top: -5%;
     position: absolute;
     z-index: 999;
   }
 
   .hamburger {
     display: block;
-    margin-bottom: 0;
+    margin-bottom: -1.2rem;
   }
 
   #drop-down-checkbox:checked ~ .mobile-link {

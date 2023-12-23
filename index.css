@@ -657,17 +657,17 @@ h3 a {
 }
 
 #caret-1:hover {
-  transition: all 0.4s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
   transform: rotate(360deg);
 }
 
 #caret-2:hover {
-  transition: all 0.4s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
   transform: rotate(360deg);
 }
 
 #caret-3:hover {
-  transition: all 0.4s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
   transform: rotate(360deg);
 }
 
@@ -1499,7 +1499,7 @@ footer {
 
   .control-box {
     height: 80px;
-    width: 100vw;
+    width: 90vw;
   }
 
   .special-events-fieldset {
@@ -1510,7 +1510,7 @@ footer {
   #caret-1,
   #caret-2,
   #caret-3 {
-    transform: scale(0.4);
+    transform: scale(0.5);
   }
 
   .h1-text-home {

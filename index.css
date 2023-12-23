@@ -690,6 +690,7 @@ h3 a {
   display: none;
   margin-top: 3rem;
   z-index: 999;
+  width: 100%;
 }
 
 .radio-1 {
@@ -1510,7 +1511,10 @@ footer {
   #caret-1,
   #caret-2,
   #caret-3 {
-    transform: scale(0.5);
+    transform: scale(0.4);
+    z-index: 999;
+    padding: 10px 12px;
+    display: inline-block;
   }
 
   .h1-text-home {

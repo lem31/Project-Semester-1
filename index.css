@@ -1134,6 +1134,10 @@ footer {
     margin: 0 auto;
   }
 
+  .slideshow-text {
+    width: 99%;
+  }
+
   #caret-1,
   #caret-2,
   #caret-3 {
@@ -1488,6 +1492,10 @@ footer {
 
   .img-slideshow-wrapper {
     margin-top: -15rem;
+  }
+
+  .slideshow-text {
+    width: 98.6%;
   }
 
   .control-box {

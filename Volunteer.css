@@ -43,7 +43,7 @@
 }
 
 .volunteer-img-box {
-  width: 40rem;
+  width: 36rem;
   height: 25rem;
   margin-left: -15rem;
 }
@@ -55,7 +55,8 @@
   width: 10vw;
   justify-content: center;
   padding-bottom: 5rem;
-  padding-right: 4rem;
+  padding-right: 2.7rem;
+  border: none;
 }
 
 .volunteer-img {
@@ -97,10 +98,15 @@
   .volunteer-fieldset {
     display: flex;
     flex-direction: row;
-    width: 100vw;
+    width: 90vw;
     height: 6rem;
     justify-content: center;
     border: none;
+  }
+
+  .volunteer-3-box-wrapper,
+  .volunteer-fieldset {
+    padding-right: 0;
   }
 
   .Volunteer-radio {
@@ -125,6 +131,8 @@
   .volunteer-img-box {
     position: absolute;
     margin-right: 0;
+    width: 30rem;
+    margin-left: 0;
   }
 
   .volunteer-img {
@@ -173,48 +181,63 @@
     padding-right: 0;
   }
 
+  .volunteer-text-box {
+    width: 22.8rem;
+    margin-left: 3.6rem;
+  }
+
   .volunteer-text {
-    margin-top: -4.8rem;
+    margin-top: -4rem;
   }
 }
 
 /* XTRA SMALL SCREENS */
 
 @media (max-width: 500px) {
-  .caret-volunteer,
-  .Volunteer-radio {
-    margin-top: 20rem;
-    margin-left: 8rem;
+  .volunteer-fieldset {
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+    height: 6rem;
+    justify-content: center;
+    border: none;
+  }
+
+  .volunteer-3-box-wrapper,
+  .volunteer-fieldset {
+    padding-right: 0;
   }
 
   .Volunteer-radio {
-    position: relative;
+    position: absolute;
     z-index: 12;
     visibility: hidden;
   }
 
   .caret-volunteer {
-    width: 20px;
-    height: 40px;
-    position: absolute;
     visibility: visible;
+    position: absolute;
+    z-index: 12;
+    margin-top: -6rem;
+    margin-right: 8rem;
   }
 
   .volunteer-3-box-wrapper {
     position: relative;
-    width: 10rem;
+    margin-top: 2rem;
+    padding-bottom: 8rem;
   }
 
   .volunteer-img-box {
     position: absolute;
     margin-right: 0;
-    margin-top: -10rem;
     width: 15rem;
-    height: 25rem;
+    margin-left: 0;
+    margin-top: -4rem;
   }
 
   .volunteer-img {
-    width: 80%;
+    width: 100%;
     object-fit: contain;
   }
 
@@ -259,14 +282,19 @@
     padding-right: 0;
   }
   .volunteer-text {
-    margin-top: -8.5rem;
-    height: 200px;
+    margin-top: -8.2rem;
+    height: 100px;
+  }
+
+  .volunteer-text-box {
+    height: 80px;
   }
 
   .volunteer-box {
     display: flex;
     flex-direction: column;
     width: 100vw;
+
     align-items: center;
     padding-bottom: 5rem;
   }

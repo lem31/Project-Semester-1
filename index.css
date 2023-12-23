@@ -1503,32 +1503,14 @@ footer {
     width: 100px;
   }
 
-  /* #caret-1,
-  #caret-2,
-  #caret-3 {
-    width: 240px;
-    margin-top: 3rem;
-  } */
   #caret-1,
   #caret-2,
   #caret-3 {
     width: 240px;
     margin-top: 3rem;
-    margin-left: -9rem;
+    margin-left: -8rem;
     padding-left: 1rem;
   }
-
-  /* #caret-1 {
-    margin-left: -4rem;
-  }
-
-  #caret-2 {
-    margin-left: -0.8rem;
-  }
-
-  #caret-3 {
-    margin-left: 2.2rem;
-  } */
 
   .h1-text-home {
     padding-left: 2rem;

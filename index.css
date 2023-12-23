@@ -642,8 +642,17 @@ h3 a {
   padding-right: 0;
   outline: 0;
   background-color: transparent;
-  margin-left: 30%;
   padding-top: 1rem;
+  margin-left: -16rem;
+  padding-left: 1rem;
+}
+
+.special-events-fieldset {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  margin: 0 auto;
+  border: none;
 }
 
 #caret-1:hover {
@@ -661,19 +670,11 @@ h3 a {
   transform: rotate(360deg);
 }
 
-.special-events-fieldset {
-  display: flex;
-  flex-direction: row;
-  width: 70vw;
-  border: none;
-}
-
 .r-btn-next {
   display: flex;
   flex-direction: row;
   justify-content: start;
   align-items: start;
-  width: 80%;
   height: 150px;
   padding-top: 0.3rem;
   right: 0;
@@ -685,7 +686,7 @@ h3 a {
   position: absolute;
   z-index: 12;
   display: flex;
-  width: 100px;
+
   display: none;
   margin-top: 3rem;
   z-index: 999;
@@ -1128,17 +1129,24 @@ footer {
   }
 
   .special-events-fieldset {
-    width: 40vw;
+    width: 100vw;
+    margin: 0 auto;
   }
 
   #caret-1,
   #caret-2,
   #caret-3 {
     width: 380px;
+    margin-top: -1rem;
+    margin-left: -12rem;
+    padding-left: 1rem;
   }
 
+  .radio-home {
+    margin-top: -2rem;
+  }
   .radio-1 {
-    margin-left: 2rem;
+    margin-left: 6rem;
   }
 
   .radio-2 {
@@ -1147,18 +1155,6 @@ footer {
 
   .radio-3 {
     margin-left: 25rem;
-  }
-
-  #caret-1 {
-    margin-left: -2rem;
-  }
-
-  #caret-2 {
-    margin-left: 3rem;
-  }
-
-  #caret-3 {
-    margin-left: 8rem;
   }
 
   .img-slideshow-wrapper {
@@ -1469,7 +1465,7 @@ footer {
   }
 
   .slide {
-    width: 98vw;
+    width: 95vw;
     height: 1000px;
     display: grid;
     justify-content: center;
@@ -1478,15 +1474,15 @@ footer {
   }
 
   .slide-img-box {
-    width: 89vw;
+    width: 70vw;
   }
 
   .slideshow-img {
-    width: 85vw;
+    width: 70vw;
   }
 
   .text-box {
-    width: 95.6%;
+    width: 100%;
   }
 
   .img-slideshow-wrapper {
@@ -1495,25 +1491,34 @@ footer {
 
   .control-box {
     height: 80px;
-    width: 90vw;
+    width: 100vw;
   }
 
   .special-events-fieldset {
-    width: 50vw;
+    width: 100vw;
+    margin: 0 auto;
   }
 
   .radio-home {
     width: 100px;
   }
 
+  /* #caret-1,
+  #caret-2,
+  #caret-3 {
+    width: 240px;
+    margin-top: 3rem;
+  } */
   #caret-1,
   #caret-2,
   #caret-3 {
     width: 240px;
     margin-top: 3rem;
+    margin-left: -9rem;
+    padding-left: 1rem;
   }
 
-  #caret-1 {
+  /* #caret-1 {
     margin-left: -4rem;
   }
 
@@ -1523,7 +1528,7 @@ footer {
 
   #caret-3 {
     margin-left: 2.2rem;
-  }
+  } */
 
   .h1-text-home {
     padding-left: 2rem;

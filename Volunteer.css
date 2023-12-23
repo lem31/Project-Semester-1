@@ -103,6 +103,7 @@
     width: 100vw;
     height: 6rem;
     justify-content: center;
+    border: none;
   }
 
   .Volunteer-radio {

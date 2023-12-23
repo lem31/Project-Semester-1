@@ -241,6 +241,7 @@ main {
   display: flex;
   flex-wrap: nowrap;
   max-width: 100vw;
+  width: 100%;
   min-height: 80px;
   max-height: 350px;
   justify-content: center;
@@ -249,6 +250,7 @@ main {
 
 #Nav-menu {
   height: 30px;
+  width: 560px;
 }
 
 .nav {
@@ -282,9 +284,15 @@ input[type="search"]:focus {
 }
 
 .mobile-and-drop-box {
-  margin-left: 35%;
   position: absolute;
-  z-index: 12;
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  padding: 0;
+  margin-left: 65%;
+  left: 0;
+  right: 0;
+  z-index: 999;
 }
 
 .mobile-link {
@@ -299,8 +307,9 @@ input[type="search"]:focus {
   margin-top: 1rem;
 }
 
+.desktop-link,
 .desktop-drop-down-link {
-  margin-left: -6rem;
+  z-index: 999;
 }
 
 .drop-down-links,

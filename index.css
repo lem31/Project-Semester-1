@@ -617,20 +617,18 @@ h3 a {
 .slideshow-text {
   width: 80%;
   height: fit-content;
-
   font-weight: bolder;
   padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .text-box {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 98%;
   height: auto;
   position: relative;
-
-  outline: 8px solid var(--Primary-base-color);
-  outline-offset: -0.5rem;
+  border: 8px solid var(--Primary-base-color);
   margin-bottom: 20rem;
 }
 
@@ -1020,11 +1018,14 @@ footer {
     width: 20rem;
   }
 
+  .slideshow-text {
+    width: 60%;
+    margin-left: -0.1rem;
+  }
+
   .text-box {
-    display: flex;
-    flex-direction: column;
-    height: 200%;
-    width: 100%;
+    margin-bottom: 70rem;
+    width: 97%;
   }
 
   .search-box-wrapper {
@@ -1144,10 +1145,6 @@ footer {
     padding: 1rem;
   }
 
-  .text-box {
-    margin-top: -1rem;
-  }
-
   #caret-1,
   #caret-2,
   #caret-3 {
@@ -1194,7 +1191,7 @@ footer {
   }
 
   .Get-involved {
-    margin-top: 35rem;
+    margin-top: 45rem;
   }
 }
 
@@ -1362,11 +1359,13 @@ footer {
     width: 20rem;
   }
 
+  .slideshow-text {
+    width: 60%;
+  }
+
   .text-box {
-    display: flex;
-    flex-direction: column;
-    height: 200%;
-    width: 100%;
+    margin-bottom: 70rem;
+    width: 96.4%;
   }
 
   .search-box-wrapper {

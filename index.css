@@ -1423,7 +1423,7 @@ footer {
   }
 
   .Our-Museum-text-box {
-    margin-top: 90%;
+    margin-top: 70%;
   }
 
   .Explore {
@@ -1438,25 +1438,15 @@ footer {
     align-items: center;
     justify-content: center;
     justify-self: center;
-    padding-top: 2rem;
-    padding-left: 0.7rem;
-    width: 350px;
-    height: 20rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    width: 280px;
+    height: 25rem;
     gap: 0;
   }
 
-  .explore-img,
-  .Our-Museum-img {
-    width: 90vw;
-  }
-
-  .img-box,
-  .Our-Museum-img-box {
-    width: 93.5vw;
-  }
-
   .Our-Museum {
-    margin-top: 30%;
+    margin-top: 25%;
   }
 
   .img-box {
@@ -1465,42 +1455,12 @@ footer {
 
   .Special-Events {
     height: 500px;
-    margin-bottom: 12rem;
-    margin-top: 75%;
-  }
-
-  .slide {
-    width: 95vw;
-    height: 1000px;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-  }
-
-  .slide-img-box {
-    width: 70vw;
-  }
-
-  .slideshow-img {
-    width: 70vw;
-  }
-
-  .text-box {
-    width: 100%;
-  }
-
-  .img-slideshow-wrapper {
-    margin-top: -15rem;
-  }
-
-  .slideshow-text {
-    width: 98.6%;
+    margin-top: 60%;
   }
 
   .control-box {
-    height: 80px;
-    width: 90vw;
+    height: 120px;
+    margin-top: 8rem;
   }
 
   .special-events-fieldset {
@@ -1508,17 +1468,43 @@ footer {
     margin: 0 auto;
   }
 
+  .slideshow-text {
+    width: 99%;
+  }
+
   #caret-1,
   #caret-2,
   #caret-3 {
-    transform: scale(0.4);
-    z-index: 999;
-    padding: 10px 12px;
-    display: inline-block;
+    transform: scale(0.5);
+    margin-top: -1rem;
+  }
+
+  .radio-home {
+    margin-top: -2rem;
+  }
+  .radio-1 {
+    margin-left: 6rem;
+  }
+
+  .radio-2 {
+    margin-left: 18rem;
+  }
+
+  .radio-3 {
+    margin-left: 25rem;
+  }
+
+  .img-slideshow-wrapper {
+    margin-top: -12.8rem;
+  }
+
+  .Transition-box {
+    width: 50%;
+    height: 50%;
   }
 
   .h1-text-home {
-    padding-left: 2rem;
+    margin-left: 2rem;
     position: static;
     height: 100%;
     margin-top: -8rem;

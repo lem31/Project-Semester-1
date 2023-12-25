@@ -529,7 +529,7 @@ h3 a {
 .control-box {
   display: flex;
   width: 100vw;
-  height: 100px;
+  height: 150px;
   background-color: var(--Primary-base-color);
   position: absolute;
   z-index: 12;
@@ -647,6 +647,7 @@ h3 a {
   background-color: transparent;
   margin-left: -17rem;
   padding-left: 1rem;
+  margin-top: 2rem;
 }
 
 .special-events-fieldset {
@@ -1126,7 +1127,7 @@ footer {
   }
 
   .control-box {
-    height: 120px;
+    height: 140px;
     margin-top: 8rem;
   }
 
@@ -1143,7 +1144,7 @@ footer {
   #caret-2,
   #caret-3 {
     transform: scale(0.5);
-    margin-top: -1rem;
+    margin-top: -0.3rem;
   }
 
   .radio-home {
@@ -1476,7 +1477,7 @@ footer {
   #caret-2,
   #caret-3 {
     transform: scale(0.4);
-    margin-top: -2rem;
+    margin-top: -1.5rem;
     margin-left: -18rem;
   }
 

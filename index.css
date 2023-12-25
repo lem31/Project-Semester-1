@@ -359,8 +359,6 @@ input[type="search"]:focus {
 .Our-Museum {
   display: flex;
   flex-direction: column;
-  /* width: 100%;
-  height: 100%; */
 
   width: 700px;
   height: 300px;
@@ -405,10 +403,6 @@ input[type="search"]:focus {
   height: 100%;
   align-items: center;
 }
-
-/* .Transition-box-Our-Museum {
-  margin-top: -7rem;
-} */
 
 .explore-img,
 .Our-Museum-img {
@@ -499,9 +493,8 @@ h3 a {
   align-items: center;
   justify-self: center;
   justify-content: start;
-  padding-top: 2rem;
   z-index: 12;
-  margin-top: 50%;
+  margin-top: 55%;
 }
 
 .Our-Museum-h3 {
@@ -918,10 +911,6 @@ footer {
     text-wrap: wrap;
   }
 
-  .header-news-box {
-    width: 40vw;
-  }
-
   .slideshow-text,
   .h1-text,
   .h1-text-explore,
@@ -1095,6 +1084,10 @@ footer {
     overflow-x: hidden;
   }
 
+  .Transition-box-Our-Museum {
+    margin-top: -8rem;
+  }
+
   .Our-Museum-text-box {
     margin-top: 70%;
   }
@@ -1128,7 +1121,7 @@ footer {
 
   .Special-Events {
     height: 500px;
-    margin-top: 50%;
+    margin-top: 30%;
   }
 
   .control-box {
@@ -1248,10 +1241,6 @@ footer {
 
   .h2-news {
     text-wrap: wrap;
-  }
-
-  .header-news-box {
-    width: 40vw;
   }
 
   .slideshow-text,

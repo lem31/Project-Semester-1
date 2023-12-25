@@ -1453,7 +1453,7 @@ footer {
   }
 
   .Our-Museum {
-    margin-top: 25%;
+    margin-top: 10%;
   }
 
   .img-box {
@@ -1472,7 +1472,7 @@ footer {
 
   .Special-Events {
     height: 500px;
-    margin-top: 60%;
+    margin-top: 40%;
   }
 
   .slide {
@@ -1537,16 +1537,20 @@ footer {
     height: 50%;
   }
 
-  .h1-text-home {
-    margin-left: 2rem;
-    position: static;
-    height: 100%;
+  .Transition-box-Our-Museum {
     margin-top: -8rem;
+  }
+
+  .h1-text-home {
+    position: static;
+    width: 250px;
+    height: 100%;
+    margin-top: -15rem;
+    margin-left: 1rem;
   }
 
   .h1 {
     height: 100%;
-    margin-left: 2rem;
   }
   .Transition-box {
     width: 50%;
@@ -1554,6 +1558,6 @@ footer {
   }
 
   .Get-involved {
-    margin-top: 35rem;
+    margin-top: 30rem;
   }
 }

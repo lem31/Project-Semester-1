@@ -38,6 +38,7 @@
   padding-top: 8rem;
   width: 100vw;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -62,6 +63,10 @@
 .volunteer-img {
   width: 100%;
   object-fit: cover;
+}
+
+.volunteer-text-1 {
+  width: 500px;
 }
 
 .volunteer-text-box {
@@ -179,6 +184,10 @@
     padding-right: 0;
   }
 
+  .volunteer-text-1 {
+    width: 300px;
+  }
+
   .volunteer-text-box {
     width: 22.8rem;
     margin-left: 3.6rem;
@@ -279,20 +288,23 @@
     margin-top: 20rem;
     padding-right: 0;
   }
+
+  .volunteer-text-1 {
+    width: 250px;
+  }
   .volunteer-text {
-    margin-top: -8.2rem;
     height: 100px;
   }
 
   .volunteer-text-box {
     height: 80px;
+    margin-top: -4.4rem;
   }
 
   .volunteer-box {
     display: flex;
     flex-direction: column;
     width: 100vw;
-
     align-items: center;
     padding-bottom: 5rem;
   }

@@ -359,8 +359,11 @@ input[type="search"]:focus {
 .Our-Museum {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
+
+  width: 700px;
+  height: 900px;
   z-index: 8;
   align-items: center;
   justify-content: center;
@@ -375,7 +378,7 @@ input[type="search"]:focus {
 }
 
 .Our-Museum {
-  margin-top: 25rem;
+  margin-top: 5%;
 }
 
 .Explore-text-box {
@@ -403,9 +406,9 @@ input[type="search"]:focus {
   align-items: center;
 }
 
-.Transition-box-Our-Museum {
+/* .Transition-box-Our-Museum {
   margin-top: -7rem;
-}
+} */
 
 .explore-img,
 .Our-Museum-img {
@@ -484,7 +487,7 @@ h3 a {
 }
 
 .h2-our-museum {
-  height: 15rem;
+  height: 5rem;
   width: 100%;
   overflow: hidden;
 }
@@ -522,7 +525,7 @@ h3 a {
   z-index: 8;
   position: static;
   align-items: center;
-  margin-top: 55rem;
+  margin-top: 48%;
   background-color: transparent;
 }
 
@@ -1189,7 +1192,7 @@ footer {
   }
 
   .Get-involved {
-    margin-top: 45rem;
+    margin-top: 35rem;
   }
 }
 
@@ -1536,6 +1539,6 @@ footer {
   }
 
   .Get-involved {
-    margin-top: 38rem;
+    margin-top: 35rem;
   }
 }

@@ -335,10 +335,10 @@
   }
 
   .About-box-4 {
-    margin-top: -5rem;
+    margin-top: -12rem;
     padding: 0;
     width: 100vw;
-    height: 500px;
+    height: 400px;
   }
 
   .About-wrapper-4 {
@@ -361,7 +361,7 @@
   .building-blocks-img-box {
     display: flex;
     flex-direction: column;
-    height: 370px;
+    height: 360px;
     width: 100vw;
     align-items: center;
     justify-content: end;

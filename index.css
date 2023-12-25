@@ -1475,8 +1475,23 @@ footer {
   #caret-1,
   #caret-2,
   #caret-3 {
-    transform: scale(0.3);
+    transform: scale(0.4);
     margin-top: -1.5rem;
+  }
+
+  #caret-1:hover {
+    transition: all 0.2s ease-in-out 0s;
+    transform: rotate(100deg);
+  }
+
+  #caret-2:hover {
+    transition: all 0.2s ease-in-out 0s;
+    transform: rotate(100deg);
+  }
+
+  #caret-3:hover {
+    transition: all 0.2s ease-in-out 0s;
+    transform: rotate(100deg);
   }
 
   .radio-home {

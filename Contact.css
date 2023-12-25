@@ -109,14 +109,6 @@ tr {
   font-weight: bolder;
 }
 
-.contact-button:hover {
-  border-color: #a0d0d2;
-}
-
-.contact-button:focus {
-  border-color: #215153;
-}
-
 /* SMALL SCREENS */
 
 @media (min-width: 501px) and (max-width: 1000px) {

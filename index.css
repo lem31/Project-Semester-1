@@ -650,7 +650,7 @@ h3 a {
   background-color: transparent;
   margin-left: -17rem;
   padding-left: 1rem;
-  margin-top: 2rem;
+  margin-top: -2rem;
 }
 
 .special-events-fieldset {
@@ -753,7 +753,7 @@ h3 a {
   flex-direction: column;
   align-items: center;
   padding-bottom: 5rem;
-  margin-top: 80rem;
+  margin-top: 60rem;
   z-index: 12;
   aspect-ratio: revert;
 }
@@ -1172,6 +1172,10 @@ footer {
 
   .img-slideshow-wrapper {
     margin-top: -12rem;
+  }
+
+  .image-slideshow {
+    height: 1000px;
   }
 
   .h1-text-home {

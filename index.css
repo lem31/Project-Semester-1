@@ -488,16 +488,11 @@ h3 a {
   display: flex;
   flex-direction: column;
   position: absolute;
-  align-items: center;
-  justify-self: center;
-  justify-content: start;
+  margin-top: 40%;
   z-index: 12;
-  margin-top: 55%;
 }
 
 .Our-Museum-h3 {
-  width: 18rem;
-  height: 5rem;
   z-index: 10;
   text-align: center;
 }
@@ -1086,10 +1081,6 @@ footer {
     margin-top: -8rem;
   }
 
-  .Our-Museum-text-box {
-    margin-top: 70%;
-  }
-
   .explore-img,
   .Our-Museum-img {
     width: 80vw;
@@ -1427,10 +1418,6 @@ footer {
 
   html {
     overflow-x: hidden;
-  }
-
-  .Our-Museum-text-box {
-    margin-top: 70%;
   }
 
   .Explore {

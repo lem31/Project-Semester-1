@@ -658,17 +658,17 @@ h3 a {
 
 #caret-1:hover {
   transition: all 0.2s ease-in-out 0s;
-  transform: rotate(200deg);
+  transform: rotate(120deg);
 }
 
 #caret-2:hover {
   transition: all 0.2s ease-in-out 0s;
-  transform: rotate(200deg);
+  transform: rotate(120deg);
 }
 
 #caret-3:hover {
   transition: all 0.2s ease-in-out 0s;
-  transform: rotate(200deg);
+  transform: rotate(120deg);
 }
 
 .r-btn-next {
@@ -1477,25 +1477,15 @@ footer {
   #caret-3 {
     transform: scale(0.4);
     margin-top: -1.5rem;
-  }
-
-  #caret-1:hover {
-    transition: all 0.2s ease-in-out 0s;
-    transform: rotate(100deg);
-  }
-
-  #caret-2:hover {
-    transition: all 0.2s ease-in-out 0s;
-    transform: rotate(100deg);
-  }
-
-  #caret-3:hover {
-    transition: all 0.2s ease-in-out 0s;
-    transform: rotate(100deg);
+    margin-left: -18rem;
   }
 
   .radio-home {
     margin-top: -2rem;
+  }
+
+  .r-btn-next {
+    width: 60px;
   }
   .radio-1 {
     margin-left: 6rem;
@@ -1535,6 +1525,6 @@ footer {
   }
 
   .Get-involved {
-    margin-top: 25rem;
+    margin-top: 35rem;
   }
 }

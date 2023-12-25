@@ -541,10 +541,10 @@ h3 a {
 
 .header-news-box {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  width: 30vw;
-  height: 100%;
   padding-bottom: 10rem;
+  align-items: center;
   z-index: 12;
 }
 
@@ -1128,7 +1128,7 @@ footer {
 
   .Special-Events {
     height: 500px;
-    margin-top: 60%;
+    margin-top: 50%;
   }
 
   .control-box {

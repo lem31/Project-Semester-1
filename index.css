@@ -858,6 +858,7 @@ footer {
   .slideshow-header {
     text-wrap: wrap;
     width: 200px;
+    text-align: center;
   }
 
   .h1,
@@ -1207,6 +1208,7 @@ footer {
   .slideshow-header {
     text-wrap: wrap;
     width: 200px;
+    text-align: center;
   }
 
   .h1,

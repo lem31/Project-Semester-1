@@ -363,7 +363,7 @@ input[type="search"]:focus {
   height: 100%; */
 
   width: 700px;
-  height: 900px;
+  height: 300px;
   z-index: 8;
   align-items: center;
   justify-content: center;
@@ -378,7 +378,7 @@ input[type="search"]:focus {
 }
 
 .Our-Museum {
-  margin-top: 5%;
+  margin-top: 34%;
 }
 
 .Explore-text-box {
@@ -487,7 +487,7 @@ h3 a {
 }
 
 .h2-our-museum {
-  height: 5rem;
+  height: 2rem;
   width: 100%;
   overflow: hidden;
 }
@@ -525,7 +525,7 @@ h3 a {
   z-index: 8;
   position: static;
   align-items: center;
-  margin-top: 48%;
+  margin-top: 45%;
   background-color: transparent;
 }
 

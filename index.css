@@ -975,7 +975,7 @@ footer {
   .mobile-and-drop-box {
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 300px;
     padding-left: 0;
     margin-left: 0.2%;
     margin-top: -1%;
@@ -1322,7 +1322,7 @@ footer {
   .mobile-and-drop-box {
     display: flex;
     flex-direction: column;
-    width: 280px;
+    width: 300px;
     padding-left: 0;
     margin-left: 0.2%;
     margin-top: -1%;

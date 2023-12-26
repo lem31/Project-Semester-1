@@ -326,7 +326,7 @@ input[type="search"]:focus {
   flex-direction: column;
   width: 170px;
   padding: 0;
-  margin-left: 60%;
+  margin-left: 55%;
   left: 0;
   right: 0;
   z-index: 999;

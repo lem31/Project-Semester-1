@@ -146,6 +146,18 @@
     object-fit: contain;
   }
 
+  #volunteer-img-1 {
+    z-index: 6;
+  }
+
+  #volunteer-img-2 {
+    z-index: 8;
+  }
+
+  #volunteer-img-3 {
+    z-index: 9;
+  }
+
   #volunteer-img-box-2,
   #volunteer-img-box-3 {
     margin-left: -250rem;

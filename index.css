@@ -170,7 +170,7 @@ tr,
 
 .contact-button:hover,
 .volunteer-button:hover,
-.internships-button {
+.internships-button:hover {
   border-color: var(--Primary-color-3);
 }
 

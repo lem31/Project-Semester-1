@@ -56,7 +56,8 @@
   width: 10vw;
   justify-content: center;
   padding-bottom: 5rem;
-  padding-right: 2.7rem;
+  /* padding-right: 2.7rem; */
+  margin-left: -2.3rem;
   border: none;
 }
 

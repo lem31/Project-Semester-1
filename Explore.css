@@ -127,6 +127,10 @@
   align-items: center;
 }
 
+.lab-img {
+  width: 1400px;
+}
+
 .Screen-img-box,
 .Tour-guide-img-box {
   margin-left: 5rem;

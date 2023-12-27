@@ -629,7 +629,7 @@ h3 a {
 .text-box {
   display: flex;
   flex-direction: column;
-  width: 98%;
+  width: 99%;
   height: auto;
   position: relative;
   border: 4px solid var(--Primary-base-color);

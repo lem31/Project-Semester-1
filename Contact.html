@@ -211,7 +211,7 @@
             Have questions about CSM? Send us a message, below and we will come
             back to you as soon as we can.
           </p>
-          <form class="contact-form" action="submit" required>
+          <form class="contact-form" action="/index.html">
             <label class="contact-label name-label" for="Name">Name</label
             ><br />
             <input
@@ -219,6 +219,7 @@
               type="text"
               name="Name"
               id="Name"
+              required
             />
             <label class="contact-label email-label" for="Email"
               >Email Address</label
@@ -228,16 +229,17 @@
               type="text"
               name="Email"
               id="Email"
-            /><br />
+            /><br required/>
             <label class="contact-label message-label" for="Message"
               >Message</label
             ><br />
-            <input
+            <textarea
               class="message-input"
               type="text"
               name="Message"
               id="Message"
-            />
+            >
+            </textarea>
             <button class="contact-button">SEND</button>
           </form>
         </article>
